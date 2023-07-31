@@ -1,17 +1,12 @@
 import Image from "next/image";
-import oil from "../../../public/images/oil.jpg";
-import Link from "next/link";
+import oil from "../../../public/images/aceite.png";
+
 
 const Aceites = () => {
   return (
     <main>
       <div className="bg-gradient-to-b from-lightPink to-white pb-20">
-        <Link href="/">
-          <button className="bg-red text-white py-1 px-5 mt-14 ml-20 hover:bg-white hover:text-red duration-300">
-            Inicio
-          </button>
-        </Link>
-        <div className="pt-20 pl-10 flex">
+        <div className="pt-40 pl-10 flex">
           <Image
             src={oil}
             alt="img"

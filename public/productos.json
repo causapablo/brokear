@@ -1,32 +1,42 @@
 [
     {
-        "product": "Yerba Mate"
+        "product": "Yerba Mate",
+        "link": "/yerba"
     },
     {
-        "product": "Legumbres"
+        "product": "Legumbres",
+        "link": "/granos"
     },
     {
-        "product": "Granos"
+        "product": "Granos",
+        "link": "/granos"
     },
     {
-        "product": "Hortalizas"
+        "product": "Hortalizas",
+        "link": "/granos"
     },
     {
-        "product": "Especias"
+        "product": "Especias",
+        "link": "/especias"
     },
     {
-        "product": "Mermeladas"
+        "product": "Mermeladas",
+        "link": "/dulces"
     },
     {
-        "product": "Alfajores"
+        "product": "Alfajores",
+        "link": "/alfajores"
     },
     {
-        "product": "Aceites"
+        "product": "Aceites",
+        "link": "/aceites"
     },
     {
-        "product": "Vino"
+        "product": "Vino",
+        "link": "/vino"
     },
     {
-        "product": "Harina"
+        "product": "Harina",
+        "link": "/harina"
     }
 ]

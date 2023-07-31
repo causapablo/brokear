@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import Footer from '../../components/footer/Footer'
 import Products from '../../components/products/Products'
 import ScheduleCall from '../../components/schedulecall/ScheduleCall'
 import Company from '../../components/company/Company'
@@ -13,7 +12,7 @@ export default function Home() {
       <Company/>
       <ScheduleCall/>
       <Products/>
-      <Footer/>
+      
     </main>
   )
 }

@@ -7,7 +7,7 @@ function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className='fixed w-full bg-white'>
+        <div className='fixed w-full bg-white z-40'>
             <div className='border-b border-black font-Fitgre font-semibold'>
                 <div className='container mx-auto flex justify-between h-16 bg-white'>
                     <div className='flex items-center cursor-pointer'>

@@ -49,16 +49,7 @@ function NavBar() {
               )}
             </li>
             <Link href='/nosotros'>
-<<<<<<< HEAD
-                <li className="cursor-pointer hover:text-lightRed">About Us</li>
-            </Link>
-            <li className="cursor-pointer hover:text-lightRed">Why Us</li>
-            <li className="cursor-pointer hover:text-lightRed">Blog</li>
-            <Link href='/contacto'>
-              <li className="cursor-pointer hover:text-lightRed">Contact</li>
-=======
               <li className="cursor-pointer">About Us</li>
->>>>>>> c8999222b405fb18f19cb22b99f1ea3dfbc0377f
             </Link>
           </ul>
         </div>

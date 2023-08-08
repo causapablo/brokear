@@ -10,9 +10,9 @@ function ScheduleCall() {
       </div>
       <div className='pt-6'>
         <Link href='/contacto'>
-          <button className='bg-white text-lightRed rounded-sm py-2 px-5 mr-4'>Contact Us</button>
+          <button className='bg-white text-lightRed rounded-sm py-2 px-5 mr-4 font-semibold'>Contact Us</button>
         </Link>
-        <button className='bg-red text-white rounded-sm py-2 px-5'>Schedule A Call</button>
+        <button className='bg-red text-white rounded-sm py-2 px-5 font-semibold'>Schedule A Call</button>
       </div>
     </section>
   )

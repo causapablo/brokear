@@ -1,17 +1,22 @@
 [
     {
-        "category" : "Yerba Mate"
+        "category" : "Yerba Mate",
+        "img": "/images/mate.jpg"
     },
     {
-        "category" : "Tea"
+        "category" : "Tea",
+        "img": "/images/especias.jpg"
     },
     {
-        "category" : "Pulses & Oils Seeds"
+        "category" : "Pulses & Oils Seeds",
+        "img": "/images/spices.jpg"
     },
     {
-        "category" : "Oils"
+        "category" : "Oils",
+        "img": "/images/oil.jpg"
     },
     {
-        "category" : "Charcoal"
+        "category" : "Charcoal",
+        "img": "/images/granos.png"
     }
 ]

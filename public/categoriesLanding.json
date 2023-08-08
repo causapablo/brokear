@@ -1,0 +1,23 @@
+[
+    {
+        "product": "Yerba mate",
+        "img": "/images/yerba.png",
+        "link": "/yerba"
+    },
+    {
+        "product": "Tea",
+        "img": "/images/tea.jpg",
+        "link": "/tea"
+    },
+    {
+        "product": "Popcorn",
+        "img": "/images/popcorn.jpg",
+        "link": "/popcorn"
+    },
+    {
+        "product": "Peanut",
+        "img": "/images/mani.jpg",
+        "link": "/peanut"
+    }
+
+]

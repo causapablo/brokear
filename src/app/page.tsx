@@ -4,6 +4,8 @@ import Products from '../../components/products/Products'
 import ScheduleCall from '../../components/schedulecall/ScheduleCall'
 import Company from '../../components/company/Company'
 import Welcome from '../../components/welcome/Welcome'
+import SecondWave from '../../components/secondWave/SecondWave'
+import Articles from '../../components/articles/articles'
 
 export default function Home() {
   return (
@@ -12,7 +14,9 @@ export default function Home() {
       <Company/>
       <ScheduleCall/>
       <Products/>
-      
+      <SecondWave/>
+      <ScheduleCall/>
+      <Articles/>
     </main>
   )
 }

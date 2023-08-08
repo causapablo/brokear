@@ -4,7 +4,7 @@ function Burbuja({ imagen, etiqueta }: any) {
     return (
         <div className=''>
             <div
-                className="hover:-translate-y-1 hover:scale-110 duration-300 bg-origin-border rounded-full border-4 border-black w-80 h-80 flex items-center mx-auto"
+                className="hover:-translate-y-1 hover:scale-110 duration-300 bg-origin-border rounded-full border-4 border-black w-60 h-60 flex flex-wrap items-center mx-auto cursor-pointer"
                 style={{
                     
                     backgroundImage: `url(${imagen})`,

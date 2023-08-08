@@ -1,14 +1,9 @@
 import React from 'react'
 import categorias from '../../../public/categorias.json';
-import mate from '../../../public/images/mate.jpg';
-import te from '../../../public/images/especias.jpg';
-import spices from '../../../public/images/spices.jpg';
-import oil from '../../../public/images/oil.jpg';
-import granos from '../../../public/images/granos.png';
 import Burbuja from '../../../components/burbuja/Burbuja';
 
 function Productos() {
-    const src = ['/images/mate.jpg', '/images/especias.jpg', '/images/spices.jpg', '/images/oil.jpg', '/images/granos.png'];
+
 
     return (
         <div className='bg-gradient-to-b from-peach to-white pt-32'>
@@ -28,7 +23,7 @@ function Productos() {
                     <div className='grid grid-cols-4 gap-4'>
                         {
                             categorias.map((cat, i) => (
-                                <Burbuja etiqueta = {cat.category} imagen = {src[i]}/>
+                                <Burbuja etiqueta = {cat.category} imagen = {cat.img} key={i}/>
                             ))
                         }
                     </div>

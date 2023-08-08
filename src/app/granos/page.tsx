@@ -5,18 +5,18 @@ const Granos = () => {
   return (
     <main>
       <div className="bg-gradient-to-b from-lightPink to-white pb-20">
-        <div className="pt-40 pl-10 flex">
+        <div className="pt-40 lg:pl-10 flex flex-wrap">
           <Image
             src={granos}
             alt="img"
-            className="rounded-xl border-4 border-black w-[50%]"
+            className="rounded-xl border-4 border-black lg:w-[50%]"
           />
 
           <div className="flex-col">
-            <h4 className="font-bold text-4xl pl-10 text-center">
+            <h4 className="font-bold text-4xl lg:pl-10 pt-10 lg:pt-0 text-center">
               LEGUMBRES, GRANOS Y HORTALIZAS
             </h4>
-            <p className="text-2xl pl-10 pt-10 text-center">
+            <p className="text-2xl lg:pl-10 pt-10 text-center">
               Garbanzo
               <br />
               <br />

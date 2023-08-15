@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div className="fixed w-full bg-white z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
-        <div className="container mx-auto flex justify-between h-16 bg-white max-w-[1333px]">
+        <div className="container mx-auto flex justify-between h-16 bg-white max-w-[1300px]">
           <div className="flex items-center cursor-pointer">
             <Link href="/">
               <h1 className="text-3xl font-bold text-red ">Logo de la Marca</h1>
@@ -51,6 +51,9 @@ function NavBar() {
             <Link href='/nosotros'>
               <li className="cursor-pointer">About Us</li>
             </Link>
+            <li className="cursor-pointer">Why Us</li>
+            <li className="cursor-pointer">Blog</li>
+            <li className="cursor-pointer">Contact</li>
           </ul>
         </div>
       </div>

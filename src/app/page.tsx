@@ -5,7 +5,7 @@ import ScheduleCall from '../../components/schedulecall/ScheduleCall'
 import Company from '../../components/company/Company'
 import Welcome from '../../components/welcome/Welcome'
 import SecondWave from '../../components/secondWave/SecondWave'
-import Articles from '../../components/articles/articles'
+import Articles from '../../components/articles/Articles'
 
 export default function Home() {
   return (

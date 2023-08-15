@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const Welcome = () => {
   return (
-    <section className="bg-gradient-to-b from-lightPink to-white ">
-      <div className="flex flex-wrap pt-20 justify-center">
-        <div className="lg:w-3/6 lg:mr-20">
+    <section className="bg-gradient-to-b from-lightPink to-white">
+      <div className="grid grid-cols-2 pt-36  container mx-auto max-w-[1300px]">
+        <div className="">
           <h2 className="bg-red text-white text-lg mt-20 lg:w-96 text-center py-1 font-Poppins">
           Getting your product has never been so easy
           </h2>
@@ -28,7 +28,7 @@ const Welcome = () => {
           </Link>
         </div>
         <div className="">
-          <Image src={logo} alt="img" className="w-11/12" />
+          <Image src={logo} alt="img" className="w-11/12 mx-auto" />
         </div>
       </div>
     </section>

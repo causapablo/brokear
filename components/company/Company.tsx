@@ -3,7 +3,7 @@ import Wave from '../../public/icons/Wave'
 
 const Company = () => {
   return (
-    <section className="pt-14 lg:pt-0">
+    <section className="">
       <Wave />
       <div className="bg-lightPink pt-10 lg:pt-0 pb-10">
         <div className="container mx-auto lg:pl-14">

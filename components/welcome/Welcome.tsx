@@ -28,7 +28,7 @@ const Welcome = () => {
           </Link>
         </div>
         <div className="">
-          <Image src={logo} alt="img" className="w-11/12" />
+          <Image src={logo} alt="img" className="w-11/12 mx-auto" />
         </div>
       </div>
     </section>

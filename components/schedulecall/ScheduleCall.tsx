@@ -3,12 +3,12 @@ import React from 'react'
 
 function ScheduleCall() {
   return (
-    <section className="bg-black py-20 text-white flex">
-      <div className='pl-40'>
+    <section className="bg-black py-20 text-white lg:flex lg:flex-row flex-col">
+      <div className='lg:pl-40 pl-5'>
         <h4 className=' bg-red text-lg w-60 text-center'>Experience The Difference</h4>
-        <p className='pt-5 text-2xl font-bold w-2/3'>Get in touch to find out more about how we can get you the best deal</p>
+        <p className='pt-5 text-2xl font-bold lg:w-2/3 px-1 lg:px-0'>Get in touch to find out more about how we can get you the best deal</p>
       </div>
-      <div className='pt-6'>
+      <div className='pt-6 pl-5 lg:pl-0'>
         <Link href='/contacto'>
           <button className='bg-white text-lightRed rounded-sm py-2 px-5 mr-4 font-semibold'>Contact Us</button>
         </Link>

@@ -7,7 +7,7 @@ const Products = () => {
   return (
     <section className="bg-gradient-to-b from-peach to-white pt-32">
       <div className="flex justify-around">
-        <h4 className="bg-red text-white uppercase text-lg lg:w-60 text-center lg:ml-20">
+        <h4 className="bg-red text-white uppercase text-sm lg:text-lg lg:w-60 text-center lg:ml-20 px-1 lg:px-0">
          Featured Products
         </h4>
           <Link href="/productos">
@@ -25,7 +25,7 @@ const Products = () => {
         }
       </div>
       <div className="flex justify-around pt-40">
-        <h4 className="bg-red text-white uppercase text-lg lg:w-60 text-center lg:ml-20">
+        <h4 className="bg-red text-white uppercase text-sm lg:text-lg lg:w-60 text-center lg:ml-20 px-1 lg:px-0">
          Featured Categories
         </h4>
           <Link href="/productos">
@@ -35,11 +35,11 @@ const Products = () => {
         </div>
           </Link>
       </div>
-      <div className="flex justify-center pt-10">
-        <p className="border border-red text-red hover:text-lightRed cursor-pointer px-5 py-1 font-medium mr-3 rounded">Yerba Mate & Tea</p>
-        <p className="border border-red text-red hover:text-lightRed cursor-pointer px-5 py-1 font-medium mr-3 rounded">Nuts & Seeds</p>
-        <p className="border border-red text-red hover:text-lightRed cursor-pointer px-5 py-1 font-medium mr-3 rounded">Plant Based Protein</p>
-        <p className="border border-red text-red hover:text-lightRed cursor-pointer px-5 py-1 font-medium mr-3 rounded">Organic</p>
+      <div className="lg:flex lg:flex-row flex-col justify-center pt-10 pl-14 lg:pl-0">
+        <p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 py-1">Yerba Mate & Tea</p>
+        <p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Nuts & Seeds</p>
+        <p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Plant Based Protein</p>
+        <p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Organic</p>
       </div>      
     </section>
   );

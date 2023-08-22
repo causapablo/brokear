@@ -60,6 +60,7 @@ const Footer = () => {
                 <button className='bg-white text-lightRed rounded-sm py-2 px-5 font-semibold w-full'>Contact Us</button>
               </Link>
               <button className='bg-red text-white rounded-sm py-2 px-5 font-semibold'>Schedule A Call</button>
+              <Link href="/privacy"><p className="text-white text-center text-[12px] hover:underline underline-offset-2">Privacy Policy</p></Link>
             </div>
 
 

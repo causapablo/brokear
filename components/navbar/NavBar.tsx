@@ -3,16 +3,19 @@ import Link from "next/link";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from "react";
 import productos from "../../public/productos.json";
+import Image from "next/image";
+import MainLogo from '../../public/images/MainLogo.png';
+
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed w-full bg-white z-40">
+    <div className="sticky top-0 w-full bg-white z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
         <div className="container mx-auto flex justify-between h-16 bg-white max-w-[1300px]">
           <div className="flex items-center cursor-pointer">
             <Link href="/">
-              <h1 className="text-3xl font-bold text-red ">Logo</h1>
+              <Image src={MainLogo} alt="MainLogo" width="48" height="48"/>
             </Link>
           </div>
           <ul className="flex items-center gap-12 text-black font-serif text-[17px]">

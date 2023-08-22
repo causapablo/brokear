@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Welcome = () => {
   return (
-    <section className="bg-gradient-to-b from-lightPink to-white ">
-      <div className="flex flex-wrap pt-20 justify-center">
+    <section className="bg-gradient-to-b from-lightPink to-white">
+      <div className="flex flex-wrap pt-20 justify-center ">
         <div className="lg:w-3/6 lg:mr-20">
           <h2 className="bg-red text-white text-lg mt-20 w-fit text-center px-1 font-Poppins">
           Getting your product has never been so easy

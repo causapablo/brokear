@@ -18,7 +18,7 @@ function Privacy() {
                                 <li className="marker:text-red">We will protect personal information by reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.</li>
                                 <li className="marker:text-red">We will make readily available to customers information about our policies and practices relating to the management of personal information.</li>
                             </ul>
-                            <p>We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained.</p>
+                            <p>We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained. Drop It!</p>
                         </div>
                     </div>
                     <div id='sidebar' className='basis-4/12'>

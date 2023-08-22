@@ -9,11 +9,11 @@ const Products = () => {
       <div className="container mx-auto max-w-[1300px] py-16">
         <div className="flex">
           <div className="basis-1/2">
-            <h4 className="bg-red text-white uppercase text-lg w-fit mx-auto px-2">
+            <h4 className="bg-red text-white uppercase text-sm lg:text-lg w-fit mx-auto px-1">
               Featured Products
             </h4>
           </div>
-          <div className="basis-1/2">
+          <div className="basis-1/2 items-center">
             <Link href="/productos">
               <div className="flex justify-center">
                 <p className="text-red font-semibold hover:underline-offset-4 cursor-pointer hover:text-lightRed">View All Products</p>
@@ -31,11 +31,11 @@ const Products = () => {
         </div>
         <div className="flex">
           <div className="basis-1/2">
-            <h4 className="bg-red text-white uppercase text-lg w-fit mx-auto px-2">
-              Featured Products
+            <h4 className="bg-red text-white uppercase text-sm lg:text-lg w-fit mx-auto px-1">
+              Featured Categories
             </h4>
           </div>
-          <div className="basis-1/2">
+          <div className="basis-1/2 items-center">
             <Link href="/productos">
               <div className="flex justify-center">
                 <p className="text-red font-semibold hover:underline-offset-4 cursor-pointer hover:text-lightRed">View All Products</p>

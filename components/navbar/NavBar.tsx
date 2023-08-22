@@ -12,7 +12,7 @@ function NavBar() {
         <div className="container mx-auto flex justify-between h-16 bg-white max-w-[1300px]">
           <div className="flex items-center cursor-pointer">
             <Link href="/">
-              <h1 className="text-3xl font-bold text-red ">Logo de la Marca</h1>
+              <h1 className="text-3xl font-bold text-red ">Logo</h1>
             </Link>
           </div>
           <ul className="flex items-center gap-12 text-black font-serif text-[17px]">
@@ -26,8 +26,8 @@ function NavBar() {
               }}
             >
               <Link href='/productos'>
-                <button className="flex items-center py-3  hover:text-red">
-                  Products{" "}
+                <button className="flex items-center py-3 active:text-red hover:text-red">
+                  Products
                   <RiArrowDropDownLine className="font-extrabold text-3xl" />
                 </button>
               </Link>
@@ -53,7 +53,9 @@ function NavBar() {
             </Link>
             <li className="cursor-pointer">Why Us</li>
             <li className="cursor-pointer">Blog</li>
-            <li className="cursor-pointer">Contact</li>
+            <Link href="/contacto">
+              <li className="cursor-pointer active:text-red">Contact</li>
+            </Link>
           </ul>
         </div>
       </div>

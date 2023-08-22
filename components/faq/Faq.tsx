@@ -7,9 +7,9 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Faq = () => {
   return (
-    <section className="container mx-auto max-w-[1300px] bg-lightPink">
-      <h4>FAQS</h4>
-      <Accordion sx={{backgroundColor: "#fff5f5", fontFamily: "Poppins"}}>
+    <section className="container mx-auto max-w-[1300px] bg-peach pt-2">
+      <h4 className="uppercase bg-red text-white font-semibold text-lg w-fit px-1 ml-4 mt-14 mb-2">FAQS</h4>
+      <Accordion sx={{backgroundColor: "#FEF0E3"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -34,7 +34,7 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{backgroundColor: "#fff5f5"}}>
+      <Accordion sx={{backgroundColor: "#FEF0E3"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -55,7 +55,7 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{backgroundColor: "#fff5f5"}}>
+      <Accordion sx={{backgroundColor: "#FEF0E3"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -83,7 +83,7 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{backgroundColor: "#fff5f5"}}>
+      <Accordion sx={{backgroundColor: "#FEF0E3"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -102,7 +102,7 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{backgroundColor: "#fff5f5"}}>
+      <Accordion sx={{backgroundColor: "#FEF0E3"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -121,7 +121,7 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{backgroundColor: "#fff5f5"}}>
+      <Accordion sx={{backgroundColor: "#FEF0E3"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -147,7 +147,7 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{backgroundColor: "#fff5f5"}}>
+      <Accordion sx={{backgroundColor: "#FEF0E3"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
@@ -165,7 +165,7 @@ const Faq = () => {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{backgroundColor: "#fff5f5"}}>
+      <Accordion sx={{backgroundColor: "#FEF0E3"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"

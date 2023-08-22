@@ -1,5 +1,5 @@
 import Image from "next/image";
-import te from "../../../../public/images/te.jpg";
+import carbon from "../../../../public/images/carbon.jpg";
 import icon from "../../../../public/images/icon.png";
 import Link from "next/link";
 import TableBulk from "../../../../components/tableBulk/TableBulk";
@@ -8,21 +8,20 @@ import Benefits from "../../../../components/benefits/Benefits";
 import Manufacturing from "../../../../components/manufacturing/Manufacturing";
 import { GiCheckMark } from "react-icons/gi";
 
-
-const Te = () => {
+const Charcoal = () => {
   return (
     <main className="pb-20 bg-gradient-to-b from-lightPink to-white">
       <div className="container mx-auto max-w-[1300px]">
         <div className="pt-40 lg:pl-20 flex flex-wrap">
           <Image
-            src={te}
+            src={carbon}
             alt="img"
             className="rounded-full border-4 border-black lg:w-[40%]"
           />
 
           <div className="flex-col lg:w-6/12">
             <h4 className="font-bold text-4xl lg:pl-40 pt-10 text-center uppercase">
-              Tea
+              Charcoal
             </h4>
             <p className="text-lg lg:pl-40 pt-10 px-5 lg:px-0">
               In imperdiet at nibh non efficitur. Suspendisse ac pharetra
@@ -229,4 +228,4 @@ const Te = () => {
   );
 };
 
-export default Te;
+export default Charcoal;

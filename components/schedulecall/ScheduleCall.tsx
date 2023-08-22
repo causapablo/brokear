@@ -5,7 +5,7 @@ function ScheduleCall() {
   return (
     <section className="bg-black py-20 text-white lg:flex lg:flex-row flex-col">
       <div className='lg:pl-40 pl-5'>
-        <h4 className=' bg-red text-lg w-60 text-center'>Experience The Difference</h4>
+        <h4 className=' bg-red text-lg w-fit px-1 text-center'>Experience The Difference</h4>
         <p className='pt-5 text-2xl font-bold lg:w-2/3 px-1 lg:px-0'>Get in touch to find out more about how we can get you the best deal</p>
       </div>
       <div className='pt-6 pl-5 lg:pl-0'>

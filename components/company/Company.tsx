@@ -7,7 +7,7 @@ const Company = () => {
       <Wave />
       <div className="bg-lightPink pt-10 lg:pt-0 pb-10">
         <div className="container mx-auto lg:pl-14">
-          <h4 className="bg-red text-white uppercase w-40 ml-5 lg:ml-0 text-center font-semibold">
+          <h4 className="bg-red text-white uppercase w-fit px-1 ml-5 lg:ml-0 text-center font-semibold">
           The Best Deal
           </h4>
           <div className='lg:flex lg:flex-row flex-col'>

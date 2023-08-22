@@ -21,7 +21,7 @@ const Articles = () => {
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-2">
+            <div className="flex-col lg:flex lg:flex-row gap-2">
                 {
                     jsonNews.map((item, index) => (
                         <div key={index} className="py-3">

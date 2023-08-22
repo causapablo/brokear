@@ -4,12 +4,12 @@ const SecondWave = () => {
   return (
     <section className="pt-14 lg:pt-20">
       <WavePeach />
-      <div className="bg-peach pt-10 lg:pt-0 pb-10">
+      <div className="bg-peach pt-10 lg:pt-0 pb-10 items-center">
         <div className="container mx-auto lg:pl-36 pl-10">
-          <h4 className="bg-red text-white uppercase w-56 text-center font-semibold">
+          <h4 className="bg-red text-white uppercase w-fit px-2 text-center font-semibold">
             Start right now to...
           </h4>
-          <div className="lg:flex lg:flex-row flex-col items-center">
+          <div className="lg:flex lg:flex-row flex-col ">
             <div className="lg:pr-36 px-1">
               <ul className="list-disc pt-4 font-lg text-lg lg:px-0 pb-10 lg:pb-0">
                 <li className="marker:text-red">

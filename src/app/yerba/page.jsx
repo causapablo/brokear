@@ -1,23 +1,23 @@
 import Image from "next/image";
-import oil from "../../../public/images/aceite.png";
+import mate from "../../../public/images/mate.jpg";
+import Link from "next/link";
 
-
-const Aceites = () => {
+const Yerba = () => {
   return (
     <main>
-      <div className="bg-gradient-to-b from-lightPink to-white pb-20">
+      <div className="bg-gradient-to-b from-lightPink to-white">
         <div className="pt-40 pl-10 flex">
           <Image
-            src={oil}
+            src={mate}
             alt="img"
             className="rounded-xl border-4 border-black w-[50%]"
           />
 
           <div className="flex-col">
-            <h4 className="font-bold text-4xl pl-20 pt-20 text-center">
-            ACEITE DE SOJA, GIRASOL Y MANI
+            <h4 className="font-bold text-4xl pl-40 pt-20 text-center uppercase">
+              Yerba mate
             </h4>
-            <p className="text-2xl pl-20 pt-10 text-center">
+            <p className="text-2xl pl-40 pt-10 text-center">
               Envasada Marca Propia y Terceros
               <br />
               <br />
@@ -33,4 +33,4 @@ const Aceites = () => {
   );
 };
 
-export default Aceites;
+export default Yerba;

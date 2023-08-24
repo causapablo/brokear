@@ -1,20 +1,20 @@
 import Link from "next/link";
 const BulkOils = () => {
-    return (
-        <main>
-      <section>
-        <h4>Bulk Yerba Mate</h4>
-        <p>
+  return (
+    <main className="bg-gradient-to-b from-lightPink to-white">
+      <section className="container mx-auto max-w-[1300px] pt-14 ">
+        <h4 className="bg-red text-white w-fit px-1 text-lg">Bulk Oils</h4>
+        <p className="w-7/12 pt-6">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
           suscipit eveniet nemo sed numquam unde officia vero. Voluptatum amet
           quas quam similique, qui facilis. Illo sit similique omnis numquam
           rem.
         </p>
-        <div className="flex justify-center">
+        <div className="flex pt-8 pb-20 justify-center flex-wrap">
           <Link href="/productos/bulk-popcorn">
             <div
-              className=" bg-origin-border rounded-full 
-                            border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
+              className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
+              flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
               style={{
                 backgroundImage: `url(/images/oil.jpg)`,
                 aspectRatio: "1",
@@ -30,8 +30,8 @@ const BulkOils = () => {
           </Link>
           <Link href="/productos/bulk-popcorn">
             <div
-              className=" bg-origin-border rounded-full 
-                          border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
+              className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
+              flex flex-wrap items-center ml-5 mx-auto cursor-pointer hover:brightness-75"
               style={{
                 backgroundImage: `url(/images/oil.jpg)`,
                 aspectRatio: "1",
@@ -47,8 +47,8 @@ const BulkOils = () => {
           </Link>
           <Link href="/productos/bulk-popcorn">
             <div
-              className=" bg-origin-border rounded-full 
-                          border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
+              className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
+              flex flex-wrap items-center ml-5 mx-auto cursor-pointer hover:brightness-75"
               style={{
                 backgroundImage: `url(/images/oil.jpg)`,
                 aspectRatio: "1",
@@ -65,7 +65,7 @@ const BulkOils = () => {
         </div>
       </section>
     </main>
-    );
-}
- 
+  );
+};
+
 export default BulkOils;

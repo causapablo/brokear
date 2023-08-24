@@ -1,18 +1,17 @@
 import Link from "next/link";
 
-
 const BulkCharcoal = () => {
-    return (
-        <main>
-      <section>
-        <h4>Bulk Yerba Mate</h4>
-        <p>
+  return (
+    <main className="bg-gradient-to-b from-lightPink to-white">
+      <section className="container mx-auto max-w-[1300px] pt-14 ">
+        <h4 className="bg-red text-white w-fit px-1 text-lg">Bulk Charcoal</h4>
+        <p className="w-7/12 pt-6">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
           suscipit eveniet nemo sed numquam unde officia vero. Voluptatum amet
           quas quam similique, qui facilis. Illo sit similique omnis numquam
           rem.
         </p>
-        <div className="flex justify-center">
+        <div className="flex pt-8 pb-20 justify-center flex-wrap">
           <Link href="/productos/bulk-charcoal">
             <div
               className=" bg-origin-border rounded-full 
@@ -30,11 +29,10 @@ const BulkCharcoal = () => {
               </p>
             </div>
           </Link>
-          
         </div>
       </section>
     </main>
-    );
-}
- 
+  );
+};
+
 export default BulkCharcoal;

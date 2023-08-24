@@ -27,21 +27,23 @@ const Contacto = () => {
   }
 
   return (
-    <section className="bg-gradient-to-b from-lightPink to-white">
-      <div className="container mx-auto max-w-[770px] font-Fitgree">
+    <section className="bg-gradient-to-b from-lightPink to-white pb-10">
+      <div className="container mx-auto max-w-[770px] font-Fitgree px-5">
         <div className="pt-40">
-          <p className="bg-red text-white font-bold text-xl w-44 text-center uppercase">Contactános</p>
-          <h4 className="font-bold pt-5 text-3xl">Nos encantaría escuchar de vos</h4>
+          <p className="bg-red text-white font-bold text-xl w-fit px-1 text-center uppercase">contact us</p>
+          <h4 className="font-bold pt-5 text-3xl">We’d love to hear from you</h4>
           <p className="pt-5 text-xl text-justify">
-            Whether you need more info, a quote, or would like to request a sample of our high-quality ingredients,
-            we’re here to help. Please fill out the form below and let us know how we can assist.
+          Whether you need more info, a quote, or would like to request a sample of our high-quality ingredients, we’re here to help. Please fill out the form below and let us know how we can assist.
+          </p>
+          <p className="pt-5 text-xl text-justify">
+          You can also connect with us on LinkedIn to stay up to date with our latest news and offerings, or schedule a call with one of our experts to discuss your specific needs.          
           </p>
 
           <form onSubmit={handleSubmit(onSubmit)} className="">
             <div className="">
               <div className="grid grid-cols-2 gap-3 pt-20">
                 <div className="flex flex-col">
-                  <label className="font-bold">Nombre</label>
+                  <label className="font-bold">First name</label>
                   <input
                     type="text"
                     {...register("name")}
@@ -49,7 +51,7 @@ const Contacto = () => {
                 </div>
 
                 <div className="flex flex-col">
-                  <label className="font-bold">Apellido</label>
+                  <label className="font-bold">Last name</label>
                   <input
                     type="text"
                     {...register("lastName")}
@@ -63,12 +65,12 @@ const Contacto = () => {
                     {...register("email", { required: true })}
                     className="border border-lightRed opacity-40 px-8 py-2 mt-2" />
                   {errors.email && (
-                    <span className="text-red">Campo requerido</span>
+                    <span className="text-red">This is a required field.</span>
                   )}
                 </div>
 
                 <div className="flex flex-col pt-5">
-                  <label className="font-bold">Teléfono</label>
+                  <label className="font-bold">Phone</label>
                   <input
                     type="text"
                     {...register("phone")}
@@ -77,14 +79,14 @@ const Contacto = () => {
               </div>
 
               <div className="flex flex-col">
-                <label className="font-bold pt-5">Mensaje <span className="text-red">*</span></label>
+                <label className="font-bold pt-5">Message <span className="text-red">*</span></label>
                 <textarea
                   {...register("message", { required: true })}
                   className="border border-lightRed opacity-40 resize-none h-[200px] mt-4"></textarea>
-                {errors.mensaje && (
-                  <span className="text-red pl-14">Campo requerido</span>
+                {errors.message && (
+                  <span className="text-red ">This is a required field.</span>
                 )}
-                <button type="submit" className="bg-red text-white w-20 py-2 mt-4 rounded-sm hover:bg-lightRed">Enviar</button>
+                <button type="submit" className="bg-red text-white w-20 py-2 mt-4 rounded-sm hover:bg-lightRed">Submit</button>
               </div>
               <ToastContainer />
             </div>

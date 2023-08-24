@@ -29,8 +29,8 @@ function NavBar() {
               }}
             >
               <Link href='/productos'>
-                <button className="flex items-center py-3  hover:text-red">
-                  Products{" "}
+                <button className="flex items-center py-3 active:text-red hover:text-red">
+                  Products
                   <RiArrowDropDownLine className="font-extrabold text-3xl" />
                 </button>
               </Link>
@@ -54,9 +54,13 @@ function NavBar() {
             <Link href='/nosotros'>
               <li className="cursor-pointer">About Us</li>
             </Link>
-            <li className="cursor-pointer">Why Us</li>
+            <Link href="por-que">
+              <li className="cursor-pointer">Why Us</li>
+            </Link>
             <li className="cursor-pointer">Blog</li>
-            <li className="cursor-pointer">Contact</li>
+            <Link href="/contacto">
+              <li className="cursor-pointer active:text-red">Contact</li>
+            </Link>
           </ul>
         </div>
       </div>

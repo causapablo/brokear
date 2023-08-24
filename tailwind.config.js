@@ -24,6 +24,7 @@ module.exports = {
       red: "#da3535",
       lightRed: "#e55959",
       black: "#000",
+      orange: "#F8973A"
 
     },
     fontFamily: {
@@ -36,6 +37,8 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      display: ["group-hover"],
+      visibility: ["group-hover"] 
     }
 
   },

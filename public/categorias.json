@@ -1,22 +1,27 @@
 [
     {
-        "category" : "Yerba Mate",
-        "img": "/images/mate.jpg"
+        "category" : "Bulk Yerba Mate",
+        "img": "/images/yerba.png",
+        "link": "/productos/bulk-category/bulk-yerba-mate"
     },
     {
-        "category" : "Tea",
-        "img": "/images/especias.jpg"
+        "category" : "Bulk Tea",
+        "img": "/images/tea.jpg",
+        "link": "/productos/bulk-category/bulk-tea"
     },
     {
-        "category" : "Pulses & Oils Seeds",
-        "img": "/images/spices.jpg"
+        "category" : "Bulk Pulses & Oils Seeds",
+        "img": "/images/legumbres.jpg",
+        "link": "/productos/bulk-category/bulk-pulses-seeds"
     },
     {
-        "category" : "Oils",
-        "img": "/images/oil.jpg"
+        "category" : "Bulk Oils",
+        "img": "/images/oil.jpg",
+        "link": "/productos/bulk-category/bulk-oils"
     },
     {
-        "category" : "Charcoal",
-        "img": "/images/granos.png"
+        "category" : "Bulk Charcoal",
+        "img": "/images/carbon.jpg",
+        "link": "/productos/bulk-category/bulk-charcoal"
     }
 ]

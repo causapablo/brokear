@@ -1,3 +1,4 @@
+import Link from "next/link";
 import WavePeach from "../../public/icons/WavePeach";
 
 const SecondWave = () => {
@@ -34,9 +35,11 @@ const SecondWave = () => {
                 consistently showing up. As a result, we have evolved into a
                 supplier that is aligned with the goals of our clients, and have
                 become the supplier we seek but never find. &nbsp;{" "}
-                <span className="underline underline-offset-1 text-red cursor-pointer">
-                  Read our story
-                </span>
+                <Link href="/nosotros">
+                  <span className="underline underline-offset-1 text-red cursor-pointer">
+                    Read our story
+                  </span>
+                </Link>
               </p>
             </div>
           </div>

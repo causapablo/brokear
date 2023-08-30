@@ -2,22 +2,22 @@
     {
         "product": "Yerba mate",
         "img": "/images/yerba.png",
-        "link": "/productos/bulk-yerba"
+        "link": "/yerba"
     },
     {
         "product": "Tea",
         "img": "/images/tea.jpg",
-        "link": "productos/bulk-tea"
+        "link": "/tea"
     },
     {
         "product": "Popcorn",
         "img": "/images/popcorn.jpg",
-        "link": "productos/bulk-popcorn"
+        "link": "/popcorn"
     },
     {
         "product": "Peanut",
         "img": "/images/mani.jpg",
-        "link": "productos/bulk-peanut"
+        "link": "/peanut"
     }
 
 ]

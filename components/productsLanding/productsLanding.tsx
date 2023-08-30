@@ -6,8 +6,7 @@ const ProductsLanding = ({cat, img, link}: any) => {
         <div className=''>
             <Link href={link}>
                 <div
-                    className="hover:-translate-y-1 hover:scale-110 hover:brightness-75 duration-300 bg-origin-border 
-                    rounded-full border-4 border-black w-60 h-60 flex flex-wrap items-center mx-auto cursor-pointer"
+                    className="hover:-translate-y-1 hover:scale-110 duration-300 bg-origin-border rounded-full border-4 border-black w-60 h-60 flex flex-wrap items-center mx-auto cursor-pointer"
                     style={{
                         
                         backgroundImage: `url(${img})`,

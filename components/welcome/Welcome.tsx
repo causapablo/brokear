@@ -5,9 +5,9 @@ import Link from "next/link";
 const Welcome = () => {
   return (
     <section className="bg-gradient-to-b from-lightPink to-white">
-      <div className="flex flex-wrap pt-20 justify-center ">
-        <div className="lg:w-3/6 lg:mr-20">
-          <h2 className="bg-red text-white text-lg mt-20 w-fit text-center px-1 font-Poppins">
+      <div className="grid grid-cols-2 pt-16 container mx-auto max-w-[1300px]">
+        <div className="">
+          <h2 className="bg-red text-white text-lg mt-20 lg:w-96 text-center py-1 font-Poppins">
           Getting your product has never been so easy
           </h2>
           <p className="pt-5 px-5 lg:px-0 text-3xl font-bold text-justify">

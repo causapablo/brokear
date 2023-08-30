@@ -8,7 +8,7 @@ const Company = () => {
       <div className="bg-lightPink">
         <div className=" container mx-auto max-w-[1300px] pb-14">
           <h4 className="bg-red text-white uppercase w-fit text-center font-semibold px-3 py-1 mb-2">
-          The Best Deal
+          The Best Deal.
           </h4>
           <div className='grid grid-cols-2 gap-16'>
             <div>

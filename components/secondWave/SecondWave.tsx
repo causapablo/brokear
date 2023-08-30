@@ -45,7 +45,7 @@ const SecondWave = () => {
           </div>
         </div>
       </div>
-    </section>
+  </section>
   );
 };
 

@@ -8,7 +8,7 @@ function Sidebarblog() {
     <section>
       <div className='pt-[102px]' id='entero'>
         <div className='border relative mb-[52px] bg-white' id='nodoSuperior'>
-          <Image className='absolute -top-[103px] left-[75px] hover:animate-bounce' src={SideBarLogo} alt='SidebarblogLogo' />
+          <Image className='absolute -top-[103px] left-[75px] hover:animate-wiggle' src={SideBarLogo} alt='SidebarblogLogo' />
           <div className='space-y-4 pt-24 pb-8'>
             <h1 className='text-white bg-red w-fit px-1 mx-auto'>Your #1 source of specialty ingredients</h1>
             <p className='w-fit mx-4 text-center text-[15px]'>We source and import high-quality specialty raw ingredients through our large global network. Experience the difference.</p>

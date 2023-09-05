@@ -24,15 +24,7 @@ const Yerba = () => {
               Yerba mate
             </h4>
             <p className="text-lg lg:pl-40 pt-10 px-5 lg:px-0">
-              In imperdiet at nibh non efficitur. Suspendisse ac pharetra
-              sapien. Vivamus sodales eros vel magna vehicula, at placerat erat
-              cursus. Nam rutrum pellentesque mauris at iaculis. Donec pretium
-              sed diam ac dictum. Proin pretium velit quis ipsum consequat, quis
-              viverra mauris volutpat. Praesent accumsan enim sit amet libero
-              egestas sollicitudin. Fusce ut velit sed turpis scelerisque
-              congue. Aliquam hendrerit aliquet quam in pellentesque. Ut
-              vestibulum neque lacinia eleifend tristique. Mauris quis mauris
-              ligula. Aliquam venenatis dignissim urna sit amet volutpat.
+            Es un producto natural y saludable, que se consume en forma de infusión. La yerba mate tiene un sabor intenso y aromático, y ofrece beneficios como mejorar el ánimo, la concentración y la digestión. La yerba mate que ofrecemos es de alta calidad, cultivada de forma sustentable, y envasada con los más altos estándares de higiene y seguridad. Contamos con una amplia variedad de presentaciones, desde paquetes de 500 gramos hasta bolsas de 25 kilos
             </p>
             <Link href="/contacto">
               <button className="bg-red text-white ml-[27%] mt-10 px-1 py-1 rounded-sm font-semibold">

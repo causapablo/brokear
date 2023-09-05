@@ -24,15 +24,7 @@ const Peanut = () => {
               Peanut
             </h4>
             <p className="text-lg lg:pl-40 pt-10 px-5 lg:px-0">
-              In imperdiet at nibh non efficitur. Suspendisse ac pharetra
-              sapien. Vivamus sodales eros vel magna vehicula, at placerat erat
-              cursus. Nam rutrum pellentesque mauris at iaculis. Donec pretium
-              sed diam ac dictum. Proin pretium velit quis ipsum consequat, quis
-              viverra mauris volutpat. Praesent accumsan enim sit amet libero
-              egestas sollicitudin. Fusce ut velit sed turpis scelerisque
-              congue. Aliquam hendrerit aliquet quam in pellentesque. Ut
-              vestibulum neque lacinia eleifend tristique. Mauris quis mauris
-              ligula. Aliquam venenatis dignissim urna sit amet volutpat.
+            Son alimentos nutritivos y económicos, que se pueden incorporar a una dieta equilibrada y variada. Las legumbres y oleaginosas aportan proteínas vegetales, fibra, vitaminas y minerales, y ayudan a prevenir enfermedades cardiovasculares, diabetes y obesidad. Las legumbres y oleaginosas que ofrecemos son de producción argentina, cosechadas en zonas aptas para su cultivo, y sometidas a rigurosos controles de calidad y trazabilidad. Contamos con una extensa variedad de productos, desde garbanzos hasta maníes, y con diferentes tamaños, desde bolsas de 10 kilo hasta sacos de 50 kilos.
             </p>
             <Link href="/contacto">
               <button className="bg-red text-white ml-[27%] mt-10 px-1 py-1 rounded-sm font-semibold">

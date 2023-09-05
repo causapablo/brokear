@@ -24,15 +24,14 @@ const Charcoal = () => {
               Charcoal
             </h4>
             <p className="text-lg lg:pl-40 pt-10 px-5 lg:px-0">
-              In imperdiet at nibh non efficitur. Suspendisse ac pharetra
-              sapien. Vivamus sodales eros vel magna vehicula, at placerat erat
-              cursus. Nam rutrum pellentesque mauris at iaculis. Donec pretium
-              sed diam ac dictum. Proin pretium velit quis ipsum consequat, quis
-              viverra mauris volutpat. Praesent accumsan enim sit amet libero
-              egestas sollicitudin. Fusce ut velit sed turpis scelerisque
-              congue. Aliquam hendrerit aliquet quam in pellentesque. Ut
-              vestibulum neque lacinia eleifend tristique. Mauris quis mauris
-              ligula. Aliquam venenatis dignissim urna sit amet volutpat.
+              es un producto natural y ecológico, que se obtiene al quemar
+              madera en ausencia de aire. El carbón vegetal se usa para hacer
+              asados, parrillas o barbacoas, ya que da un sabor ahumado y
+              delicioso a los alimentos. El carbón vegetal que ofrecemos es de
+              la mejor calidad, elaborado con maderas seleccionadas y secadas al
+              sol, y envasado con materiales reciclables y biodegradables.
+              Contamos con una amplia gama de tamaños, desde bolsas de 5
+              kilogramos hasta 20 kilogramos.
             </p>
             <Link href="/contacto">
               <button className="bg-red text-white ml-[27%] mt-10 px-1 py-1 rounded-sm font-semibold">

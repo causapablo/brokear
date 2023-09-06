@@ -28,7 +28,7 @@ const Footer = () => {
                 </p>
               </div>
               <div className="flex">
-                <p className="text-white flex items-center justify-end text-[12px] py-1 basis-1/4">
+                <p className="text-white flex items-center justify-center text-[12px] py-1 basis-1/4">
                   LinkedIn
                 </p>
                 <p className="text-white flex items-center justify-end text-[12px] py-1 basis-1/4">
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
             <div className="py-4">
               <div className="flex">
-                <p className="text-white flex items-center justify-start text-[12px] basis-1/5 py-1">
+                <p className="text-white flex items-center justify-center text-[12px] basis-1/5 py-1">
                   Yerba Mate
                 </p>
 
@@ -64,18 +64,18 @@ const Footer = () => {
                   Oils
                 </p>
 
-                <p className="text-white flex items-center justify-end text-[12px] basis-1/5 py-1">
+                <p className="text-white flex items-center justify-center text-[12px] basis-1/5 py-1">
                   Charcoal
                 </p>
               </div>
               <div className="flex">
-                <p className="text-white flex items-center justify-end text-[12px]  basis-1/5 py-1">
+                <p className="text-white flex items-center justify-center text-[12px]  basis-1/3 py-1">
                   Trees
                 </p>
-                <p className="text-white flex items-center justify-center text-[12px]  basis-1/5 py-1">
+                <p className="text-white flex items-center justify-center text-[12px]  basis-1/3 py-1">
                   Plants
                 </p>
-                <p className="text-white flex items-center justify-center text-[12px]  py-1">
+                <p className="text-white flex items-center justify-start text-[12px] basis-1/3 py-1">
                   Specimens for Export
                 </p>
                 {/* <p className="text-white flex items-center justify-center text-[12px]  basis-1/5 py-1">Organic</p>
@@ -94,14 +94,6 @@ const Footer = () => {
                 <button className="bg-white text-lightRed rounded-sm py-2 px-5 font-semibold w-full">
                   Contact Us
                 </button>
-              </Link>
-              <button className="bg-red text-white rounded-sm py-2 px-5 font-semibold">
-                Schedule A Call
-              </button>
-              <Link href="/privacy">
-                <p className="text-white text-center text-[12px] hover:underline underline-offset-2">
-                  Privacy Policy
-                </p>
               </Link>
               <button className='bg-red text-white rounded-sm py-2 px-5 font-semibold'>Schedule A Call</button>
               <Link href="/policies/privacy"><p className="text-white text-center text-[12px] hover:underline underline-offset-2">Privacy Policy</p></Link>

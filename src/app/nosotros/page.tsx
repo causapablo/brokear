@@ -4,9 +4,9 @@ import profile from "../../../public/images/profile.jpg";
 import profile2 from "../../../public/images/profilePic.jpg";
 import meet from "../../../public/images/meet.jpg";
 import view from "../../../public/images/landscape.jpg";
-import Wave from "../../../public/icons/Wave";
-import WavePeach from "../../../public/icons/WavePeach";
-import ScheduleCall from "../../../components/schedulecall/ScheduleCall";
+import Wave from "../../../../public/icons/Wave";
+import WavePeach from "../../../../public/icons/WavePeach";
+import ScheduleCall from "../../../../components/schedulecall/ScheduleCall";
 
 
 const Nosotros = () => {

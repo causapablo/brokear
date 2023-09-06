@@ -103,31 +103,26 @@ const Footer = () => {
                   Privacy Policy
                 </p>
               </Link>
+              <button className='bg-red text-white rounded-sm py-2 px-5 font-semibold'>Schedule A Call</button>
+              <Link href="/policies/privacy"><p className="text-white text-center text-[12px] hover:underline underline-offset-2">Privacy Policy</p></Link>
             </div>
           </div>
         </div>
-        <p className="text-white text-center py-2">
-          © 2023 · &nbsp;
-          <a
-            href="https://www.linkedin.com/in/pablocausa"
-            target="_blank"
-            className="underline"
-          >
-            P
-          </a>
-          &
-          <a
-            href="https://www.linkedin.com/in/solana-romero"
-            target="_blank"
-            className="underline"
-          >
-            S
-          </a>
+        <div className="flex justify-center text-white text-[12px]">
+          <p>© 2023 · </p>&nbsp;
+          <a href="https://www.linkedin.com/in/pablocausa" target="_blank" className="underline">P</a>&nbsp;
+          & &nbsp;
+          <a href="https://www.linkedin.com/in/solana-romero" target="_blank" className="underline">S</a>
           &nbsp; · &nbsp;
-          <a href="" target="_blank" className="underline">
-            Brokear
-          </a>
-        </p>
+          <a href="" target="_blank" className="underline">Brokear</a>
+          &nbsp; · &nbsp;
+          <Link href="/policies/terms"><p className="underline hover:underline underline-offset-2">Terms</p></Link>
+          &nbsp; · &nbsp;
+          <Link href="/policies/privacy"><p className="underline hover:underline underline-offset-2">Privacy</p></Link>
+          &nbsp; · &nbsp;
+          <Link href="/policies/accesibility"><p className="underline hover:underline underline-offset-2">Accesibility.</p></Link>
+        </div>
+
       </div>
     </section>
   );

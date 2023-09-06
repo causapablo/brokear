@@ -7,6 +7,7 @@ import Faq from "../../../../components/faq/Faq";
 import Benefits from "../../../../components/benefits/Benefits";
 import Manufacturing from "../../../../components/manufacturing/Manufacturing";
 import { GiCheckMark } from "react-icons/gi";
+import React from "react";
 
 const Charcoal = () => {
   return (

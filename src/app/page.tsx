@@ -8,9 +8,11 @@ import SecondWave from '../../components/secondWave/SecondWave'
 import Articles from '../../components/articles/articles'
 import {useTranslations} from 'next-intl';
 
+
 export default function Home() {
   return (
     <main className=''>
+      
       <Welcome/>
       <Company/>
       <ScheduleCall/>
@@ -18,6 +20,7 @@ export default function Home() {
       <SecondWave/>
       <ScheduleCall/>
       <Articles/>
+      
     </main>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebarblog from '../../../../components/sidebarblog/Sidebarblog'
+import Sidebarblog from '../../../components/sidebarblog/Sidebarblog'
 function Privacy() {
     return (
         <section className='bg-gradient-to-b from-lightPink to-white'>

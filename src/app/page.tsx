@@ -7,13 +7,14 @@ import Company from '../../components/company/Company'
 import Welcome from '../../components/welcome/Welcome'
 import SecondWave from '../../components/secondWave/SecondWave'
 import Articles from '../../components/articles/articles'
-
+import { TranslationProvider } from '../../context/TranslationContext'
 
 
 export default function Home() {
   return (
+      <TranslationProvider>
     <main className=''>
-      
+
       <Welcome/>
       <Company/>
       <ScheduleCall/>
@@ -23,5 +24,6 @@ export default function Home() {
       <Articles/>
       
     </main>
+      </TranslationProvider>
   )
 }

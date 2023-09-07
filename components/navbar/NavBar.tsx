@@ -8,6 +8,7 @@ import MainLogo from '../../public/images/MainLogo.png';
 import { useTranslation } from "../../context/TranslationContext";
 import eng from "../../public/images/inglaterra.png";
 import es from "../../public/images/espana.png"
+import { TranslationProvider } from '../../context/TranslationContext'
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +20,7 @@ function NavBar() {
   };
 
   return (
+    
     <div className="sticky top-0 w-full bg-white z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
         <div className="container mx-auto flex justify-between h-16 bg-white max-w-[1300px]">
@@ -75,13 +77,6 @@ function NavBar() {
       <option value="es">Español</option>
       <option value="en">English</option>
     </select>
-          {/* <button onClick={() => setLang(lang === 'es' ? 'en' : 'es')}>
-        <Image src={es} alt="" className="w-6 h-6"/>
-      </button>
-
-          <button onClick={() => setLang(lang === 'en' ? 'es' : 'en')}>
-        <Image src={eng} alt="" className="w-6 h-6"/>
-      </button> */}
           </ul>
         </div>
       </div>

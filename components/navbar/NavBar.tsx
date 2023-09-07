@@ -5,9 +5,18 @@ import { useState } from "react";
 import productos from "../../public/productos.json";
 import Image from "next/image";
 import MainLogo from '../../public/images/MainLogo.png';
+import { useTranslation } from "../../context/TranslationContext";
+import eng from "../../public/images/inglaterra.png";
+import es from "../../public/images/espana.png"
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+  const { lang, setLang } = useTranslation();
+
+  const handleLanguageChange = (e) => {
+    const selectedLang = e.target.value;
+    setLang(selectedLang);
+  };
 
   return (
     <div className="sticky top-0 w-full bg-white z-40">
@@ -51,6 +60,7 @@ function NavBar() {
                 </div>
               )}
             </li>
+            
             <Link href='/nosotros'>
               <li className="cursor-pointer">About Us</li>
             </Link>
@@ -61,6 +71,17 @@ function NavBar() {
             <Link href="/contacto">
               <li className="cursor-pointer active:text-red">Contact</li>
             </Link>
+            <select value={lang} onChange={handleLanguageChange}>
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select>
+          {/* <button onClick={() => setLang(lang === 'es' ? 'en' : 'es')}>
+        <Image src={es} alt="" className="w-6 h-6"/>
+      </button>
+
+          <button onClick={() => setLang(lang === 'en' ? 'es' : 'en')}>
+        <Image src={eng} alt="" className="w-6 h-6"/>
+      </button> */}
           </ul>
         </div>
       </div>

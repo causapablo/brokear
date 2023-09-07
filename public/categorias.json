@@ -1,27 +1,858 @@
 [
     {
-        "category" : "Bulk Yerba Mate",
+        "category": "Bulk Yerba Mate",
         "img": "/images/yerba.png",
-        "link": "/productos/bulk-category/bulk-yerba-mate"
+        "link": "/productos/bulk-category/bulk-yerba-mate",
+        "products": {
+            "bulk": {
+                "title": {
+                    "eng": "Bulk Yerba mate",
+                    "esp": "Bulk Yerba mate"
+                },
+                "abstract": {
+                    "eng": "Yerba mate is a natural infusion that is prepared with the leaves of the Ilex Paraguariensis tree, native to the Paraná jungle. It has antioxidant, energizing and healthy properties, as well as a unique and refreshing flavor. Enjoy mate, the national drink of Argentina, and share its culture and tradition.",
+                    "esp": "La yerba mate es una infusión natural que se prepara con las hojas del árbol Ilex Paraguariensis, originario de la selva de Paraná. Tiene propiedades antioxidantes, energizantes y saludables, además de un sabor único y refrescante. Disfrute del mate, la bebida nacional de Argentina, y comparta su cultura y tradición."
+                },
+                "name": {
+                    "eng": "Ilex paraguariensis",
+                    "esp": "Ilex paraguariensis"
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": "Argentina"
+                },
+                "size": {
+                    "eng": "25 kg Polypropylene Bag(Bulk)",
+                    "esp": "Bolsa de Polipropileno de 25 kg (Granel)"
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": "24 meses"
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": "Infusiones, te de hierbas y bebidas."
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": "Seca / Ambiente"
+                },
+                "link" : "/productos/bulk-category/bulk-yerba-mate/bulk"
+            },
+            "packaged": {
+                "title": {
+                    "eng": "Traditional Yerba Mate",
+                    "esp": "Yerba Mate Tradicional"
+                },
+                "abstract": {
+                    "eng": "Yerba mate is an infusion made with yerba mate leaves (Ilex paraguariensis), a plant native to the Paraguay and Paraná river basins in South America. Traditional yerba mate is known for its bitter taste due to the tannins in its leaves. In addition, yerba mate is highly beneficial for health, since it contains group B vitamins, has great antioxidant power, produces an energizing effect, and helps reduce bad cholesterol (LDL) and triglycerides.",
+                    "esp": "La yerba mate es una infusión elaborada con hojas de yerba mate (Ilex paraguariensis), una planta originaria de las cuencas de los ríos Paraguay y Paraná en América del Sur. La yerba mate tradicional se caracteriza por su sabor amargo debido a los taninos de sus hojas. Además, la yerba mate es altamente beneficiosa para la salud, ya que contiene vitaminas del grupo B, tiene un gran poder antioxidante, produce un efecto energizante y ayuda a reducir el colesterol malo (LDL) y los triglicéridos."
+                },
+                "name": {
+                    "eng": "Ilex paraguariensis",
+                    "esp": "Ilex paraguariensis"
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": "Argentina"
+                },
+                "size": {
+                    "eng": "Trilaminate package of 1kg and 1/2kg ",
+                    "esp": "Paquete trilaminado de 1kg y 1/2kg"
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": "24 meses"
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": "Infusiones, te de hierbas y bebidas."
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": "Seca / Ambiente"
+                },
+                "link" : "/productos/bulk-category/bulk-yerba-mate/traditional"
+            },
+            "organic": {
+                "title": {
+                    "eng": "Organic Yerba Mate",
+                    "esp": "Yerba Mate Organica"
+                },
+                "abstract": {
+                    "eng": "Organic yerba mate is a kind of natural yerba that is not exposed to insecticides, pesticides or pesticides from the moment it is planted until it is processed. In addition, organic yerba mate is naturally dried, the process of which is not artificially accelerated. This prevents the oxidation of the leaf and therefore reduces its acidifying effect.",
+                    "esp": "La yerba mate orgánica es un tipo de yerba natural que no está expuesta a insecticidas, pesticidas o pesticidas desde que se planta hasta que se procesa. Además, la yerba mate orgánica se seca de forma natural, cuyo proceso no se acelera artificialmente. Esto previene la oxidación de la hoja y por tanto reduce su efecto acidificante."
+                },
+                "name": {
+                    "eng": "Ilex paraguariensis",
+                    "esp": "Ilex paraguariensis"
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": "Argentina"
+                },
+                "size": {
+                    "eng": "Trilaminate package of 1kg and 1/2kg ",
+                    "esp": "Paquete trilaminado de 1kg y 1/2kg"
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": "24 meses"
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": "Infusiones, te de hierbas y bebidas."
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": "Seca / Ambiente"
+                },
+                "link" : "/productos/bulk-category/bulk-yerba-mate/organic"
+            },
+            "europeanQuality": {
+                "title": {
+                    "eng": "European Quality Yerba Mate",
+                    "esp": "Yerba Mate Calidad Europea"
+                },
+                "abstract": {
+                    "eng": "Yerba mate is a very popular drink in Europe and there are high food safety standards and limits set by the European Economic Community regarding the use of pesticides and substances that are harmful to health. Our yerba mate is free of anthraquinone and meets all the conditions determined by the European Economic Community.",
+                    "esp": "La yerba mate es una bebida muy popular en Europa y existen altos estándares de seguridad alimentaria y límites establecidos por la Comunidad Económica Europea en cuanto al uso de pesticidas y sustancias nocivas para la salud. Nuestra yerba mate está libre de antraquinona y cumple con todas las condiciones determinadas por la Comunidad Económica Europea."
+                },
+                "name": {
+                    "eng": "Ilex paraguariensis",
+                    "esp": "Ilex paraguariensis"
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": "Argentina"
+                },
+                "size": {
+                    "eng": "Trilaminate package of 1kg and 1/2kg ",
+                    "esp": "Paquete trilaminado de 1kg y 1/2kg"
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": "24 meses"
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": "Infusiones, te de hierbas y bebidas."
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": "Seca / Ambiente"
+                },
+                "link" : "/productos/bulk-category/bulk-yerba-mate/european-quality"
+            }
+        }
     },
     {
-        "category" : "Bulk Tea",
+        "category": "Bulk Tea",
         "img": "/images/tea.jpg",
-        "link": "/productos/bulk-category/bulk-tea"
+        "link": "/productos/bulk-category/bulk-tea",
+        "products": {
+            "blackTea": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "greenTea": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            }
+        }
     },
     {
-        "category" : "Bulk Pulses & Oils Seeds",
+        "category": "Bulk Pulses & Oils Seeds",
         "img": "/images/legumbres.jpg",
-        "link": "/productos/bulk-category/bulk-pulses-seeds"
+        "link": "/productos/bulk-category/bulk-pulses-seeds",
+        "products": {
+            "alubiaBeans": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "cranberryBeans": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "darkRedKidneyBeans": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "lightRedKidneyBeans": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "adzukiBeans": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "blackEyeBeans": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "mungBeans": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "blackBeans": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "greenPeas": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "chickPeas": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "popcorn": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "runnerPeanuts": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "pecanInShell": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "pecanWithout": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "organic": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            }
+            
+        }
     },
     {
-        "category" : "Bulk Oils",
+        "category": "Bulk Oils",
         "img": "/images/oil.jpg",
-        "link": "/productos/bulk-category/bulk-oils"
+        "link": "/productos/bulk-category/bulk-oils",
+        "products": {
+            "soyOil": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            },
+            "sunflowerOil": {
+                "title": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            }
+        }
     },
     {
-        "category" : "Bulk Charcoal",
+        "category": "Bulk Charcoal",
         "img": "/images/carbon.jpg",
-        "link": "/productos/bulk-category/bulk-charcoal"
+        "link": "/productos/bulk-category/bulk-charcoal",
+        "products": {
+            "charcoal": {
+                "title": {
+                    "eng": "Charcoal",
+                    "esp": "Carbón"
+                },
+                "abstract": {
+                    "eng": "It is a natural and ecological product, which is obtained by burning wood in the absence of air. Charcoal is used for roasting, grilling or barbecuing as it gives food a delicious, smoky flavor. The charcoal we offer is of the best quality, made with selected and sun-dried wood, and packaged with recyclable and biodegradable materials. We have a wide range of sizes, from bags of 5 kilograms to 20 kilograms.",
+                    "esp": "es un producto natural y ecológico, que se obtiene al quemar madera en ausencia de aire. El carbón vegetal se usa para hacer asados, parrillas o barbacoas, ya que da un sabor ahumado y delicioso a los alimentos. El carbón vegetal que ofrecemos es de la mejor calidad, elaborado con maderas seleccionadas y secadas al sol, y envasado con materiales reciclables y biodegradables. Contamos con una amplia gama de tamaños, desde bolsas de 5 kilogramos hasta 20 kilogramos."
+                },
+                "name": {
+                    "eng": "Charcolus Operatur",
+                    "esp": "Carbonu Patronum"
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            }
+        }
     }
 ]

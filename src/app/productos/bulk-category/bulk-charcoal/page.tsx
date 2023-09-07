@@ -13,7 +13,7 @@ const BulkCharcoal = () => {
           rem.
         </p>
         <div className="flex pt-8 pb-20 justify-center flex-wrap">
-          <Link href="/productos/bulk-charcoal">
+          <Link href="/productos/bulk-category/bulk-charcoal/charcoal">
             <div
               className=" bg-origin-border rounded-full 
                             border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"

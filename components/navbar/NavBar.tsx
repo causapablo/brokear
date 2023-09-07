@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from "react";
-import productos from "../../public/productos.json";
+import productos from "../../public/categorias.json";
 import Image from "next/image";
 import MainLogo from '../../public/images/MainLogo.png';
 import { useTranslation } from "../../context/TranslationContext";
@@ -45,15 +45,15 @@ function NavBar() {
               </Link>
               {isOpen && (
                 <div
-                  className={`absolute top-12 flex flex-col items-start text-black h-fit w-40 bg-white z-50`}
+                  className={`absolute top-12 flex flex-col items-start text-black h-fit w-60 bg-white z-50`}
                 >
                   {productos.map((producto, i) => (
                     <div
-                      className="flex w-full justify-between border-[0.5px] border-black py-2 px-4 hover:bg-[#fef0e3] hover:text-red hover:border-l-lightRed hover:border-l-4"
+                      className="flex w-full justify-between border-[0.5px] font-normal border-black py-2 px-4 hover:bg-[#fef0e3] hover:text-red hover:border-l-lightRed hover:border-l-4"
                       key={i}
                     >
                       <Link href={producto.link}>
-                        <p>{producto.product}</p>
+                        <p>{producto.category}</p>
                       </Link>
                     </div>
                   ))}

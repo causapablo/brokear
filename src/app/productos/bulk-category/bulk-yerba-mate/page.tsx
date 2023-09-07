@@ -11,24 +11,25 @@ const BulkYerbaMate = () => {
           quas quam similique, qui facilis. Illo sit similique omnis numquam
           rem.
         </p>
-        <div className="flex pt-8 pb-20 justify-center flex-wrap">
-            <Link href="/productos/bulk-yerba">
-                <div
-                  className=" bg-origin-border rounded-full 
+        <div className="flex pt-8 pb-20 justify-center flex-wrap gap-8">
+          <Link href="/productos/bulk-category/bulk-yerba-mate/bulk">
+            <div
+              className=" bg-origin-border rounded-full 
                             border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
-                  style={{
-                    backgroundImage: `url(/images/yerba.png)`,
-                    aspectRatio: "1",
-                    backgroundRepeat: "no-repeat",
-                    backgroundPositionX: "20%",
-                    backgroundPositionY: "35%",
-                  }}
-                >
-                  <p className="uppercase text-[#bebfc1] font-bold mx-auto brightness-200">
-                    learn more
-                  </p>
-                </div>
-            </Link>
+              style={{
+                backgroundImage: `url(/images/yerba.png)`,
+                aspectRatio: "1",
+                backgroundRepeat: "no-repeat",
+                backgroundPositionX: "20%",
+                backgroundPositionY: "35%",
+              }}
+            >
+              <p className="uppercase text-[#bebfc1] font-bold mx-auto brightness-200">
+                learn more
+              </p>
+            </div>
+          </Link>
+          <Link href="/productos/bulk-category/bulk-yerba-mate/traditional">
             <div
               className=" bg-origin-border rounded-full 
                         border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
@@ -44,6 +45,8 @@ const BulkYerbaMate = () => {
                 learn more
               </p>
             </div>
+          </Link>
+          <Link href="/productos/bulk-category/bulk-yerba-mate/organic">
             <div
               className=" bg-origin-border rounded-full 
                         border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
@@ -59,6 +62,8 @@ const BulkYerbaMate = () => {
                 learn more
               </p>
             </div>
+          </Link>
+          <Link href="/productos/bulk-category/bulk-yerba-mate/european-quality">
             <div
               className=" bg-origin-border rounded-full 
                         border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
@@ -74,6 +79,7 @@ const BulkYerbaMate = () => {
                 learn more
               </p>
             </div>
+          </Link>
         </div>
       </section>
     </main>

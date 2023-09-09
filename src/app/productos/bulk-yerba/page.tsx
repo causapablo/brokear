@@ -40,15 +40,7 @@ const Yerba = () => {
             Production & Sourcing
           </h4>
           <p className="text-lg lg:px-20 pt-10 ">
-            In imperdiet at nibh non efficitur. Suspendisse ac pharetra sapien.
-            Vivamus sodales eros vel magna vehicula, at placerat erat cursus.
-            Nam rutrum pellentesque mauris at iaculis. Donec pretium sed diam ac
-            dictum. Proin pretium velit quis ipsum consequat, quis viverra
-            mauris volutpat. Praesent accumsan enim sit amet libero egestas
-            sollicitudin. Fusce ut velit sed turpis scelerisque congue. Aliquam
-            hendrerit aliquet quam in pellentesque. Ut vestibulum neque lacinia
-            eleifend tristique. Mauris quis mauris ligula. Aliquam venenatis
-            dignissim urna sit amet volutpat.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat totam, dolor quisquam animi nemo vero? Rem quo sunt quos, obcaecati minus provident doloribus corrupti, asperiores quasi blanditiis facere amet consectetur.
           </p>
           <div className="flex-col lg:flex lg:flex-row lg:px-20 pt-10">
             <div className="pr-40 pb-4">

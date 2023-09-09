@@ -24,15 +24,7 @@ const Dulces = () => {
               Popcorn
             </h4>
             <p className="text-lg lg:pl-40 pt-10 px-5 lg:px-0">
-              In imperdiet at nibh non efficitur. Suspendisse ac pharetra
-              sapien. Vivamus sodales eros vel magna vehicula, at placerat erat
-              cursus. Nam rutrum pellentesque mauris at iaculis. Donec pretium
-              sed diam ac dictum. Proin pretium velit quis ipsum consequat, quis
-              viverra mauris volutpat. Praesent accumsan enim sit amet libero
-              egestas sollicitudin. Fusce ut velit sed turpis scelerisque
-              congue. Aliquam hendrerit aliquet quam in pellentesque. Ut
-              vestibulum neque lacinia eleifend tristique. Mauris quis mauris
-              ligula. Aliquam venenatis dignissim urna sit amet volutpat.
+            Son productos esenciales para la cocina, que se pueden usar para freír, saltear, aliñar o aderezar. Los aceites tienen un alto valor energético, y según su origen y composición pueden tener efectos positivos o negativos sobre la salud. Los aceites que ofrecemos son de primera calidad, extraídos de fuentes vegetales seleccionadas, y refinados con procesos que garantizan su pureza y estabilidad. Contamos con una diversa variedad de aceites, desde el tradicional aceite de oliva hasta el novedoso aceite de coco, y con diferentes envases, desde botellas de 250 mililitros hasta bidones de 20 litros.
             </p>
             <Link href="/contacto">
               <button className="bg-red text-white ml-[27%] mt-10 px-1 py-1 rounded-sm font-semibold">

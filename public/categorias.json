@@ -1,27 +1,858 @@
 [
     {
-        "category" : "Bulk Yerba Mate",
+        "category": "Bulk Yerba Mate",
         "img": "/images/yerba.png",
-        "link": "/productos/bulk-category/bulk-yerba-mate"
+        "link": "/productos/bulk-category/bulk-yerba-mate",
+        "products": {
+            "bulk": {
+                "title": {
+                    "eng": "Bulk Yerba mate",
+                    "esp": "Bulk Yerba mate"
+                },
+                "abstract": {
+                    "eng": "Yerba mate is a natural infusion that is prepared with the leaves of the Ilex Paraguariensis tree, native to the Paraná jungle. It has antioxidant, energizing and healthy properties, as well as a unique and refreshing flavor. Enjoy mate, the national drink of Argentina, and share its culture and tradition.",
+                    "esp": "La yerba mate es una infusión natural que se prepara con las hojas del árbol Ilex Paraguariensis, originario de la selva de Paraná. Tiene propiedades antioxidantes, energizantes y saludables, además de un sabor único y refrescante. Disfrute del mate, la bebida nacional de Argentina, y comparta su cultura y tradición."
+                },
+                "name": {
+                    "eng": "Ilex paraguariensis",
+                    "esp": "Ilex paraguariensis"
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": "Argentina"
+                },
+                "size": {
+                    "eng": "25 kg Polypropylene Bag(Bulk)",
+                    "esp": "Bolsa de Polipropileno de 25 kg (Granel)"
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": "24 meses"
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": "Infusiones, te de hierbas y bebidas."
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": "Seca / Ambiente"
+                },
+                "link" : "/productos/bulk-category/bulk-yerba-mate/bulk"
+            },
+            "packaged": {
+                "title": {
+                    "eng": "Traditional Yerba Mate",
+                    "esp": "Yerba Mate Tradicional"
+                },
+                "abstract": {
+                    "eng": "Yerba mate is an infusion made with yerba mate leaves (Ilex paraguariensis), a plant native to the Paraguay and Paraná river basins in South America. Traditional yerba mate is known for its bitter taste due to the tannins in its leaves. In addition, yerba mate is highly beneficial for health, since it contains group B vitamins, has great antioxidant power, produces an energizing effect, and helps reduce bad cholesterol (LDL) and triglycerides.",
+                    "esp": "La yerba mate es una infusión elaborada con hojas de yerba mate (Ilex paraguariensis), una planta originaria de las cuencas de los ríos Paraguay y Paraná en América del Sur. La yerba mate tradicional se caracteriza por su sabor amargo debido a los taninos de sus hojas. Además, la yerba mate es altamente beneficiosa para la salud, ya que contiene vitaminas del grupo B, tiene un gran poder antioxidante, produce un efecto energizante y ayuda a reducir el colesterol malo (LDL) y los triglicéridos."
+                },
+                "name": {
+                    "eng": "Ilex paraguariensis",
+                    "esp": "Ilex paraguariensis"
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": "Argentina"
+                },
+                "size": {
+                    "eng": "Trilaminate package of 1kg and 1/2kg ",
+                    "esp": "Paquete trilaminado de 1kg y 1/2kg"
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": "24 meses"
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": "Infusiones, te de hierbas y bebidas."
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": "Seca / Ambiente"
+                },
+                "link" : "/productos/bulk-category/bulk-yerba-mate/traditional"
+            },
+            "organic": {
+                "title": {
+                    "eng": "Organic Yerba Mate",
+                    "esp": "Yerba Mate Organica"
+                },
+                "abstract": {
+                    "eng": "Organic yerba mate is a kind of natural yerba that is not exposed to insecticides, pesticides or pesticides from the moment it is planted until it is processed. In addition, organic yerba mate is naturally dried, the process of which is not artificially accelerated. This prevents the oxidation of the leaf and therefore reduces its acidifying effect.",
+                    "esp": "La yerba mate orgánica es un tipo de yerba natural que no está expuesta a insecticidas, pesticidas o pesticidas desde que se planta hasta que se procesa. Además, la yerba mate orgánica se seca de forma natural, cuyo proceso no se acelera artificialmente. Esto previene la oxidación de la hoja y por tanto reduce su efecto acidificante."
+                },
+                "name": {
+                    "eng": "Ilex paraguariensis",
+                    "esp": "Ilex paraguariensis"
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": "Argentina"
+                },
+                "size": {
+                    "eng": "Trilaminate package of 1kg and 1/2kg ",
+                    "esp": "Paquete trilaminado de 1kg y 1/2kg"
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": "24 meses"
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": "Infusiones, te de hierbas y bebidas."
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": "Seca / Ambiente"
+                },
+                "link" : "/productos/bulk-category/bulk-yerba-mate/organic"
+            },
+            "europeanQuality": {
+                "title": {
+                    "eng": "European Quality Yerba Mate",
+                    "esp": "Yerba Mate Calidad Europea"
+                },
+                "abstract": {
+                    "eng": "Yerba mate is a very popular drink in Europe and there are high food safety standards and limits set by the European Economic Community regarding the use of pesticides and substances that are harmful to health. Our yerba mate is free of anthraquinone and meets all the conditions determined by the European Economic Community.",
+                    "esp": "La yerba mate es una bebida muy popular en Europa y existen altos estándares de seguridad alimentaria y límites establecidos por la Comunidad Económica Europea en cuanto al uso de pesticidas y sustancias nocivas para la salud. Nuestra yerba mate está libre de antraquinona y cumple con todas las condiciones determinadas por la Comunidad Económica Europea."
+                },
+                "name": {
+                    "eng": "Ilex paraguariensis",
+                    "esp": "Ilex paraguariensis"
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": "Argentina"
+                },
+                "size": {
+                    "eng": "Trilaminate package of 1kg and 1/2kg ",
+                    "esp": "Paquete trilaminado de 1kg y 1/2kg"
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": "24 meses"
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": "Infusiones, te de hierbas y bebidas."
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": "Seca / Ambiente"
+                },
+                "link" : "/productos/bulk-category/bulk-yerba-mate/european-quality"
+            }
+        }
     },
     {
-        "category" : "Bulk Tea",
+        "category": "Bulk Tea",
         "img": "/images/tea.jpg",
-        "link": "/productos/bulk-category/bulk-tea"
+        "link": "/productos/bulk-category/bulk-tea",
+        "products": {
+            "blackTea": {
+                "title": {
+                    "eng": "Black Tea",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Black tea is a tea that is made with the most oxidized leaves of the Camellia sinensis plant. It has an intense flavor and a reddish coloration. Black tea is a stimulating drink, rich in antioxidants and benefits for the heart and brain. Enjoy the black tea alone or with milk, hot or cold, and feel its energy and aroma.",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Camellia sinensis",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "Kraft paper with laminated aluminum interior or polypropylene bags with polyethylene interior from 35 Kg to 60 Kg depending on the grade of tea.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "greenTea": {
+                "title": {
+                    "eng": "Green Tea",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Green tea is a tea that is obtained from the fresh leaves of the Camellia sinensis plant, without subjecting them to an oxidation process. It has a mild flavor and a greenish coloration. Green tea is an antioxidant drink, which helps prevent cancer, aging and cardiovascular diseases. Enjoy green tea alone or with honey, hot or cold, and feel its freshness and benefits.",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Camellia sinensis",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "Kraft paper with laminated aluminum interior or polypropylene bags with polyethylene interior from 35 Kg to 60 Kg depending on the grade of tea.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Infusions, herbal teas and drinks",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            }
+        }
     },
     {
-        "category" : "Bulk Pulses & Oils Seeds",
+        "category": "Bulk Pulses & Oils Seeds",
         "img": "/images/legumbres.jpg",
-        "link": "/productos/bulk-category/bulk-pulses-seeds"
+        "link": "/productos/bulk-category/bulk-pulses-seeds",
+        "products": {
+            "alubiaBeans": {
+                "title": {
+                    "eng": "Alubia Beans",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 160-260 Color: White, bright, polished Quality: Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Phaseolus vulgaris",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "cranberryBeans": {
+                "title": {
+                    "eng": "Cranberry Beans",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 170-210/100 grams Color: Creamy with reddish streaks Quality:  Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Phaseolus vulgaris",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "darkRedKidneyBeans": {
+                "title": {
+                    "eng": "Dark Red Kidney Beans",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 185-240/100 grams Color: Dark red, bright, polished Quality:  Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Phaseolus vulgaris",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "lightRedKidneyBeans": {
+                "title": {
+                    "eng": "Light Red Kidney Beans",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 185-210/100 grams Color: Pink, polished Quality:  Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Phaseolus vulgaris",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "adzukiBeans": {
+                "title": {
+                    "eng": "Adzuki Beans",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 4MM+ Color: Red rubi Quality: 2% max contrasting grains, 3% max. other damage, 0.5% max. matches, 0.25% max. strange bodies Moisture: 13% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Phaseolus vulgaris",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "blackEyeBeans": {
+                "title": {
+                    "eng": "Black Eye Beans",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 480-550/100 Color: Slightly creamy white Quality: 3% max. slightly stained, 1% max. stained, 0.5% max. matches, 0.25% max. strange bodies Moisture: 13% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Phaseolus vulgaris",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "mungBeans": {
+                "title": {
+                    "eng": "Mung Beans",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 3.5MM+ Color: Green, bright, polished Quality: Foreign matter: 0.5%, discolored grains: 2%, stained grains: 1%, split grains: 1%. Moisture: 13% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Phaseolus vulgaris",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "blackBeans": {
+                "title": {
+                    "eng": "Black Beans",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 4MM+ Color: Black, bright, polished Quality: Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Phaseolus vulgaris",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "greenPeas": {
+                "title": {
+                    "eng": "Green Peas",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 5MM+ Color: Typical green Quality: Packing quality (maximum blanching: 3%, damaged grains: 2%, foreign matter: 0.25%) Moisture: 14% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Pisum sativum",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "chickPeas": {
+                "title": {
+                    "eng": "Chickpeas - Conventional and Organic!",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 7MM-8MM-8.5MM-9MM Color: Creamy Quality: Packing quality (damaged grains: 2.5%, foreign matter: 0.25%). Canning quality (damaged grains: 5%, foreign matter: 0.5%). Other uses (damaged grains: 10%, foreign matter: 0.5%). Moisture: 14% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Cicer arietinum",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "popcorn": {
+                "title": {
+                    "eng": "Popcorn Corn",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: K10 65 max. Expansion: 36/38 – 38-40 / 40/42 – 42/44 Color: Bright yellow Quality: Top quality (damaged grains: 1.5%, foreign matter: 0.5%). Standard quality (damaged grains: 3%, foreign matter: 0.5%) Moisture: 14% maximum",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Zea mays everta",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "10/20 kg paper bags - 10/20/50 kg poly-paper bags.",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "chiaSeeds": {
+                "title": {
+                    "eng": "Chia Seeds - Conventional and Organic!",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 1.5mm – 2.0mm Color: Grayish-black Quality: Purity: 99.5% min. Moisture: 3+8% Maximum humidity: 10%",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Salvia hispanica L.",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina & Paraguay",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "20 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "runnerPeanuts": {
+                "title": {
+                    "eng": "Runner Peanuts",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 38/42 40/50 50/60 60/70 70/80 Color: Reddish brown Quality: Stained/discolored grains: 5%, peeled grains: 10%, split grains: 6%, damaged grains: 2%, dirty grains: 3% Moisture: 6.5% – 8.5%.",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Carya illinoinensis",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "Bags x 20 kg / 25 kg. Big Bags x 500 kg",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "pecanInShell": {
+                "title": {
+                    "eng": "Pecan in Shell",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: < 120, 120-140, >140 Mix of varieties (or by variety  subject to availability): Pawnee, Desirable, Mahan, Kernodle, Choctaw, Harris Super, Sumner, Starking, Stuart Defect tolerance: According to USDA standards Moisture: 5% max",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Carya illinoinensis",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "Bags x 20 kg / 25 kg. Big Bags x 500 kg",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "pecanWithout": {
+                "title": {
+                    "eng": "Pecan wihout Shell",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: Fancy Mammoth Halves – Fancy Mammoth Junior Halves Mix of varieties (or by variety subject to availability): Pawnee, Desirable, Mahan, Kernodle, Choctaw, Harris Super, Sumner, Starking, Stuart Defect tolerance: According to USDA standards Moisture: 5% max",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Carya illinoinensis",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "10 kg cardboard boxes (2 bags of 5 kg each x 5 kg vacuum).",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            }
+            
+        }
     },
     {
-        "category" : "Bulk Oils",
+        "category": "Bulk Oils",
         "img": "/images/oil.jpg",
-        "link": "/productos/bulk-category/bulk-oils"
+        "link": "/productos/bulk-category/bulk-oils",
+        "products": {
+            "soyOil": {
+                "title": {
+                    "eng": "Soy oil",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Soy oil is a versatile and healthy vegetable oil extracted from soybean seeds. It is rich in polyunsaturated fats, which support heart and bone health. It also has a high smoke point, making it ideal for frying, baking, and roasting. Try soy oil today and enjoy its benefits and flavor",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Glycine nax",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "900ml, 1000ml, 1500ml, 3000ml and 5000ml",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "12 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, cooking",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "sunflowerOil": {
+                "title": {
+                    "eng": "Sunflower oil",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Sunflower oil is a healthy and versatile oil that comes from the seeds of the sunflower plant. It is rich in vitamin E, a powerful antioxidant that protects your cells from damage. Sunflower oil also contains unsaturated fats that may lower your cholesterol and improve your heart health. Whether you use it for frying, baking, or dressing, sunflower oil adds a mild and nutty flavor to your dishes. Try sunflower oil today and enjoy its benefits and taste!",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Helianthus annuus",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "900ml, 1000ml, 1500ml, 3000ml and 5000ml",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, cooking",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            }
+        }
     },
     {
-        "category" : "Bulk Charcoal",
+        "category": "Bulk Charcoal",
         "img": "/images/carbon.jpg",
-        "link": "/productos/bulk-category/bulk-charcoal"
+        "link": "/productos/bulk-category/bulk-charcoal",
+        "products": {
+            "charcoal": {
+                "title": {
+                    "eng": "Charcoal",
+                    "esp": "Carbón"
+                },
+                "abstract": {
+                    "eng": "It is a natural and ecological product, which is obtained by burning wood in the absence of air. Charcoal is used for roasting, grilling or barbecuing as it gives food a delicious, smoky flavor. The charcoal we offer is of the best quality, made with selected and sun-dried wood, and packaged with recyclable and biodegradable materials. We have a wide range of sizes, from bags of 5 kilograms to 20 kilograms.",
+                    "esp": "es un producto natural y ecológico, que se obtiene al quemar madera en ausencia de aire. El carbón vegetal se usa para hacer asados, parrillas o barbacoas, ya que da un sabor ahumado y delicioso a los alimentos. El carbón vegetal que ofrecemos es de la mejor calidad, elaborado con maderas seleccionadas y secadas al sol, y envasado con materiales reciclables y biodegradables. Contamos con una amplia gama de tamaños, desde bolsas de 5 kilogramos hasta 20 kilogramos."
+                },
+                "name": {
+                    "eng": "Charcolus Operatur",
+                    "esp": "Carbonu Patronum"
+                },
+                "countries": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "",
+                    "esp": ""
+                }
+            }
+        }
     }
 ]

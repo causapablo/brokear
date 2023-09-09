@@ -25,15 +25,7 @@ const Te = () => {
               Tea
             </h4>
             <p className="text-lg lg:pl-40 pt-10 px-5 lg:px-0">
-              In imperdiet at nibh non efficitur. Suspendisse ac pharetra
-              sapien. Vivamus sodales eros vel magna vehicula, at placerat erat
-              cursus. Nam rutrum pellentesque mauris at iaculis. Donec pretium
-              sed diam ac dictum. Proin pretium velit quis ipsum consequat, quis
-              viverra mauris volutpat. Praesent accumsan enim sit amet libero
-              egestas sollicitudin. Fusce ut velit sed turpis scelerisque
-              congue. Aliquam hendrerit aliquet quam in pellentesque. Ut
-              vestibulum neque lacinia eleifend tristique. Mauris quis mauris
-              ligula. Aliquam venenatis dignissim urna sit amet volutpat.
+            Es una bebida milenaria y versátil, que se puede disfrutar en cualquier momento del día. El té tiene propiedades antioxidantes, estimulantes y relajantes, y se puede combinar con diferentes ingredientes para crear sabores únicos. El té que ofrecemos es de origen argentino, seleccionado entre las mejores plantaciones del mundo, y procesado con técnicas de ultima generación.
             </p>
             <Link href="/contacto">
               <button className="bg-red text-white ml-[27%] mt-10 px-1 py-1 rounded-sm font-semibold">

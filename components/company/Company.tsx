@@ -16,8 +16,8 @@ const Company = () => {
                 Searching for high quality ingredients and trusted suppliers is a process that should not be taken lightly
               </h4>
               <p className="font-base text-lg">
-                Sometimes it's a journey that makes you wish you'd gone to the bottom of the ocean instead.
-                It's a journey that has you fighting the same battles in a never ending cycle. We all know that something must change, right? <span className='font-extrabold'>Now it has.</span>
+                Sometimes it s a journey that makes you wish you d gone to the bottom of the ocean instead.
+                It s a journey that has you fighting the same battles in a never ending cycle. We all know that something must change, right? <span className='font-extrabold'>Now it has.</span>
               </p>
             </div>
             <div className='flex flex-col justify-between'>

@@ -274,7 +274,7 @@ const Porque = () => {
                     id="panel2a-header"
                   >
                     <Typography sx={{ fontWeight: "700" }}>
-                      We've got your back, for the long run
+                      We ve got your back, for the long run
                     </Typography>
                   </AccordionSummary>
                   <AccordionDetails>

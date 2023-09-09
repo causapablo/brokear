@@ -25,7 +25,7 @@ function Sidebarblog() {
         <div className='border bg-[#fef0e3] relative pb-5' id='nodoInferior'>
           <Image className='absolute left-1/2 -top-6' src={IconSubscribe} alt='icon' width="48" height="48" />
           <div className='space-y-4 pt-12'>
-            <h1 className='text-center text-xl font-[700]'>Let's Keep in Touch</h1>
+            <h1 className='text-center text-xl font-[700]'>Let s Keep in Touch</h1>
             <p className='text-center px-6 leading-relaxed'>Subscribe for the latest Ingredient Brothers updates and happenings.</p>
             <div className='w-full text-center px-5'>
               <input type="text" className='border border-[#ffd1d1] w-full h-[44px] rounded-sm p-2 focus:border-dashed focus:border-black' placeholder='Your email address...' style={{"textAlign": 'center', "outline": "none"}}/>

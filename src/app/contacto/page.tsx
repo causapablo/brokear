@@ -18,7 +18,7 @@ const Contacto = () => {
     emailjs.send('service_v0i504i', 'template_3qe54lp', data, 'dTwc7sMrSbni_ZCkC')
       .then(function (response) {
         toast.success("Mensaje enviado con éxito");
-        window.location.reload(false)
+        window.location.reload()
       }, function (error) {
         toast.error("Fallo la entrega, probá de vuelta");
       })

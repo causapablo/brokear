@@ -14,11 +14,11 @@ const Detalle = ({title, description, name, countries, size, shelfLife, use, shi
     return (
         <main className="pb-20 bg-gradient-to-b from-lightPink to-white">
           <div className="container mx-auto max-w-[1300px]">
-            <div className="pt-40 lg:pl-20 flex flex-wrap">
+            <div className="pt-10 lg:pl-20 flex flex-wrap">
               <Image
                 src={carbon}
                 alt="img"
-                className="rounded-full border-4 border-black lg:w-[40%]"
+                className="rounded-full border-4 border-black lg:w-[30%]"
               />
     
               <div className="flex-col lg:w-6/12">

@@ -10,8 +10,8 @@ const BulkOils = () => {
           quas quam similique, qui facilis. Illo sit similique omnis numquam
           rem.
         </p>
-        <div className="flex pt-8 pb-20 justify-center flex-wrap">
-          <Link href="/productos/bulk-popcorn">
+        <div className="flex pt-8 pb-20 justify-center flex-wrap gap-8">
+          <Link href="/productos/bulk-category/bulk-oils/soy-oil">
             <div
               className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
               flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
@@ -28,10 +28,10 @@ const BulkOils = () => {
               </p>
             </div>
           </Link>
-          <Link href="/productos/bulk-popcorn">
+          <Link href="/productos/bulk-category/bulk-oils/sunflower-oil">
             <div
               className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
-              flex flex-wrap items-center ml-5 mx-auto cursor-pointer hover:brightness-75"
+              flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
               style={{
                 backgroundImage: `url(/images/oil.jpg)`,
                 aspectRatio: "1",
@@ -45,23 +45,7 @@ const BulkOils = () => {
               </p>
             </div>
           </Link>
-          <Link href="/productos/bulk-popcorn">
-            <div
-              className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
-              flex flex-wrap items-center ml-5 mx-auto cursor-pointer hover:brightness-75"
-              style={{
-                backgroundImage: `url(/images/oil.jpg)`,
-                aspectRatio: "1",
-                backgroundRepeat: "no-repeat",
-                backgroundPositionX: "20%",
-                backgroundPositionY: "35%",
-              }}
-            >
-              <p className="uppercase text-[#bebfc1] font-bold mx-auto brightness-200">
-                learn more
-              </p>
-            </div>
-          </Link>
+
         </div>
       </section>
     </main>

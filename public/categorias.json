@@ -153,69 +153,69 @@
         "products": {
             "blackTea": {
                 "title": {
-                    "eng": "",
+                    "eng": "Black Tea",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Black tea is a tea that is made with the most oxidized leaves of the Camellia sinensis plant. It has an intense flavor and a reddish coloration. Black tea is a stimulating drink, rich in antioxidants and benefits for the heart and brain. Enjoy the black tea alone or with milk, hot or cold, and feel its energy and aroma.",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Camellia sinensis",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "Kraft paper with laminated aluminum interior or polypropylene bags with polyethylene interior from 35 Kg to 60 Kg depending on the grade of tea.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Infusions, herbal teas and drinks",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "greenTea": {
                 "title": {
-                    "eng": "",
+                    "eng": "Green Tea",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Green tea is a tea that is obtained from the fresh leaves of the Camellia sinensis plant, without subjecting them to an oxidation process. It has a mild flavor and a greenish coloration. Green tea is an antioxidant drink, which helps prevent cancer, aging and cardiovascular diseases. Enjoy green tea alone or with honey, hot or cold, and feel its freshness and benefits.",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Camellia sinensis",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "Kraft paper with laminated aluminum interior or polypropylene bags with polyethylene interior from 35 Kg to 60 Kg depending on the grade of tea.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Infusions, herbal teas and drinks",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             }
@@ -228,511 +228,511 @@
         "products": {
             "alubiaBeans": {
                 "title": {
-                    "eng": "",
+                    "eng": "Alubia Beans",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 160-260 Color: White, bright, polished Quality: Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Phaseolus vulgaris",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "cranberryBeans": {
                 "title": {
-                    "eng": "",
+                    "eng": "Cranberry Beans",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 170-210/100 grams Color: Creamy with reddish streaks Quality:  Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Phaseolus vulgaris",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "darkRedKidneyBeans": {
                 "title": {
-                    "eng": "",
+                    "eng": "Dark Red Kidney Beans",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 185-240/100 grams Color: Dark red, bright, polished Quality:  Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Phaseolus vulgaris",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "lightRedKidneyBeans": {
                 "title": {
-                    "eng": "",
+                    "eng": "Light Red Kidney Beans",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 185-210/100 grams Color: Pink, polished Quality:  Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Phaseolus vulgaris",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "adzukiBeans": {
                 "title": {
-                    "eng": "",
+                    "eng": "Adzuki Beans",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 4MM+ Color: Red rubi Quality: 2% max contrasting grains, 3% max. other damage, 0.5% max. matches, 0.25% max. strange bodies Moisture: 13% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Phaseolus vulgaris",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "blackEyeBeans": {
                 "title": {
-                    "eng": "",
+                    "eng": "Black Eye Beans",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 480-550/100 Color: Slightly creamy white Quality: 3% max. slightly stained, 1% max. stained, 0.5% max. matches, 0.25% max. strange bodies Moisture: 13% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Phaseolus vulgaris",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "mungBeans": {
                 "title": {
-                    "eng": "",
+                    "eng": "Mung Beans",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 3.5MM+ Color: Green, bright, polished Quality: Foreign matter: 0.5%, discolored grains: 2%, stained grains: 1%, split grains: 1%. Moisture: 13% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Phaseolus vulgaris",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "blackBeans": {
                 "title": {
-                    "eng": "",
+                    "eng": "Black Beans",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 4MM+ Color: Black, bright, polished Quality: Foreign matter: 1%, stained grains: 1%, slightly stained grains: 3% Moisture: 15% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Phaseolus vulgaris",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "greenPeas": {
                 "title": {
-                    "eng": "",
+                    "eng": "Green Peas",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 5MM+ Color: Typical green Quality: Packing quality (maximum blanching: 3%, damaged grains: 2%, foreign matter: 0.25%) Moisture: 14% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Pisum sativum",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "chickPeas": {
                 "title": {
-                    "eng": "",
+                    "eng": "Chickpeas - Conventional and Organic!",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 7MM-8MM-8.5MM-9MM Color: Creamy Quality: Packing quality (damaged grains: 2.5%, foreign matter: 0.25%). Canning quality (damaged grains: 5%, foreign matter: 0.5%). Other uses (damaged grains: 10%, foreign matter: 0.5%). Moisture: 14% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Cicer arietinum",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "25 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "popcorn": {
                 "title": {
-                    "eng": "",
+                    "eng": "Popcorn Corn",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: K10 65 max. Expansion: 36/38 – 38-40 / 40/42 – 42/44 Color: Bright yellow Quality: Top quality (damaged grains: 1.5%, foreign matter: 0.5%). Standard quality (damaged grains: 3%, foreign matter: 0.5%) Moisture: 14% maximum",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Zea mays everta",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "10/20 kg paper bags - 10/20/50 kg poly-paper bags.",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                }
+            },
+            "chiaSeeds": {
+                "title": {
+                    "eng": "Chia Seeds - Conventional and Organic!",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Size: 1.5mm – 2.0mm Color: Grayish-black Quality: Purity: 99.5% min. Moisture: 3+8% Maximum humidity: 10%",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Salvia hispanica L.",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina & Paraguay",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "20 kg bag / 50 kg bag / 50 lb bag / 100 lb bag / 1000 kg large bags",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "36 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, desserts, beverages",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "runnerPeanuts": {
                 "title": {
-                    "eng": "",
+                    "eng": "Runner Peanuts",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: 38/42 40/50 50/60 60/70 70/80 Color: Reddish brown Quality: Stained/discolored grains: 5%, peeled grains: 10%, split grains: 6%, damaged grains: 2%, dirty grains: 3% Moisture: 6.5% – 8.5%.",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Carya illinoinensis",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "Bags x 20 kg / 25 kg. Big Bags x 500 kg",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "pecanInShell": {
                 "title": {
-                    "eng": "",
+                    "eng": "Pecan in Shell",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: < 120, 120-140, >140 Mix of varieties (or by variety  subject to availability): Pawnee, Desirable, Mahan, Kernodle, Choctaw, Harris Super, Sumner, Starking, Stuart Defect tolerance: According to USDA standards Moisture: 5% max",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Carya illinoinensis",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "Bags x 20 kg / 25 kg. Big Bags x 500 kg",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "pecanWithout": {
                 "title": {
-                    "eng": "",
+                    "eng": "Pecan wihout Shell",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Size: Fancy Mammoth Halves – Fancy Mammoth Junior Halves Mix of varieties (or by variety subject to availability): Pawnee, Desirable, Mahan, Kernodle, Choctaw, Harris Super, Sumner, Starking, Stuart Defect tolerance: According to USDA standards Moisture: 5% max",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Carya illinoinensis",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "10 kg cardboard boxes (2 bags of 5 kg each x 5 kg vacuum).",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "36 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, desserts, beverages",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
-                    "esp": ""
-                }
-            },
-            "organic": {
-                "title": {
-                    "eng": "",
-                    "esp": ""
-                },
-                "abstract": {
-                    "eng": "",
-                    "esp": ""
-                },
-                "name": {
-                    "eng": "",
-                    "esp": ""
-                },
-                "countries": {
-                    "eng": "",
-                    "esp": ""
-                },
-                "size": {
-                    "eng": "",
-                    "esp": ""
-                },
-                "shelfLife": {
-                    "eng": "",
-                    "esp": ""
-                },
-                "use": {
-                    "eng": "",
-                    "esp": ""
-                },
-                "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             }
@@ -746,69 +746,69 @@
         "products": {
             "soyOil": {
                 "title": {
-                    "eng": "",
+                    "eng": "Soy oil",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Soy oil is a versatile and healthy vegetable oil extracted from soybean seeds. It is rich in polyunsaturated fats, which support heart and bone health. It also has a high smoke point, making it ideal for frying, baking, and roasting. Try soy oil today and enjoy its benefits and flavor",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Glycine nax",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "900ml, 1000ml, 1500ml, 3000ml and 5000ml",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "12 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, cooking",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             },
             "sunflowerOil": {
                 "title": {
-                    "eng": "",
+                    "eng": "Sunflower oil",
                     "esp": ""
                 },
                 "abstract": {
-                    "eng": "",
+                    "eng": "Sunflower oil is a healthy and versatile oil that comes from the seeds of the sunflower plant. It is rich in vitamin E, a powerful antioxidant that protects your cells from damage. Sunflower oil also contains unsaturated fats that may lower your cholesterol and improve your heart health. Whether you use it for frying, baking, or dressing, sunflower oil adds a mild and nutty flavor to your dishes. Try sunflower oil today and enjoy its benefits and taste!",
                     "esp": ""
                 },
                 "name": {
-                    "eng": "",
+                    "eng": "Helianthus annuus",
                     "esp": ""
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "900ml, 1000ml, 1500ml, 3000ml and 5000ml",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "24 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Meals, cooking",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
                 }
             }

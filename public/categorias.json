@@ -1,8 +1,8 @@
 [
     {
-        "category": "Bulk Yerba Mate",
+        "category": "Yerba Mate",
         "img": "/images/yerba.png",
-        "link": "/productos/bulk-category/bulk-yerba-mate",
+        "link": "/products/bulk-category/bulk-yerba-mate",
         "products": {
             "bulk": {
                 "title": {
@@ -37,7 +37,7 @@
                     "eng": "Dry / Ambient",
                     "esp": "Seca / Ambiente"
                 },
-                "link" : "/productos/bulk-category/bulk-yerba-mate/bulk"
+                "link" : "/products/bulk-category/bulk-yerba-mate/bulk"
             },
             "packaged": {
                 "title": {
@@ -72,7 +72,7 @@
                     "eng": "Dry / Ambient",
                     "esp": "Seca / Ambiente"
                 },
-                "link" : "/productos/bulk-category/bulk-yerba-mate/traditional"
+                "link" : "/products/bulk-category/bulk-yerba-mate/traditional"
             },
             "organic": {
                 "title": {
@@ -107,7 +107,7 @@
                     "eng": "Dry / Ambient",
                     "esp": "Seca / Ambiente"
                 },
-                "link" : "/productos/bulk-category/bulk-yerba-mate/organic"
+                "link" : "/products/bulk-category/bulk-yerba-mate/organic"
             },
             "europeanQuality": {
                 "title": {
@@ -142,14 +142,14 @@
                     "eng": "Dry / Ambient",
                     "esp": "Seca / Ambiente"
                 },
-                "link" : "/productos/bulk-category/bulk-yerba-mate/european-quality"
+                "link" : "/products/bulk-category/bulk-yerba-mate/european-quality"
             }
         }
     },
     {
-        "category": "Bulk Tea",
+        "category": "Tea",
         "img": "/images/tea.jpg",
-        "link": "/productos/bulk-category/bulk-tea",
+        "link": "/products/bulk-category/bulk-tea",
         "products": {
             "blackTea": {
                 "title": {
@@ -183,7 +183,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link" : "/products/bulk-category/bulk-tea/blak-tea"
             },
             "greenTea": {
                 "title": {
@@ -217,14 +218,15 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link" : "/products/bulk-category/bulk-tea/green-tea"
             }
         }
     },
     {
-        "category": "Bulk Pulses & Oils Seeds",
+        "category": "Pulses & Oils Seeds",
         "img": "/images/legumbres.jpg",
-        "link": "/productos/bulk-category/bulk-pulses-seeds",
+        "link": "/products/bulk-category/bulk-pulses-seeds",
         "products": {
             "alubiaBeans": {
                 "title": {
@@ -258,7 +260,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/alubia-beans"
             },
             "cranberryBeans": {
                 "title": {
@@ -292,7 +295,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/cranberry-beans"
             },
             "darkRedKidneyBeans": {
                 "title": {
@@ -326,7 +330,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/dark-red-kidney-beans"
             },
             "lightRedKidneyBeans": {
                 "title": {
@@ -360,7 +365,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/light-red-kidney-beans"
             },
             "adzukiBeans": {
                 "title": {
@@ -394,7 +400,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/adzuki-beans"
             },
             "blackEyeBeans": {
                 "title": {
@@ -428,7 +435,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/black-eye-beans"
             },
             "mungBeans": {
                 "title": {
@@ -462,7 +470,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/mung-beans"
             },
             "blackBeans": {
                 "title": {
@@ -496,7 +505,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/black-beans"
             },
             "greenPeas": {
                 "title": {
@@ -530,7 +540,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/adzuki-beans"
             },
             "chickPeas": {
                 "title": {
@@ -564,7 +575,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/chick-peas"
             },
             "popcorn": {
                 "title": {
@@ -598,7 +610,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/popcorn"
             },
             "chiaSeeds": {
                 "title": {
@@ -632,7 +645,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/chia-seeds"
             },
             "runnerPeanuts": {
                 "title": {
@@ -666,7 +680,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/runner-peanuts"
             },
             "pecanInShell": {
                 "title": {
@@ -700,7 +715,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/pecan-in-shell"
             },
             "pecanWithout": {
                 "title": {
@@ -734,15 +750,16 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-pulses-seeds/pecan-without-shell"
             }
             
         }
     },
     {
-        "category": "Bulk Oils",
+        "category": "Oils",
         "img": "/images/oil.jpg",
-        "link": "/productos/bulk-category/bulk-oils",
+        "link": "/products/bulk-category/bulk-oils",
         "products": {
             "soyOil": {
                 "title": {
@@ -776,7 +793,8 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-oils/soy-oil"
             },
             "sunflowerOil": {
                 "title": {
@@ -810,48 +828,51 @@
                 "shippingStorage": {
                     "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-oils/sunflower-oil"
             }
         }
     },
     {
-        "category": "Bulk Charcoal",
+        "category": "Charcoal",
         "img": "/images/carbon.jpg",
-        "link": "/productos/bulk-category/bulk-charcoal",
+        "link": "/products/bulk-category/bulk-charcoal",
         "products": {
             "charcoal": {
                 "title": {
-                    "eng": "Charcoal",
+                    "eng": "Vegetal Charcoal",
                     "esp": "Carbón"
                 },
                 "abstract": {
-                    "eng": "It is a natural and ecological product, which is obtained by burning wood in the absence of air. Charcoal is used for roasting, grilling or barbecuing as it gives food a delicious, smoky flavor. The charcoal we offer is of the best quality, made with selected and sun-dried wood, and packaged with recyclable and biodegradable materials. We have a wide range of sizes, from bags of 5 kilograms to 20 kilograms.",
+                    "eng": "Are you looking for a natural and eco-friendly way to grill your food? Try our vegetal charcoal, made from 100% organic plant materials. It burns longer, cleaner, and hotter than regular charcoal, giving your food a delicious smoky flavor. Order now and get a free bag of fire starters!",
                     "esp": "es un producto natural y ecológico, que se obtiene al quemar madera en ausencia de aire. El carbón vegetal se usa para hacer asados, parrillas o barbacoas, ya que da un sabor ahumado y delicioso a los alimentos. El carbón vegetal que ofrecemos es de la mejor calidad, elaborado con maderas seleccionadas y secadas al sol, y envasado con materiales reciclables y biodegradables. Contamos con una amplia gama de tamaños, desde bolsas de 5 kilogramos hasta 20 kilogramos."
                 },
                 "name": {
-                    "eng": "Charcolus Operatur",
+                    "eng": "Vegetal Charcoal",
                     "esp": "Carbonu Patronum"
                 },
                 "countries": {
-                    "eng": "",
+                    "eng": "Argentina and Paraguay",
                     "esp": ""
                 },
                 "size": {
-                    "eng": "",
+                    "eng": "4kgs, 5kgs, 15kgs and 20 kgs",
                     "esp": ""
                 },
                 "shelfLife": {
-                    "eng": "",
+                    "eng": "24 months",
                     "esp": ""
                 },
                 "use": {
-                    "eng": "",
+                    "eng": "Cooking  and grilling",
                     "esp": ""
                 },
                 "shippingStorage": {
-                    "eng": "",
+                    "eng": "Dry / Ambient",
                     "esp": ""
-                }
+                },
+                "link": "/products/bulk-category/bulk-charcoal/charcoal"
+
             }
         }
     }

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex gap-20 ">
           <div className="flex flex-col basis-1/4 h-fit">
             <div className="">
-              <h4 className="bg-red text-white text-center text-lg font-semibold w-fit mx-auto px-4 font-Dancing">
+              <h4 className="bg-red text-white text-center text-lg font-normal w-fit mx-auto px-4 font-Dancing">
                 Company
               </h4>
             </div>
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col basis-1/2 h-fit">
             <div className="col-span-5">
-              <h4 className="bg-red text-white text-center text-lg font-semibold w-fit mx-auto px-4 font-Dancing">
+              <h4 className="bg-red text-white text-center text-lg font-light w-fit mx-auto px-4 font-Dancing">
                 Products
               </h4>
             </div>
@@ -94,7 +94,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col basis-1/4">
             <div className="col-span-5">
-              <h4 className="bg-red text-white text-center text-lg font-semibold w-fit mx-auto px-4 font-Dancing">
+              <h4 className="bg-red text-white text-center text-lg font-normal w-fit mx-auto px-4 font-Dancing">
                 Get in touch!
               </h4>
             </div>

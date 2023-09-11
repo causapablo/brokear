@@ -13,7 +13,7 @@ const Company = () => {
           <div className='grid grid-cols-2 gap-16'>
             <div>
               <h4 className="font-bold text-2xl mb-4">
-                Searching for high quality ingredients and trusted suppliers is a process that shouldn't be taken lightly
+                Searching for high quality ingredients and trusted suppliers is a process that shouldnt be taken lightly
               </h4>
               <p className="font-base text-lg font-Grotesk" >
                 Sometimes it s a journey that makes you wish you d gone to the bottom of the ocean instead.

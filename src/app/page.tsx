@@ -18,8 +18,8 @@ export default function Home() {
       <ScheduleCall/>
       <Products/>
       <SecondWave/>
-      <ScheduleCall/>
-      <Articles/>
+      {/* <ScheduleCall/>
+      <Articles/> */}
       
     </main>
   )

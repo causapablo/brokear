@@ -4,7 +4,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from "react";
 import productos from "../../public/categorias.json";
 import Image from "next/image";
-import MainLogo from '../../public/images/MainLogo.png';
+import MainLogo from '../../public/images/LogoHorizontal.png';
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,7 @@ function NavBar() {
         <div className="container mx-auto flex justify-between h-16 bg-white max-w-[1300px]">
           <div className="flex items-center cursor-pointer">
             <Link href="/">
-              <Image src={MainLogo} alt="MainLogo" width="48" height="48"/>
+              <Image src={MainLogo} alt="MainLogo" width="200" height="48"/>
             </Link>
           </div>
           <ul className="flex items-center gap-12 text-black font-serif text-[17px]">
@@ -28,7 +28,7 @@ function NavBar() {
                 setIsOpen((prev) => !prev);
               }}
             >
-              <Link href='/productos'>
+              <Link href='/products'>
                 <button className="flex items-center py-3 active:text-red hover:text-red">
                   Products
                   <RiArrowDropDownLine className="font-extrabold text-3xl" />
@@ -51,14 +51,14 @@ function NavBar() {
                 </div>
               )}
             </li>
-            <Link href='/nosotros'>
+            <Link href='/about'>
               <li className="cursor-pointer">About Us</li>
             </Link>
-            <Link href="por-que">
+            <Link href="why-us">
               <li className="cursor-pointer">Why Us</li>
             </Link>
             <li className="cursor-pointer">Blog</li>
-            <Link href="/contacto">
+            <Link href="/contact">
               <li className="cursor-pointer active:text-red">Contact</li>
             </Link>
           </ul>

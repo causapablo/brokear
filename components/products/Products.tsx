@@ -9,7 +9,7 @@ const Products = () => {
       <div className="container mx-auto max-w-[1300px] py-16">
         <div className="flex">
           <div className="basis-1/2">
-            <h4 className="bg-red text-white uppercase text-sm lg:text-lg w-fit mx-auto px-1">
+            <h4 className="bg-red text-white uppercase text-sm lg:text-lg w-fit mx-auto px-1 font-Dancing">
               Featured Products
             </h4>
           </div>
@@ -22,7 +22,7 @@ const Products = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center gap-20 pt-11 pb-20">
+        <div className="flex flex-wrap justify-center pt-11 pb-20">
           {
             prod.map((p, i) => (
               <ProductsLanding cat={p.product} img={p.img} link={p.link} key={i} />
@@ -31,7 +31,7 @@ const Products = () => {
         </div>
         <div className="flex">
           <div className="basis-1/2">
-            <h4 className="bg-red text-white uppercase text-sm lg:text-lg w-fit mx-auto px-1">
+            <h4 className="bg-red text-white uppercase text-sm lg:text-lg w-fit mx-auto px-1 font-Dancing">
               Featured Categories
             </h4>
           </div>
@@ -46,10 +46,10 @@ const Products = () => {
         </div>
       
       <div className="lg:flex lg:flex-row flex-col justify-center pt-10 pl-14 lg:pl-0">
-        <p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 py-1">Yerba Mate & Tea</p>
-        <p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Nuts & Seeds</p>
-        <p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Plant Based Protein</p>
-        <p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Organic</p>
+        <Link href='/products/bulk-category/bulk-yerba-mate'><p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 py-1">Yerba Mate</p></Link>
+        <Link href="/products/bulk-category/bulk-tea"><p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Tea</p></Link>
+        <Link href="/products/bulk-category/bulk-pulses-seeds"><p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Pulses & Oil Seeds</p></Link>
+        <Link href="/products/bulk-category/bulk-oils"><p className="border border-red text-red hover:text-lightRed cursor-pointer font-medium mr-3 rounded text-center w-56 h-8 mt-5 lg:mt-0 py-1">Oils</p></Link>
       </div>      
       </div>
     </section>

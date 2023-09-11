@@ -1,15 +1,16 @@
 import Link from "next/link";
 
 
-const ProductsLanding = ({cat, img, link}: any) => {
+const ProductsLanding = ({ cat, img, link }: any) => {
     return (
-        <div className=''>
+        <div className='bg-origin-border 
+        rounded-full border-[3px] border-black w-[305px] h-[305px] 
+        flex flex-wrap items-center mx-auto cursor-pointer relative justify-center'>
             <Link href={link}>
                 <div
-                    className="hover:-translate-y-1 hover:scale-110 hover:brightness-75 duration-300 bg-origin-border 
-                    rounded-full border-4 border-black w-60 h-60 flex flex-wrap items-center mx-auto cursor-pointer"
+                    className="absolute rounded-full left-0 top-0 w-full h-auto brightness-75 hover:brightness-50"
                     style={{
-                        
+
                         backgroundImage: `url(${img})`,
                         aspectRatio: "1",
                         backgroundRepeat: "no-repeat",
@@ -17,13 +18,17 @@ const ProductsLanding = ({cat, img, link}: any) => {
                         backgroundPositionY: "40%",
                     }}
                 >
-                    <p className="uppercase text-[#D8D9DA] font-bold mx-auto brightness-200">
+
+                </div>
+                <div className="">
+                    <p className="uppercase text-[#D8D9DA] font-bold brightness-200">
                         {cat}
                     </p>
                 </div>
+
             </Link>
         </div>
     );
 }
- 
+
 export default ProductsLanding;

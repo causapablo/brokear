@@ -28,7 +28,7 @@ module.exports = {
 
     },
     fontFamily: {
-      Fitgree: ['Figtree', 'sans-serif'],
+      Figtree: ['Figtree', 'sans-serif'],
       Poppins: ['Poppins', 'sans-serif'],
       Grotesk : ['Space Grotesk', 'sans-serif'],
       Dancing : ['Dancing Script', 'cursive']

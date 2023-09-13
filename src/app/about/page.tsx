@@ -122,7 +122,7 @@ const Nosotros = () => {
         <div className="bg-gradient-to-b from-peach via-white to-[#fff5f5] pb-14">
           <div className="container mx-auto max-w-[1300px]">
             <div id="header" className="pb-14">
-              <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing">
+              <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing py-1 px-2">
                 better together
               </h4>
               <p className="text-2xl w-fit mx-auto font-bold">

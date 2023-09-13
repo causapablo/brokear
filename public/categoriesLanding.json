@@ -2,22 +2,21 @@
     {
         "product": "Yerba mate",
         "img": "/images/yerba3.jpg",
-        "link": "/productos/bulk-yerba"
+        "link": "/products/bulk-category/bulk-yerba-mate/bulk"
     },
     {
         "product": "Tea",
         "img": "/images/te2.jpg",
-        "link": "productos/bulk-tea"
+        "link": "/products/bulk-category/bulk-tea/green-tea"
     },
     {
         "product": "Popcorn",
         "img": "/images/popcorn2.jpg",
-        "link": "productos/bulk-popcorn"
+        "link": "/products/bulk-category/bulk-pulses-seeds/popcorn"
     },
     {
         "product": "Peanut",
         "img": "/images/peanuts.jpg",
-        "link": "productos/bulk-peanut"
+        "link": "/products/bulk-category/bulk-pulses-seeds/runner-peanuts"
     }
-
 ]

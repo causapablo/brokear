@@ -12,7 +12,7 @@ const BulkYerbaMate = () => {
           rem.
         </p>
         <div className="flex pt-8 pb-20 justify-center flex-wrap gap-8">
-          <Link href="/productos/bulk-category/bulk-yerba-mate/bulk">
+          <Link href="/products/bulk-category/bulk-yerba-mate/bulk">
             <div
               className=" bg-origin-border rounded-full 
                             border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
@@ -29,7 +29,7 @@ const BulkYerbaMate = () => {
               </p>
             </div>
           </Link>
-          <Link href="/productos/bulk-category/bulk-yerba-mate/traditional">
+          <Link href="/products/bulk-category/bulk-yerba-mate/traditional">
             <div
               className=" bg-origin-border rounded-full 
                         border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
@@ -46,7 +46,7 @@ const BulkYerbaMate = () => {
               </p>
             </div>
           </Link>
-          <Link href="/productos/bulk-category/bulk-yerba-mate/organic">
+          <Link href="/products/bulk-category/bulk-yerba-mate/organic">
             <div
               className=" bg-origin-border rounded-full 
                         border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
@@ -63,7 +63,7 @@ const BulkYerbaMate = () => {
               </p>
             </div>
           </Link>
-          <Link href="/productos/bulk-category/bulk-yerba-mate/european-quality">
+          <Link href="/products/bulk-category/bulk-yerba-mate/european-quality">
             <div
               className=" bg-origin-border rounded-full 
                         border-4 border-black w-72 h-72 flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"

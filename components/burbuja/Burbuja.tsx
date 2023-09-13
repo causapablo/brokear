@@ -5,10 +5,10 @@ function Burbuja({ imagen, etiqueta, link }: any) {
     return (
         <div className='bg-origin-border 
         rounded-full border-[3px] border-black w-[305px] h-[305px] 
-        flex flex-wrap items-center mx-auto cursor-pointer relative justify-center'>
+        flex flex-wrap items-center mx-auto cursor-pointer relative justify-center group'>
             <Link href={link}>
                 <div
-                    className="absolute rounded-full left-0 top-0 w-full h-auto brightness-75 hover:brightness-50"
+                    className="absolute rounded-full left-0 top-0 w-full h-auto brightness-75 group-hover:brightness-50"
                     style={{
 
                         backgroundImage: `url(${imagen})`,
@@ -21,7 +21,7 @@ function Burbuja({ imagen, etiqueta, link }: any) {
 
                 </div>
                 <div>
-                    <p className="uppercase text-[#D8D9DA] font-bold brightness-200">
+                    <p className="uppercase text-[#D8D9DA] font-bold brightness-100 group-hover:brightness-200">
                         {etiqueta}
                     </p>
                 </div>

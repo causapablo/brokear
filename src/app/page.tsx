@@ -14,7 +14,6 @@ export default function Home() {
   return (
       <TranslationProvider>
     <main className=''>
-
       <Welcome/>
       <Company/>
       <ScheduleCall/>
@@ -22,7 +21,6 @@ export default function Home() {
       <SecondWave/>
       <ScheduleCall/>
       <Articles/>
-      
     </main>
       </TranslationProvider>
   )

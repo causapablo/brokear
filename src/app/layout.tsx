@@ -1,4 +1,4 @@
-'use client'
+
 
 import NavBar from '../../components/navbar/NavBar'
 import Footer from '../../components/footer/Footer'
@@ -21,11 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-      <TranslationProvider>
+      {/* <TranslationProvider> */}
       <NavBar/>
         {children}
         <Footer/>
-      </TranslationProvider>
+      {/* </TranslationProvider> */}
       </body>
     </html>
   )

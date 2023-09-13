@@ -57,7 +57,7 @@ function NavBar() {
             <Link href="why-us">
               <li className="cursor-pointer">Why Us</li>
             </Link>
-            <li className="cursor-pointer">Blog</li>
+            {/* <li className="cursor-pointer">Blog</li> */}
             <Link href="/contact">
               <li className="cursor-pointer active:text-red">Contact</li>
             </Link>

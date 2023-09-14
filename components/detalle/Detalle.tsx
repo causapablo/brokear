@@ -19,7 +19,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
   const [, products, bulkCategory, bulkProduct, product] = pathName?.split('/');
   let Products = products?.charAt(0).toUpperCase() + products?.slice(1);
   let BulkProduct = bulkProduct?.charAt(0).toUpperCase() + bulkProduct?.slice(1);
-  BulkProduct = BulkProduct?.replaceAll("-", " ");
+  BulkProduct = BulkProduct.replaceAll("-", " ");
 
 
   return (

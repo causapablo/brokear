@@ -16,9 +16,9 @@ import Burbuja from "../burbuja/Burbuja";
 const Detalle = ({ title, description, name, countries, size, shelfLife, use, shippingStorage }: any) => {
 
   const pathName = usePathname()
-  const [, products, bulkCategory, bulkProduct, product] = pathName.split('/');
-  let Products = products?.charAt(0).toUpperCase() + products.slice(1);
-  let BulkProduct = bulkProduct?.charAt(0).toUpperCase() + bulkProduct.slice(1);
+  const [, products, bulkCategory, bulkProduct, product] = pathName?.split('/');
+  let Products = products?.charAt(0).toUpperCase() + products?.slice(1);
+  let BulkProduct = bulkProduct?.charAt(0).toUpperCase() + bulkProduct?.slice(1);
   BulkProduct = BulkProduct?.replaceAll("-", " ");
 
 

@@ -1,15 +1,12 @@
 "use client"
 import Image from "next/image";
-import crbn from '../../public/images/carbon.jpg'
 import carbon from "../../public/images/carbon.jpg";
 import icon from "../../public/images/icon.png";
 import Link from "next/link";
 import TableBulk from "../tableBulk/TableBulk";
 import Faq from "../faq/Faq";
 import { usePathname } from 'next/navigation'
-import { GiCheckMark } from "react-icons/gi";
 import React from "react";
-import path from "path";
 import { TbMathGreater } from 'react-icons/tb';
 import Burbuja from "../burbuja/Burbuja";
 

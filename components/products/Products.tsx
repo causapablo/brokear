@@ -22,7 +22,7 @@ const Products = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center pt-11 pb-20">
+        <div className="flex flex-wrap  justify-center pt-11 pb-20">
           {
             prod.map((p, i) => (
               <ProductsLanding cat={p.product} img={p.img} link={p.link} key={i} />

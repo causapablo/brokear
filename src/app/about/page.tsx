@@ -16,7 +16,7 @@ const Nosotros = () => {
     <section>
       <div className="bg-gradient-to-b from-lightPink to-white" id="main">
         <div className="container mx-auto max-w-[1300px] pt-32 pb-12">
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="">
               <Image src={hoja} alt="img" className="" />
             </div>
@@ -54,12 +54,12 @@ const Nosotros = () => {
           <h4 className="bg-red px-2 py-1 text-white text-base uppercase w-fit text-center font-normal font-Dancing">
             Our Leadership
           </h4>
-          <div className="grid grid-cols-2 gap-24">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
             <div>
-              <h4 className="text-justify font-bold text-[30px]">
+              <h4 className="text-justify font-bold text-[30px] pt-2 px-2 lg:px-0">
                 The start of something truly exceptional.
               </h4>
-              <p className="font-base text-lg">
+              <p className="font-base text-lg pt-2 px-2 lg:px-0">
                 As COO of Nuts.com, Eran watched as vendors changed up pricing,
                 quality, and lead times on a whim. With so much at stake, he
                 knew there had to be a better way. He partnered with fellow
@@ -69,11 +69,11 @@ const Nosotros = () => {
             </div>
             <div>
               <div className="flex flex-col justify-between h-full">
-                <h4 className="text-xl">
+                <h4 className="text-xl px-2 lg:px-0">
                   Now they’re on a mission to create the supplier they always
                   dreamed of finding.
                 </h4>
-                <p className="text-xl">
+                <p className="text-xl px-2 lg:px-0">
                   We work closely with our clients to design a supply chain that
                   makes sense for their business. We bring years of experience to
                   find the best deal for your company. More about us and what

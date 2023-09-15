@@ -8,12 +8,12 @@ import MainLogo from '../../public/images/LogoHorizontal.png';
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-  const { lang, setLang } = useTranslation();
+  // const { lang, setLang } = useTranslation();
 
-  const handleLanguageChange = (e) => {
-    const selectedLang = e.target.value;
-    setLang(selectedLang);
-  };
+  // const handleLanguageChange = (e) => {
+  //   const selectedLang = e.target.value;
+  //   setLang(selectedLang);
+  // };
 
   return (
     
@@ -68,10 +68,10 @@ function NavBar() {
             <Link href="/contact">
               <li className="cursor-pointer active:text-red">Contact</li>
             </Link>
-            <select value={lang} onChange={handleLanguageChange}>
+            {/* <select value={lang} onChange={handleLanguageChange}>
       <option value="es">Español</option>
       <option value="en">English</option>
-    </select>
+    </select> */}
           </ul>
         </div>
       </div>

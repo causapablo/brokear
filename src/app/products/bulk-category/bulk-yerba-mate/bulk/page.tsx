@@ -6,8 +6,8 @@ function Bulk() {
     
   return (
     <div>
-      <Detalle title={bulk?.title.eng} description={bulk?.abstract.eng} name={bulk?.name.eng} countries={bulk?.countries.eng}
-        size={bulk?.size.eng} shelfLife={bulk?.shelfLife.eng} use={bulk?.use.eng} shippingStorage={bulk?.shippingStorage.eng} />
+      <Detalle title={bulk?.title.eng} description={bulk?.abstract.eng} name={bulk?.name.eng} countries={bulk?.countries.eng} link = {bulk?.link}
+        size={bulk?.size.eng} shelfLife={bulk?.shelfLife.eng} use={bulk?.use.eng} shippingStorage={bulk?.shippingStorage.eng} imagen = {bulk?.imagen}  />
     </div>
   )
 }

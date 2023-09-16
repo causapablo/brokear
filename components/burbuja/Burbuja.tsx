@@ -21,7 +21,7 @@ function Burbuja({ imagen, etiqueta, link }: any) {
 
                 </div>
                 <div>
-                    <p className="uppercase text-[#D8D9DA] font-bold brightness-100 group-hover:brightness-200">
+                    <p className="uppercase text-[#D8D9DA] font-bold brightness-200 group-hover:brightness-200">
                         {etiqueta}
                     </p>
                 </div>

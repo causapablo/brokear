@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import carbon from "../../public/images/carbon.jpg";
+import categorias from '../../public/categorias.json'
 import icon from "../../public/images/icon.png";
 import Link from "next/link";
 import TableBulk from "../tableBulk/TableBulk";
@@ -10,10 +10,10 @@ import React from "react";
 import { TbMathGreater } from 'react-icons/tb';
 import Burbuja from "../burbuja/Burbuja";
 
-const Detalle = ({ title, description, name, countries, size, shelfLife, use, shippingStorage }: any) => {
+const Detalle = ({ title, description, name, countries, size, shelfLife, use, shippingStorage, imagen, link }: any) => {
 
-  const pathName = usePathname()
-  const [, products, bulkCategory, bulkProduct, product] = pathName?.split('/');
+  
+  const [, products, bulkCategory, bulkProduct, product] = link.split('/');
   let Products = products?.charAt(0).toUpperCase() + products?.slice(1);
   let BulkProduct = bulkProduct?.charAt(0).toUpperCase() + bulkProduct?.slice(1);
   BulkProduct = BulkProduct.replaceAll("-", " ");
@@ -31,12 +31,14 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
             <Link href={`/${products}/${bulkCategory}/${bulkProduct}`} className="text-red text-sm font-semibold hover:underline underline-offset-1">{BulkProduct}</Link>
           </div>
           <div id="product">
-            <div className="grid grid-cols-2 gap-16">
+            <div className="grid grid-cols-2 gap-8">
               <div id="img" className="flex justify-center items-center">
                 <Image
-                  src={carbon}
+                  src={imagen}
                   alt="img"
-                  className="border-4 border-black rounded-full h-[414px] w-[414px]"
+                  width={500}
+                  height={500}
+                  className="border-4 border-black rounded-full h-[500px] w-[500px]"
                 />
               </div>
               <div id="text" className="flex flex-col justify-between">

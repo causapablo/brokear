@@ -109,7 +109,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center text-white text-[12px]">
+        <div className="flex justify-center text-white text-[12px] pt-14">
           <p>© 2023 · </p>&nbsp;
           <a href="https://www.linkedin.com/in/pablocausa" target="_blank" className="underline">P</a>&nbsp;
           & &nbsp;

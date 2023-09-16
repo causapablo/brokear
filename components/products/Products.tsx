@@ -1,7 +1,7 @@
 import Link from "next/link";
 import prod from "../../public/categoriesLanding.json";
-import ProductsLanding from "../productsLanding/productsLanding";
 import { BsArrowRight } from "react-icons/bs";
+import Burbuja from "../burbuja/Burbuja";
 
 const Products = () => {
   return (
@@ -22,10 +22,11 @@ const Products = () => {
             </Link>
           </div>
         </div>
+        
         <div className="flex flex-wrap justify-center pt-11 pb-20">
           {
             prod.map((p, i) => (
-              <ProductsLanding cat={p.product} img={p.img} link={p.link} key={i} />
+              <Burbuja etiqueta={p.product} imagen={p.img} link={p.link} key={i} />
             ))
           }
         </div>

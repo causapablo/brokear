@@ -7,7 +7,9 @@ function GreenTea() {
   return (
     <div>
       <Detalle title={gt?.title.eng} description={gt?.abstract.eng} name={gt?.name.eng} countries={gt?.countries.eng}
-        size={gt?.size.eng} shelfLife={gt?.shelfLife.eng} use={gt?.use.eng} shippingStorage={gt?.shippingStorage.eng} />
+        size={gt?.size.eng} shelfLife={gt?.shelfLife.eng} use={gt?.use.eng} shippingStorage={gt?.shippingStorage.eng} 
+        imagen = {gt?.imagen}
+        link = {gt?.link} />
     </div>
   )
 }

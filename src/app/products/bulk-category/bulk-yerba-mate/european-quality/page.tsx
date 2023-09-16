@@ -2,11 +2,13 @@ import React from 'react'
 import categories from '../../../../../../public/categorias.json'
 import Detalle from '../../../../../../components/detalle/Detalle';
 function EuropeanQuality() {
-  const europeanQuality = categories[0].products.europeanQuality;
+  const eq = categories[0].products.europeanQuality;
   return (
     <div>
-      <Detalle title={europeanQuality?.title.eng} description={europeanQuality?.abstract.eng} name={europeanQuality?.name.eng} countries={europeanQuality?.countries.eng}
-        size={europeanQuality?.size.eng} shelfLife={europeanQuality?.shelfLife.eng} usa={europeanQuality?.size.eng} shippingStorage={europeanQuality?.shippingStorage.eng} />
+      <Detalle title={eq?.title.eng} description={eq?.abstract.eng} name={eq?.name.eng} countries={eq?.countries.eng}
+        size={eq?.size.eng} shelfLife={eq?.shelfLife.eng} usa={eq?.size.eng} shippingStorage={eq?.shippingStorage.eng}
+        imagen = {eq?.imagen} 
+        link = {eq?.link} />
     </div>
   )
 }

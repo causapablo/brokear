@@ -7,7 +7,8 @@ function SunflowerOil() {
   return (
     <div>
       <Detalle title={sunflower?.title.eng} description={sunflower?.abstract.eng} name={sunflower?.name.eng} countries={sunflower?.countries.eng}
-        size={sunflower?.size.eng} shelfLife={sunflower?.shelfLife.eng} use={sunflower?.use.eng} shippingStorage={sunflower?.shippingStorage.eng} />
+        size={sunflower?.size.eng} shelfLife={sunflower?.shelfLife.eng} use={sunflower?.use.eng} shippingStorage={sunflower?.shippingStorage.eng} 
+        link = {sunflower?.link}/>
     </div>
   )
 }

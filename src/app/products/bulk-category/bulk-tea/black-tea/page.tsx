@@ -7,7 +7,9 @@ function BlackTea() {
   return (
     <div>
       <Detalle title={bt?.title.eng} description={bt?.abstract.eng} name={bt?.name.eng} countries={bt?.countries.eng}
-        size={bt?.size.eng} shelfLife={bt?.shelfLife.eng} use={bt?.use.eng} shippingStorage={bt?.shippingStorage.eng} />
+        size={bt?.size.eng} shelfLife={bt?.shelfLife.eng} use={bt?.use.eng} shippingStorage={bt?.shippingStorage.eng}
+        imagen = {bt?.imagen}
+        link = {bt?.link} />
     </div>
   )
 }

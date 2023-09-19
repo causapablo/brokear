@@ -114,13 +114,13 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
 
         <Faq />
 
-        <section className="lg:pl-96 pl-10 pt-14 items-center">
-          <div className="flex-col lg:flex lg:flex-row ">
-            <p className="font-bold text-xl px-5 lg:px-0 pb-5 lg:pb-0">
+        <section className="pt-14 items-center">
+          <div className="flex-col md:flex md:flex-row md:justify-center ">
+            <p className="text-center font-bold text-xl md:px-9 pb-5 md:pb-0 md:flex md:items-center ">
               Have more questions or interested in a quote?
             </p>
-            <Link href="/contacto">
-              <button className="bg-red text-white w-fit px-3 py-2 rounded-sm font-semibold ml-20 ">
+            <Link href="/contacto" className="flex justify-center">
+              <button className="bg-red text-white w-fit px-3 py-2 rounded-sm font-semibold">
                 Contact Us
               </button>
             </Link>

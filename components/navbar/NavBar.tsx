@@ -43,8 +43,8 @@ function NavBar() {
                       className="flex w-full justify-between border-[0.5px] font-normal border-black py-2 px-4 hover:bg-[#fef0e3] hover:text-red hover:border-l-lightRed hover:border-l-4"
                       key={i}
                     >
-                      <Link href={producto.link}>
-                        <p>{producto.category}</p>
+                      <Link href={producto.link} className="w-full">
+                        <p className="w-full">{producto.category}</p>
                       </Link>
                     </div>
                   ))}

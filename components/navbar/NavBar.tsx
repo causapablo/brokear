@@ -84,7 +84,7 @@ function NavBar() {
         </div>
 
         {/* navBar mobile */}
-        <div className="flex justify-between">
+        <div className="flex justify-between ">
           <Image src={MainLogo} alt="logo" className="block lg:hidden w-32 pt-5 ml-4 mb-4" />
               <HiMenuAlt3 
               className="cursor-pointer text-3xl mt-5 lg:hidden"
@@ -94,8 +94,8 @@ function NavBar() {
           open && 
           <motion.div 
           initial={{x:300}} animate={{x:0}} 
-          className="fixed right-0 top-0 bg-lightBlue h-screen text-black w-80 z-40">
-            <div className="flex flex-col gap-8 mt-[40%] ml-[30%]">
+          className="fixed right-0 top-0 bg-lightBlue h-screen text-white bg-white w-80 z-40">
+            <div className="flex flex-col gap-8 mt-[40%] ml-[30%] ">
             <ul className="gap-12 text-black font-serif text-[17px]">
             <li
               className="relative flex flex-col items-center cursor-pointer"
@@ -125,19 +125,19 @@ function NavBar() {
               )}
             </li>
             <Link href='/about'>
-              <li className="cursor-pointer">About Us</li>
+              <li className="cursor-pointer py-5">About Us</li>
             </Link>
             <Link href="/why-us">
-              <li className="cursor-pointer">Why Us</li>
+              <li className="cursor-pointer py-5">Why Us</li>
             </Link>
             {/* <li className="cursor-pointer">Blog</li> */}
             <Link href="/contact">
-              <li className="cursor-pointer active:text-red">Contact</li>
+              <li className="cursor-pointer py-5">Contact</li>
             </Link>
           </ul>
             </div>
             <HiX
-            className="absolute right-4 text-3xl top-8 cursor-pointer"
+            className="absolute right-4 text-3xl top-8 cursor-pointer text-black"
             onClick={() => setOpen(!open)}/>
           </motion.div>
         }

@@ -1,7 +1,7 @@
 [
     {
         "category": "Yerba Mate",
-        "img": "/images/yerba.png",
+        "img": "/images/YerbaCategory.jpg",
         "link": "/products/bulk-category/bulk-yerba-mate",
         "products": {
             "bulk": {
@@ -37,7 +37,8 @@
                     "eng": "Dry / Ambient",
                     "esp": "Seca / Ambiente"
                 },
-                "link" : "/products/bulk-category/bulk-yerba-mate/bulk"
+                "link": "/products/bulk-category/bulk-yerba-mate/bulk",
+                "imagen": "/images/YerbaBulkDetail.jpg"
             },
             "packaged": {
                 "title": {
@@ -72,7 +73,8 @@
                     "eng": "Dry / Ambient",
                     "esp": "Seca / Ambiente"
                 },
-                "link" : "/products/bulk-category/bulk-yerba-mate/traditional"
+                "link": "/products/bulk-category/bulk-yerba-mate/traditional",
+                "imagen": "/images/YerbaTraditionalDetail.jpg"
             },
             "organic": {
                 "title": {
@@ -107,7 +109,8 @@
                     "eng": "Dry / Ambient",
                     "esp": "Seca / Ambiente"
                 },
-                "link" : "/products/bulk-category/bulk-yerba-mate/organic"
+                "link": "/products/bulk-category/bulk-yerba-mate/organic",
+                "imagen": "/images/YerbaOrganicDetail.jpg"
             },
             "europeanQuality": {
                 "title": {
@@ -142,13 +145,14 @@
                     "eng": "Dry / Ambient",
                     "esp": "Seca / Ambiente"
                 },
-                "link" : "/products/bulk-category/bulk-yerba-mate/european-quality"
+                "link": "/products/bulk-category/bulk-yerba-mate/european-quality",
+                "imagen": "/images/YerbaEuropeanQualityDetail.jpg"
             }
         }
     },
     {
         "category": "Tea",
-        "img": "/images/tea.jpg",
+        "img": "/images/TeaCategory.jpg",
         "link": "/products/bulk-category/bulk-tea",
         "products": {
             "blackTea": {
@@ -184,7 +188,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link" : "/products/bulk-category/bulk-tea/blak-tea"
+                "link": "/products/bulk-category/bulk-tea/blak-tea",
+                "imagen": "/images/BlackTeaDetail.jpg"
             },
             "greenTea": {
                 "title": {
@@ -219,13 +224,14 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link" : "/products/bulk-category/bulk-tea/green-tea"
+                "link": "/products/bulk-category/bulk-tea/green-tea",
+                "imagen": "/images/GreenTeaDetail.jpg"
             }
         }
     },
     {
         "category": "Pulses & Oils Seeds",
-        "img": "/images/legumbres.jpg",
+        "img": "/images/PulsesOilCategory.jpg",
         "link": "/products/bulk-category/bulk-pulses-seeds",
         "products": {
             "alubiaBeans": {
@@ -261,7 +267,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/alubia-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/alubia-beans",
+                "imagen": "/images/AlubiaDetail.jpg"
             },
             "cranberryBeans": {
                 "title": {
@@ -296,7 +303,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/cranberry-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/cranberry-beans",
+                "imagen": "/images/CranberryDetail.jpg"
             },
             "darkRedKidneyBeans": {
                 "title": {
@@ -331,7 +339,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/dark-red-kidney-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/dark-red-kidney-beans",
+                "imagen": "/images/RedKidneyDetail.jpg"
             },
             "lightRedKidneyBeans": {
                 "title": {
@@ -366,7 +375,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/light-red-kidney-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/light-red-kidney-beans",
+                "imagen": "/images/LightKidneyDetail.jpg"
             },
             "adzukiBeans": {
                 "title": {
@@ -401,7 +411,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/adzuki-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/adzuki-beans",
+                "imagen": "/images/AdzukiDetail.jpg"
             },
             "blackEyeBeans": {
                 "title": {
@@ -436,7 +447,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/black-eye-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/black-eye-beans",
+                "imagen": "/images/BlackEyeDetail.jpg"
             },
             "mungBeans": {
                 "title": {
@@ -471,7 +483,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/mung-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/mung-beans",
+                "imagen": "/images/MungDetail.jpg"
             },
             "blackBeans": {
                 "title": {
@@ -506,7 +519,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/black-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/black-beans",
+                "imagen": "/images/BlackDetail.jpg"
             },
             "greenPeas": {
                 "title": {
@@ -541,7 +555,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/adzuki-beans"
+                "link": "/products/bulk-category/bulk-pulses-seeds/adzuki-beans",
+                "imagen": "/images/GreenPeasDetail.jpg"
             },
             "chickPeas": {
                 "title": {
@@ -576,7 +591,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/chick-peas"
+                "link": "/products/bulk-category/bulk-pulses-seeds/chick-peas",
+                "imagen": "/images/ChickpeasDetail.jpg"
             },
             "popcorn": {
                 "title": {
@@ -611,7 +627,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/popcorn"
+                "link": "/products/bulk-category/bulk-pulses-seeds/popcorn",
+                "imagen": "/images/PopcornDetail.jpg"
             },
             "chiaSeeds": {
                 "title": {
@@ -646,7 +663,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/chia-seeds"
+                "link": "/products/bulk-category/bulk-pulses-seeds/chia-seeds",
+                "imagen": "/images/ChiaDetail.jpg"
             },
             "runnerPeanuts": {
                 "title": {
@@ -681,7 +699,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/runner-peanuts"
+                "link": "/products/bulk-category/bulk-pulses-seeds/runner-peanuts",
+                "imagen": "/images/RunnerDetail.jpg"
             },
             "pecanInShell": {
                 "title": {
@@ -716,7 +735,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/pecan-in-shell"
+                "link": "/products/bulk-category/bulk-pulses-seeds/pecan-in-shell",
+                "imagen": "/images/PecanShellDetail.jpg"
             },
             "pecanWithout": {
                 "title": {
@@ -751,14 +771,14 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-pulses-seeds/pecan-without-shell"
+                "link": "/products/bulk-category/bulk-pulses-seeds/pecan-without-shell",
+                "imagen": "/images/PecanWShellDetail.jpg"
             }
-            
         }
     },
     {
         "category": "Oils",
-        "img": "/images/oil.jpg",
+        "img": "/images/OilCategory.jpg",
         "link": "/products/bulk-category/bulk-oils",
         "products": {
             "soyOil": {
@@ -794,7 +814,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-oils/soy-oil"
+                "link": "/products/bulk-category/bulk-oils/soy-oil",
+                "imagen": "/images/SoyOilDetail.jpg"
             },
             "sunflowerOil": {
                 "title": {
@@ -829,13 +850,14 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-oils/sunflower-oil"
+                "link": "/products/bulk-category/bulk-oils/sunflower-oil",
+                "imagen": "/images/SunflowerOilDetail.jpg"
             }
         }
     },
     {
         "category": "Charcoal",
-        "img": "/images/carbon.jpg",
+        "img": "/images/CharcoalCategory.jpg",
         "link": "/products/bulk-category/bulk-charcoal",
         "products": {
             "charcoal": {
@@ -871,8 +893,8 @@
                     "eng": "Dry / Ambient",
                     "esp": ""
                 },
-                "link": "/products/bulk-category/bulk-charcoal/charcoal"
-
+                "link": "/products/bulk-category/bulk-charcoal/charcoal",
+                "imagen": "/images/CharcoalDetail.jpg"
             }
         }
     }

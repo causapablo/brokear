@@ -12,15 +12,15 @@ const Welcome = () => {
   return (
     <section className="bg-gradient-to-b from-lightPink to-white">
       <div className="grid grid-cols-1 lg:grid-cols-2 pt-16 container mx-auto max-w-[1300px]">
-        <div className="flex items-center">
+        <div className="flex items-center px-3">
           <div>
-            <h2 className="bg-red text-white text-lg lg:w-fit text-center py-1 font-Dancing uppercase px-1">
+            <h2 className="bg-red text-white text-base md:text-lg w-fit text-center py-1 font-Dancing uppercase px-2">
               Getting your product has never been so easy
             </h2>
-            <p className="px-5 lg:px-0 text-[38px] font-[600] font-Fitgree leading-tight">
+            <p className=" lg:px-0 text-[32px] md:text-[38px] font-[600] font-Fitgree leading-tight">
               We specialize in sourcing and shipping top-notch specialty raw materials from all over the world
             </p>
-            <p className="pt-5 px-5 lg:px-0 text-xl text-justify">
+            <p className="pt-5 lg:px-0 text-xl text-justify">
               Conecting the ingredients for your next sourcing project
             </p>
             <Link href='/nosotros'>

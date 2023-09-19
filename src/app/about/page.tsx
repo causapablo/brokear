@@ -16,8 +16,8 @@ const Nosotros = () => {
     <section>
       <div className="bg-gradient-to-b from-lightPink to-white" id="main">
         <div className="container mx-auto max-w-[1300px] pt-32 pb-12">
-          <div className="grid grid-cols-1 lg:grid-cols-2">
-            <div className="">
+          <div className="grid grid-cols-1 md:grid-cols-2 px-3">
+            <div className="mx-auto">
               <Image src={hoja} alt="img" className="" />
             </div>
             <div className="flex items-center justify-center">
@@ -50,13 +50,13 @@ const Nosotros = () => {
       </div>
       <Wave />
       <div className="bg-lightPink" id="">
-        <div className="container mx-auto max-w-[1300px]">
+        <div className="container mx-auto max-w-[1300px] px-3 lg:px-0">
           <h4 className="bg-red px-2 py-1 text-white text-base uppercase w-fit text-center font-normal font-Dancing">
             Our Leadership
           </h4>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
             <div>
-              <h4 className="text-justify font-bold text-[30px] pt-2 px-2 lg:px-0">
+              <h4 className="text-justify font-bold md:text-[30px] text-[28px] pt-2 px-2 lg:px-0">
                 The start of something truly exceptional.
               </h4>
               <p className="font-base text-lg pt-2 px-2 lg:px-0">
@@ -85,7 +85,7 @@ const Nosotros = () => {
         </div>
       </div>
       <div id="background" className="py-16 bg-gradient-to-b from-lightPink via-white to-peach">
-        <div className="grid grid-cols-2 gap-16 container mx-auto max-w-[1300px]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto max-w-[1300px] px-3 lg:px-0">
           <Profile />
           <Profile />
         </div>
@@ -106,7 +106,7 @@ const Nosotros = () => {
             </p>
           </div>
           <div id="container">
-            <div className="grid grid-cols-2 gap-16">
+            <div className="grid md:grid-cols-2 gap-16 px-3">
               <Team />
               <Team />
               <Team />
@@ -125,11 +125,11 @@ const Nosotros = () => {
               <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing py-1 px-2">
                 better together
               </h4>
-              <p className="text-2xl w-fit mx-auto font-bold">
+              <p className="text-2xl w-fit mx-auto font-bold py-4 text-center">
                 Fully distributed, always connected.
               </p>
             </div>
-            <div id="container" className="grid grid-cols-3 gap-2 justify-center">
+            <div id="container" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-center px-3">
             <Image src={meet} alt="img" />
             <Image src={meet} alt="img" />
             <Image src={meet} alt="img" />

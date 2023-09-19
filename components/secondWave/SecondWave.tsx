@@ -7,9 +7,9 @@ const SecondWave = () => {
     <div className="bg-peach">
       <div className="container mx-auto max-w-[1300px]">
 
-        <div className='flex flex-col lg:flex-row pb-10'>
+        <div className='flex flex-col lg:flex-row pb-10 px-3 md:px-0 '>
           <div className="basis-3/5 px-2">
-            <h4 className="bg-red text-white uppercase w-fit text-center h-[32px] flex items-center px-2 font-Dancing">
+            <h4 className="bg-red text-white uppercase w-fit text-center h-[32px] flex items-center font-Dancing">
               Start right now...
             </h4>
             <ul className="list-disc font-base text-lg pl-5 flex flex-col py-3 space-y-2 px-2 lg:px-0">

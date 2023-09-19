@@ -12,7 +12,8 @@ function Profile() {
                     <Image
                         src={profilePic}
                         alt="img"
-                        className="rounded-full w-36 h-36 border-4 border-orange"
+                        className="rounded-full w-36 h-36 border-4 border-orange object-cover"
+                        
                     />
                 </div>
                 <div id='info' className='flex flex-col justify-center gap-3 ml-5'>

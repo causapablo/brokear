@@ -11,16 +11,17 @@ const BulkOils = () => {
           rem.
         </p>
         <div className="flex pt-8 pb-20 justify-center flex-wrap gap-8">
-          <Link href="/productos/bulk-category/bulk-oils/soy-oil">
+          <Link href="/products/bulk-category/bulk-oils/soy-oil">
             <div
               className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
               flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
               style={{
-                backgroundImage: `url(/images/oil.jpg)`,
+                backgroundImage: `url(/images/SoyOilGeneral.jpg)`,
                 aspectRatio: "1",
                 backgroundRepeat: "no-repeat",
                 backgroundPositionX: "20%",
                 backgroundPositionY: "35%",
+                backgroundSize : "cover"
               }}
             >
               <p className="uppercase text-[#bebfc1] font-bold mx-auto brightness-200">
@@ -28,16 +29,17 @@ const BulkOils = () => {
               </p>
             </div>
           </Link>
-          <Link href="/productos/bulk-category/bulk-oils/sunflower-oil">
+          <Link href="/products/bulk-category/bulk-oils/sunflower-oil">
             <div
               className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
               flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
               style={{
-                backgroundImage: `url(/images/oil.jpg)`,
+                backgroundImage: `url(/images/SunflowerOilGeneral.jpg)`,
                 aspectRatio: "1",
                 backgroundRepeat: "no-repeat",
                 backgroundPositionX: "20%",
                 backgroundPositionY: "35%",
+                backgroundSize : "cover"
               }}
             >
               <p className="uppercase text-[#bebfc1] font-bold mx-auto brightness-200">

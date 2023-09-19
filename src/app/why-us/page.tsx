@@ -1,5 +1,4 @@
 import Image from "next/image";
-import especias from "../../../public/images/especias.jpg";
 import Wave from "../../../public/icons/Wave";
 import ScheduleCall from "../../../components/schedulecall/ScheduleCall";
 import WaveWhite from "../../../public/icons/WaveWhite";

@@ -4,7 +4,7 @@ import React from 'react'
 function Burbuja({ imagen, etiqueta, link }: any) {
     return (
         <div className='bg-origin-border 
-        rounded-full border-[3px] border-black w-[305px] h-[305px] 
+        rounded-full border-[3px] border-black w-[315px] h-[315px] 
         flex flex-wrap items-center mx-auto cursor-pointer relative justify-center group'>
             <Link href={link}>
                 <div
@@ -14,6 +14,7 @@ function Burbuja({ imagen, etiqueta, link }: any) {
                         backgroundImage: `url(${imagen})`,
                         aspectRatio: "1",
                         backgroundRepeat: "no-repeat",
+                        backgroundSize : "cover",
                         backgroundPositionX: "20%",
                         backgroundPositionY: "35%",
                     }}

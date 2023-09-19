@@ -125,7 +125,7 @@ const Nosotros = () => {
               <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing py-1 px-2">
                 better together
               </h4>
-              <p className="text-2xl w-fit mx-auto font-bold">
+              <p className="text-2xl w-fit mx-auto font-bold py-4">
                 Fully distributed, always connected.
               </p>
             </div>

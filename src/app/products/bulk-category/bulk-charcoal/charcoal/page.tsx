@@ -6,7 +6,9 @@ function Charcoal() {
   return (
     <main>
       <Detalle title={charcoal?.title.eng} description={charcoal?.abstract.eng} name={charcoal?.name.eng} countries={charcoal?.countries.eng}
-        size={charcoal?.size.eng} shelfLife={charcoal?.shelfLife.eng} use={charcoal?.use.eng} shippingStorage={charcoal?.shippingStorage.eng} />
+        size={charcoal?.size.eng} shelfLife={charcoal?.shelfLife.eng} use={charcoal?.use.eng} shippingStorage={charcoal?.shippingStorage.eng}
+        imagen = {charcoal?.imagen}
+        link = {charcoal?.link} />
     </main>
   )
 }

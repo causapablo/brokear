@@ -6,8 +6,8 @@ function Adzuki() {
     
   return (
     <div>
-      <Detalle title={beb?.title.eng} description={beb?.abstract.eng} name={beb?.name.eng} countries={beb?.countries.eng}
-        size={beb?.size.eng} shelfLife={beb?.shelfLife.eng} use={beb?.use.eng} shippingStorage={beb?.shippingStorage.eng} />
+      <Detalle title={beb?.title.eng} description={beb?.abstract.eng} name={beb?.name.eng} countries={beb?.countries.eng} imagen = {beb?.imagen}
+        size={beb?.size.eng} shelfLife={beb?.shelfLife.eng} use={beb?.use.eng} shippingStorage={beb?.shippingStorage.eng} link = {beb?.link}/>
     </div>
   )
 }

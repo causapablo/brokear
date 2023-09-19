@@ -8,6 +8,7 @@ function SoyOil() {
     <div>
       <Detalle title={soy?.title.eng} description={soy?.abstract.eng} name={soy?.name.eng} countries={soy?.countries.eng}
         size={soy?.size.eng} shelfLife={soy?.shelfLife.eng} use={soy?.use.eng} shippingStorage={soy?.shippingStorage.eng}
+        imagen = {soy?.imagen}
         link = {soy?.link} />
     </div>
   )

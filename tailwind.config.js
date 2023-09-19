@@ -14,15 +14,15 @@ module.exports = {
       md: "768px",
       lg: "976px",
       mlg: "1130px",
-      xl: "1440px",
+      xl: "1200px",
       "2xl": "1660px",
     },
     colors: {
       white: "#fff",
-      lightPink: "#fff5f5",
-      peach: "#FEF0E3",
-      red: "#da3535",
-      lightRed: "#e55959",
+      lightPink: "#caf7b7",
+      peach: "#b3d9be",
+      red: "#18342f",
+      lightRed: "#90ee90",
       black: "#000",
       orange: "#F8973A"
 

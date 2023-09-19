@@ -5,19 +5,38 @@ import icon from "../../public/images/icon.png";
 import Link from "next/link";
 import TableBulk from "../tableBulk/TableBulk";
 import Faq from "../faq/Faq";
-import { usePathname } from 'next/navigation'
+import SelecRandomProducts from "../../public/SelectRelatedProducts";
 import React from "react";
 import { TbMathGreater } from 'react-icons/tb';
 import Burbuja from "../burbuja/Burbuja";
 
 const Detalle = ({ title, description, name, countries, size, shelfLife, use, shippingStorage, imagen, link }: any) => {
 
-  
+
   const [, products, bulkCategory, bulkProduct, product] = link.split('/');
   let Products = products?.charAt(0).toUpperCase() + products?.slice(1);
   let BulkProduct = bulkProduct?.charAt(0).toUpperCase() + bulkProduct?.slice(1);
   BulkProduct = BulkProduct.replaceAll("-", " ");
+  let related : any[] = [];
 
+  switch (bulkProduct) {
+    case "bulk-yerba-mate":
+
+      related = SelecRandomProducts(categorias[0].products);
+      break;
+    case "bulk-tea":
+      related = SelecRandomProducts(categorias[1].products);
+
+      break;
+    case "bulk-pulses-seeds":
+      related = SelecRandomProducts(categorias[2].products);
+
+      break;
+    case "bulk-oils":
+      related = SelecRandomProducts(categorias[3].products);
+
+      break;
+  }
 
   return (
     <main className="pb-20 bg-gradient-to-b from-lightPink to-white">
@@ -69,7 +88,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
             </div>
           </div>
           <div id="data">
-            
+
           </div>
         </section>
         <TableBulk name={name} countries={countries} size={size} shelfLife={shelfLife} use={use} shippingStorage={shippingStorage} />
@@ -111,18 +130,27 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
           <span className="text-white">d</span>
           <span className="text-white">d</span>
         </div>
-        <section className="container mx-auto pt-14 items-center">
-          <div className="flex items-center justify-center pb-10">
-            <h4 className="bg-red text-white font-medium text-lg w-fit px-2 py-1 font-Dancing rounded-sm">
-              RELATED PRODUCTS
-            </h4>
-          </div>
-          <div className="flex-col lg:flex lg:flex-row">
-            <Burbuja imagen ={`/images/carbon.jpg`} etiqueta = {"Learn More"} link ={"/products/bulk-category/bulk-yerba-mate/european-quality"}/>
-            <Burbuja imagen ={`/images/beans.jpg`} etiqueta = {"Learn More"} link ={"/products/bulk-category/bulk-yerba-mate/european-quality"}/>
-            <Burbuja imagen ={`/images/beans.jpg`} etiqueta = {"Learn More"} link ={"/products/bulk-category/bulk-yerba-mate/european-quality"}/>
-          </div>
-        </section>
+        <div>
+          {
+            related ? (
+              <section className="container mx-auto pt-14 items-center">
+                <div className="flex items-center justify-center pb-10">
+                  <h4 className="bg-red text-white font-medium text-lg w-fit px-2 py-1 font-Dancing rounded-sm">
+                    RELATED PRODUCTS
+                  </h4>
+                </div>
+                <div className="flex-col lg:flex lg:flex-row">
+                  {
+                    related.map((p, i) => (
+                      <Burbuja etiqueta={p.title.eng} imagen={p.imagen} link={p.link} key={i} />
+                    ))
+                  }
+                </div>
+              </section>
+            ) : null
+          }
+        </div>
+
       </div>
     </main>
   );

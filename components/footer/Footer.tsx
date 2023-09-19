@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <section className="bg-black py-10">
       <div className="container mx-auto  max-w-[1300px]">
-        <div className="flex gap-20 ">
-          <div className="flex flex-col basis-1/4 h-fit">
+        <div className="flex flex-col md:flex-row gap-20 px-3 lg:px-0">
+          <div className="flex flex-col md:flex-grow-0 md:w-1/3 h-fit">
             <div className="">
               <h4 className="bg-red text-white text-center text-lg font-normal w-fit mx-auto px-4 font-Dancing">
                 Company
@@ -49,14 +49,14 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col basis-1/2 h-fit">
+          <div className="flex flex-col md:flex-grow-0 md:w-1/2 h-fit">
             <div className="col-span-5">
               <h4 className="bg-red text-white text-center text-lg font-light w-fit mx-auto px-4 font-Dancing">
                 Products
               </h4>
             </div>
             <div className="py-4 text-[14px] font-Fitgree">
-              <div className="flex w-auto">
+              <div className="grid grid-cols-2 md:flex">
                 <p className="text-white flex items-center justify-center basis-1/6 py-1">
                   Yerba Mate
                 </p>
@@ -69,30 +69,31 @@ const Footer = () => {
                   Pulses & Oil Seeds
                 </p>
 
-                <p className="text-white flex items-center justify-center basis-1/6 py-1">
-                  Oils
-                </p>
+                
 
                 <p className="text-white flex items-center justify-center basis-1/6 py-1">
                   Charcoal
                 </p>
               </div>
-              <div className="flex">
-                <p className="text-white flex items-center justify-center  basis-1/3 py-1">
+              <div className="grid grid-cols-2 md:flex">
+                <p className="text-white flex items-center justify-center  basis-1/4 py-1">
                   Trees
                 </p>
-                <p className="text-white flex items-center justify-center  basis-1/3 py-1">
+                <p className="text-white flex items-center justify-center  basis-1/4 py-1">
                   Plants
                 </p>
-                <p className="text-white flex items-center justify-start basis-1/3 py-1">
+                <p className="text-white flex items-center justify-center basis-1/3 py-1">
                   Specimens for Export
+                </p>
+                <p className="text-white flex items-center justify-center basis-1/4 py-1">
+                  Oils
                 </p>
                 {/* <p className="text-white flex items-center justify-center text-[12px]  basis-1/5 py-1">Organic</p>
                 <p className="text-white flex items-center justify-start text-[12px]  basis-1/5 py-1">Vegan</p> */}
               </div>
             </div>
           </div>
-          <div className="flex flex-col basis-1/4">
+          <div className="flex flex-col md:flex-grow-0 md:w-1/3">
             <div className="col-span-5">
               <h4 className="bg-red text-white text-center text-lg font-normal w-fit mx-auto px-4 font-Dancing">
                 Get in touch!

@@ -5,10 +5,11 @@ import { useState } from "react";
 import productos from "../../public/categorias.json";
 import Image from "next/image";
 import MainLogo from '../../public/images/LogoHorizontal.png';
+import { usePathname } from 'next/navigation'
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-
+  const active = usePathname(); 
   return (
     <div className="sticky top-0 w-full bg-white z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
@@ -29,7 +30,7 @@ function NavBar() {
               }}
             >
               <Link href='/products'>
-                <button className="flex items-center py-3 active:text-red hover:text-red">
+                <button className={active=="/products"? "flex items-center py-3 text-red" :"flex items-center py-3 hover:text-red"}>
                   Products
                   <RiArrowDropDownLine className="font-extrabold text-3xl" />
                 </button>
@@ -52,14 +53,14 @@ function NavBar() {
               )}
             </li>
             <Link href='/about'>
-              <li className="cursor-pointer">About Us</li>
+              <li className={active=="/about"? "cursor-pointer text-red":"cursor-pointer hover:text-red"}>About Us</li>
             </Link>
             <Link href="/why-us">
-              <li className="cursor-pointer">Why Us</li>
+              <li className={active=="/why-us"? "cursor-pointer text-red":"cursor-pointer hover:text-red"}>Why Us</li>
             </Link>
             {/* <li className="cursor-pointer">Blog</li> */}
             <Link href="/contact">
-              <li className="cursor-pointer active:text-red">Contact</li>
+              <li className={active=="/contact"? "cursor-pointer text-red":"cursor-pointer hover:text-red"}>Contact</li>
             </Link>
           </ul>
         </div>
@@ -69,3 +70,4 @@ function NavBar() {
 }
 
 export default NavBar;
+

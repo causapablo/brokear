@@ -17,7 +17,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
   let Products = products?.charAt(0).toUpperCase() + products?.slice(1);
   let BulkProduct = bulkProduct?.charAt(0).toUpperCase() + bulkProduct?.slice(1);
   BulkProduct = BulkProduct.replaceAll("-", " ");
-  let related : any[] = [];
+  let related: any[] = [];
 
   switch (bulkProduct) {
     case "bulk-yerba-mate":
@@ -50,28 +50,28 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
             <Link href={`/${products}/${bulkCategory}/${bulkProduct}`} className="text-red text-sm font-semibold hover:underline underline-offset-1">{BulkProduct}</Link>
           </div>
           <div id="product">
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-3">
               <div id="img" className="flex justify-center items-center">
                 <Image
                   src={imagen}
                   alt="img"
                   width={500}
                   height={500}
-                  className="border-4 border-black rounded-full h-[500px] w-[500px]"
+                  className="border-4 border-black rounded-full h-[380px] w-[380px] lg:h-[500px] lg:w-[500px]"
                 />
               </div>
               <div id="text" className="flex flex-col justify-between">
                 <div className="space-y-3">
-                  <h4 className="font-bold text-4xl uppercase">
+                  <h4 className="font-bold text-2xl lg:text-4xl uppercase">
                     {title}
                   </h4>
-                  <p className="text-lg">
+                  <p className="text-base lg:text-lg">
                     {
                       description
                     }
                   </p>
                 </div>
-                <div className="space-y-6">
+                <div className="space-y-6 py-4 lg:py-0">
                   <Link href="/contact">
                     <button className="bg-red text-white px-3 py-2 rounded-md font- w-fit font-Dancing hover:bg-lightRed">
                       Contact for Quote
@@ -84,7 +84,6 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
           <div id="data">
@@ -96,7 +95,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
 
 
 
-        <section className="flex-col lg:flex lg:flex-row mx-auto items-center w-3/4 py-20 just">
+        {/* <section className="hidden flex-col lg:flex lg:flex-row mx-auto items-center w-3/4 py-20 just ">
           <div className="basis-full w-fit">
             <Image src={icon} alt="img" className="w-3/4 h-3/4" />
           </div>
@@ -110,9 +109,9 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
               late spring to fall.
             </p>
           </div>
-        </section>
+        </section> */}
 
-        <Faq />
+        <Faq/>
 
         <section className="pt-14 items-center">
           <div className="flex-col md:flex md:flex-row md:justify-center ">
@@ -139,7 +138,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
                     RELATED PRODUCTS
                   </h4>
                 </div>
-                <div className="flex-col lg:flex lg:flex-row">
+                <div className="flex-col lg:flex lg:flex-row space-y-3">
                   {
                     related.map((p, i) => (
                       <Burbuja etiqueta={p.title.eng} imagen={p.imagen} link={p.link} key={i} />

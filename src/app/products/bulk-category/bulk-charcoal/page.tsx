@@ -8,7 +8,7 @@ const BulkCharcoal = () => {
       <section className="container mx-auto max-w-[1300px] pt-14 h-full ">
         <div id="header">
           <div className="py-3">
-            <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">Bulk Charcoal</h4>
+            <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">Charcoal</h4>
           </div>
           <div className="flex flex-row">
             <p className="basis-2/3">

@@ -3,7 +3,7 @@ const BulkOils = () => {
   return (
     <main className="bg-gradient-to-b from-lightPink to-white">
       <section className="container mx-auto max-w-[1300px] pt-14 ">
-        <h4 className="bg-red text-white w-fit px-1 text-lg">Bulk Oils</h4>
+        <h4 className="bg-red text-white w-fit px-1 text-lg">Oils</h4>
         <p className="w-7/12 pt-6">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
           suscipit eveniet nemo sed numquam unde officia vero. Voluptatum amet

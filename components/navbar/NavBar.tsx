@@ -25,7 +25,7 @@ function NavBar() {
   const handleOnClick = () => {
     setOpen((prev) => !prev);
   }
-  const handleOnClickProducts = ()=>{
+  const handleOnClickProducts = () => {
     setProducts((prev) => !prev);
   }
 
@@ -65,9 +65,9 @@ function NavBar() {
                   <div className="border-t-[0.5px]">
 
                     <div id="ProductosDesplegable" className="py-0 border-b-[0.5px]">
-                      <Accordion expanded ={products} sx={{ backgroundColor: "#ffffff", border: "none", boxShadow: "none", width: 'auto', padding: 0 }}>
+                      <Accordion expanded={products} sx={{ backgroundColor: "#ffffff", border: "none", boxShadow: "none", width: 'auto', padding: 0 }}>
                         <AccordionSummary
-                          
+
                           aria-controls="panel1a-content"
                           id="panel1a-header"
                         >
@@ -80,7 +80,7 @@ function NavBar() {
                               </div>
                               <div onClick={handleOnClickProducts}>
                                 {
-                                  productos ? <ExpandMoreIcon/> : <ExpandLessIcon/>
+                                  productos ? <ExpandMoreIcon /> : <ExpandLessIcon />
                                 }
                               </div>
                             </div>
@@ -91,19 +91,38 @@ function NavBar() {
                           <Box>
                             <div className="border-t-[0.5px]">
                               <div className="py-2 border-b-[0.5px]">
-                                <p className="pl-8">Yerba Mate</p>
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-yerba-mate">
+                                    Yerba Mate
+                                  </Link></p>
                               </div>
                               <div className="py-2 border-b-[0.5px]">
-                                <p className="pl-8">Tea</p>
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-tea">
+                                    Tea
+                                  </Link>
+                                </p>
                               </div>
                               <div className="py-2 border-b-[0.5px]">
-                                <p className="pl-8">Pulses & Oil Seeds</p>
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-pulses-seeds">
+                                    Pulses & Oil Seeds
+                                  </Link>
+                                </p>
                               </div>
                               <div className="py-2 border-b-[0.5px]">
-                                <p className="pl-8">Oils</p>
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-oils">
+                                    Oils
+                                  </Link>
+                                </p>
                               </div>
                               <div className="py-2">
-                                <p className="pl-8">Charcoal</p>
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-charcoal">
+                                    Charcoal
+                                  </Link>
+                                </p>
                               </div>
                             </div>
                           </Box>

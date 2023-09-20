@@ -12,7 +12,7 @@ function ScheduleCall() {
           </div>
           <div className='flex pt-8 md:pt-0 md:items-center basis-2/5'>
             <div className='md:mx-auto'>
-              <Link href='/contacto'>
+              <Link href='/contact'>
                 <button className='bg-white text-red rounded-sm py-2 px-5 mr-4 font-semibold hover:brightness-75'>Contact Us</button>
               </Link>
               <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target='_blank'>

@@ -17,12 +17,12 @@ const Welcome = () => {
             <p className="pt-5 lg:px-0 text-xl text-justify">
               Conecting the ingredients for your next sourcing project
             </p>
-            <Link href='/nosotros'>
+            <Link href='/about'>
               <button className="border border-red text-red font-semibold mt-5 py-2 px-2 mb-6 lg:mb-0 mr-3 lg:ml-0 rounded-sm hover:text-lightRed">
                 About Us
               </button>
             </Link>
-            <Link href='/nosotros'>
+            <Link href='/products'>
               <button className="border border-red text-red font-semibold mt-5 py-2 px-2 mb-6 lg:mb-0 md:ml-5 lg:ml-0 rounded-sm hover:text-lightRed">
                 Our Products
               </button>

@@ -31,7 +31,7 @@ module.exports = {
       Figtree: ['Figtree', 'sans-serif'],
       Poppins: ['Poppins', 'sans-serif'],
       Grotesk : ['Space Grotesk', 'sans-serif'],
-      Dancing : ['Dancing Script', 'cursive']
+      Dancing : ['Space Grotesk', 'cursive']
     },
     extend: {
       backgroundImage: {

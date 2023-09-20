@@ -15,7 +15,7 @@ function Productos() {
               Here you’ll find a wide selection of specialty raw ingredients
               ranging from coconut products and plant-based proteins to
               sweeteners and additives. You can also browse by organic, halal,
-              kosher, and vegan subcategories. <Link href='/contact' className="text-red hover:underline underline-offset-1"><span>Looking for something not listed?</span></Link>
+              kosher, and vegan subcategories.<span> <Link href='/contact' className="text-red hover:underline underline-offset-1">Looking for something not listed?</Link></span>
             </p>
           </div>
           <div></div>

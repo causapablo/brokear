@@ -9,7 +9,8 @@ import WavePeach from "../../../public/icons/WavePeach";
 import ScheduleCall from "../../../components/schedulecall/ScheduleCall";
 import Profile from "../../../components/profile/Profile";
 import Team from "../../../components/team/Team";
-
+import EugePicture from '../../../public/images/EugePerfil.jpg'
+import JoacoPicture from '../../../public/images/JoacoPerfil.jpg'
 
 const Nosotros = () => {
   return (
@@ -26,20 +27,19 @@ const Nosotros = () => {
                   ABOUT US
                 </h2>
                 <h3 className="font-bold text-xl lg:text-2xl mt-3 mb-5">
-                  Take a seat and let us tell you our story
+                  Sit back and let us tell you our story
                 </h3>
                 <div className="space-y-6 font-normal text-[19px]">
                   <p>
-                    We are die-hard sourcerers (yep, it’s a word) who are willing to do
-                    whatever it takes to find the magical ingredient you’re looking for.
+                    We are sourcing experts who are willing to do whatever it takes to find
+                    the perfect ingredient you’re looking for.
                   </p>
                   <p>
-                    We’ve sourced ingredients from across the globe and spent our lives
-                    improving supply chains for some of America’s favorite brands.
+                    We’ve sourced ingredients from around the world and dedicated our lives
+                    to improving the supply chains of some of the world most popular brands.
                   </p>
                   <p>
-                    But where did it all begin? When we’d had up to here with the
-                    shortcomings of the industry.
+                    But how did it all start? When we get tired of the limitations of the industry.
                   </p>
                 </div>
 
@@ -54,17 +54,16 @@ const Nosotros = () => {
           <h4 className="bg-red px-2 py-1 text-white text-base uppercase w-fit text-center font-normal font-Dancing">
             Our Leadership
           </h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-24">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 pt-4">
             <div>
-              <h4 className="text-justify font-bold md:text-[30px] text-[28px]">
-                The start of something truly exceptional.
+              <h4 className="text-justify font-bold md:text-[24px] text-[28px]">
+                The beignning of something genuinely exceptional.
               </h4>
               <p className="font-base text-lg">
-                As COO of Nuts.com, Eran watched as vendors changed up pricing,
+                As COO of several companies, Joaquin watched as vendors changed up pricing,
                 quality, and lead times on a whim. With so much at stake, he
                 knew there had to be a better way. He partnered with fellow
-                Nuts.com alumni Aalap to start Ingredient Brothers, a company
-                that is data-informed but relationship-driven.
+                Eugenia to start Brokear, a company that is data-informed but relationship-driven.
               </p>
             </div>
             <div>
@@ -86,8 +85,8 @@ const Nosotros = () => {
       </div>
       <div id="background" className="py-16 bg-gradient-to-b from-lightPink via-white to-peach">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto max-w-[1300px] px-3 lg:px-0">
-          <Profile />
-          <Profile />
+          <Profile img={JoacoPicture} nombre="Joaquin Sipowicz" cargo="CEO" />
+          <Profile img={EugePicture} nombre="Eugenia Doblack" cargo="CEO" />
         </div>
       </div>
       <ScheduleCall />
@@ -130,14 +129,14 @@ const Nosotros = () => {
               </p>
             </div>
             <div id="container" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-center px-3">
-            <Image src={meet} alt="img" />
-            <Image src={meet} alt="img" />
-            <Image src={meet} alt="img" />
-            <Image src={view} alt="img"/>
-            <Image src={view} alt="img"/>
-            <Image src={view} alt="img"/>
-            <Image src={meet} alt="img"/>
-            <Image src={meet} alt="img"/>
+              <Image src={meet} alt="img" />
+              <Image src={meet} alt="img" />
+              <Image src={meet} alt="img" />
+              <Image src={view} alt="img" />
+              <Image src={view} alt="img" />
+              <Image src={view} alt="img" />
+              <Image src={meet} alt="img" />
+              <Image src={meet} alt="img" />
             </div>
           </div>
         </div>

@@ -13,9 +13,12 @@ function ScheduleCall() {
           <div className='flex pt-8 md:pt-0 md:items-center basis-2/5'>
             <div className='md:mx-auto'>
               <Link href='/contacto'>
-                <button className='bg-white text-lightRed rounded-sm py-2 px-5 mr-4 font-semibold'>Contact Us</button>
+                <button className='bg-white text-red rounded-sm py-2 px-5 mr-4 font-semibold hover:brightness-75'>Contact Us</button>
               </Link>
-              <button className='bg-red text-white rounded-sm py-2 px-5 font-semibold'>Schedule A Call</button>
+              <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target='_blank'>
+                <button className='bg-red text-white rounded-sm py-2 px-5 font-semibold hover:brightness-75'>Schedule A Call</button>
+              </Link>
+
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import dotenv from 'dotenv';
+import Link from "next/link";
 
 const Contacto = () => {
   const {
@@ -36,12 +37,12 @@ const Contacto = () => {
           Whether you need more info, a quote, or would like to request a sample of our high-quality ingredients, we’re here to help. Please fill out the form below and let us know how we can assist.
           </p>
           <p className="pt-5 text-xl text-justify">
-          You can also connect with us on LinkedIn to stay up to date with our latest news and offerings, or schedule a call with one of our experts to discuss your specific needs.          
+          You can also connect with us by mail to stay up to date with our latest news and offerings, or <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target="_blank" className="text-red">schedule a call</Link> with one of our experts to discuss your specific needs.          
           </p>
 
           <form onSubmit={handleSubmit(onSubmit)} className="">
             <div className="">
-              <div className="grid grid-cols-2 gap-3 pt-20">
+              <div className="grid lg:grid-cols-2 gap-3 pt-20">
                 <div className="flex flex-col">
                   <label className="font-bold">First name</label>
                   <input

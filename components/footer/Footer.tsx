@@ -100,12 +100,13 @@ const Footer = () => {
               </h4>
             </div>
             <div className="flex flex-col pt-4 gap-2">
-              <Link href="/contacto">
-                <button className="bg-white text-lightRed rounded-sm py-2 px-5 font-semibold w-full">
+              <Link href="/contact">
+                <button className="bg-white text-red rounded-sm py-2 px-5 font-semibold w-full hover:brightness-75">
                   Contact Us
                 </button>
               </Link>
-              <button className='bg-red text-white rounded-sm py-2 px-5 font-semibold'>Schedule A Call</button>
+              <button className='bg-red text-white w-full rounded-sm  font-semibold hover:brightness-75'><Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target="_blank" className="w-full"><p className="py-2 px-5">Schedule A Call</p></Link></button>
+              
               <Link href="/policies/privacy"><p className="text-white text-center text-[12px] hover:underline underline-offset-2">Privacy Policy</p></Link>
             </div>
           </div>

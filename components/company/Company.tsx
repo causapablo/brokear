@@ -12,10 +12,10 @@ const Company = () => {
           </h4>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
             <div>
-              <h4 className="font-bold text-2xl mb-4 px-2 lg:px-0">
+              <h4 className="font-bold text-2xl mb-4 lg:px-0">
                 Searching for high quality ingredients and trusted suppliers is a process that shouldnt be taken lightly
               </h4>
-              <p className="font-base text-lg font-Grotesk px-2 lg:px-0" >
+              <p className="font-base text-lg font-Grotesk lg:px-0" >
                 Sometimes it s a journey that makes you wish you d gone to the bottom of the ocean instead.
                 It s a journey that has you fighting the same battles in a never ending cycle. We all know that something must change, right? <span className='font-extrabold'>Now it has.</span>
               </p>

@@ -1,10 +1,11 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Accesibility() {
   return (
     <div>
-      <h1 className='font-Fitgree text-[38px] font-semibold'>Accessibility Statement</h1>
-      <div className='text-[18px] space-y-5'>
+      <h1 className='font-Fitgree text-[32px] md:text-[38px] font-semibold'>Accessibility Statement</h1>
+      <div className='text-[16px] md:text-[18px] space-y-5'>
         <p>Ingredient Brothers is committed to providing a website that is accessible to all users,
           including those with disabilities. We strive to follow the Web Content Accessibility Guidelines
           (WCAG) 2.1 level AA standard, which provides recommendations for making web content more
@@ -26,7 +27,7 @@ function Accesibility() {
         </p>
         <p>
           If you have any feedback or suggestions on how we can improve accessibility, please don’t
-          hesitate to <a href="/contacto"><span className='underline underline-offset-1 text-red'>contact us</span></a> . We are committed to ensuring that our website is accessible to all
+          hesitate to <Link href="/contact"><span className='underline underline-offset-1 text-red'>contact us</span></Link> . We are committed to ensuring that our website is accessible to all
           users, and we appreciate your input in helping us achieve this goal.
         </p>
       </div>

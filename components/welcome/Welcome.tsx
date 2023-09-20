@@ -8,7 +8,7 @@ const Welcome = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 pt-16 container mx-auto max-w-[1300px]">
         <div className="flex items-center px-3">
           <div>
-            <h2 className="bg-red text-white text-base md:text-lg w-fit text-center py-1 font-Dancing uppercase px-2">
+            <h2 className="bg-red text-white text-base md:text-lg w-fit text-center py-1 font-Dancing uppercase md:px-2">
               Getting your product has never been so easy
             </h2>
             <p className=" lg:px-0 text-[32px] md:text-[38px] font-[600] font-Fitgree leading-tight">

@@ -15,7 +15,7 @@ const Contacto = () => {
 
   const onSubmit = (data: any, e: any) => {
     e.preventDefault()
-    emailjs.send('service_v0i504i', 'template_3qe54lp', data, 'dTwc7sMrSbni_ZCkC')
+    emailjs.send('', '', data, '')
       .then(function (response) {
         toast.success("Mensaje enviado con éxito");
         window.location.reload()

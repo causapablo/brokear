@@ -50,7 +50,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
             <Link href={`/${products}/${bulkCategory}/${bulkProduct}`} className="text-red text-sm font-semibold hover:underline underline-offset-1">{BulkProduct}</Link>
           </div>
           <div id="product">
-            <div className="grid grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div id="img" className="flex justify-center items-center">
                 <Image
                   src={imagen}

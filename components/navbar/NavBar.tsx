@@ -5,35 +5,156 @@ import { useState } from "react";
 import productos from "../../public/categorias.json";
 import Image from "next/image";
 import MainLogo from '../../public/images/LogoHorizontal.png';
-import { HiMenuAlt3, HiX } from "react-icons/hi";
-import { motion } from "framer-motion";
+import { usePathname } from 'next/navigation'
+import { GiHamburgerMenu } from 'react-icons/gi';
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import Typography from "@mui/material/Typography";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import { GrClose } from 'react-icons/gr'
+import Box from '@mui/material/Box';
+
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [open, setOpen] = useState(false);
-
-  const handleItemClick = () => {
-    setIsOpen((prev) => !prev);
-  };
-
-  // const { lang, setLang } = useTranslation();
-
-  // const handleLanguageChange = (e) => {
-  //   const selectedLang = e.target.value;
-  //   setLang(selectedLang);
-  // };
+  const [products, setProducts] = useState(false);
+  const active = usePathname();
+  const handleOnClick = () => {
+    setOpen((prev) => !prev);
+  }
+  const handleOnClickProducts = () => {
+    setProducts((prev) => !prev);
+  }
 
   return (
     
     <div className="sticky top-0 w-full bg-white z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
-        <div className="container mx-auto hidden lg:flex justify-between h-16 bg-white max-w-[1300px]">
-          <div className="flex items-center cursor-pointer">
+        <div className="container mx-auto md:flex md:justify-between h-16 bg-white max-w-[1300px]">
+          <div className=" hidden md:flex items-center cursor-pointer">
             <Link href="/">
-              <Image src={MainLogo} alt="MainLogo" width="200" height="48"/>
+              <Image src={MainLogo} alt="MainLogo" width="200" height="48" />
             </Link>
           </div>
-          <ul className="flex items-center gap-12 text-black font-serif text-[17px]">
+          <div className="md:hidden">
+            <Accordion expanded={open} sx={{ backgroundColor: "#ffffff", border: "none", boxShadow: "none", width: 'auto', padding: 0 }}>
+              <AccordionSummary
+                aria-controls="panel1a-content"
+                id="panel1a-header"
+                sx={{ width: 'auto', paddingY: 0 }}
+              >
+                <Box sx={{ width: '100%', padding: 0 }}>
+                  <div className="flex justify-between w-full">
+                    <div className="flex items-center cursor-pointer">
+                      <Link href="/">
+                        <Image src={MainLogo} alt="MainLogo" width="120" height="48" />
+                      </Link>
+                    </div>
+                    <div className="flex items-center font-extrabold text-4xl" onClick={handleOnClick}>
+                      {
+                        !open ? <GiHamburgerMenu /> : <GrClose />
+                      }
+                    </div>
+                  </div>
+                </Box>
+              </AccordionSummary>
+              <AccordionDetails sx={{ padding: 0 }}>
+                <Box>
+                  <div className="border-t-[0.5px]">
+
+                    <div id="ProductosDesplegable" className="py-0 border-b-[0.5px]">
+                      <Accordion expanded={products} sx={{ backgroundColor: "#ffffff", border: "none", boxShadow: "none", width: 'auto', padding: 0 }}>
+                        <AccordionSummary
+
+                          aria-controls="panel1a-content"
+                          id="panel1a-header"
+                        >
+                          <Box sx={{ fontWeight: "600", width: "100%" }}>
+                            <div className="flex justify-between">
+                              <div >
+                                <Link href="/products" className={active == "/products" ? "pr-8 text-red" : "pr-8"}>
+                                  Products
+                                </Link>
+                              </div>
+                              <div onClick={handleOnClickProducts}>
+                                {
+                                  productos ? <ExpandMoreIcon /> : <ExpandLessIcon />
+                                }
+                              </div>
+                            </div>
+
+                          </Box>
+                        </AccordionSummary>
+                        <AccordionDetails sx={{ padding: 0 }}>
+                          <Box>
+                            <div className="border-t-[0.5px]">
+                              <div className="py-2 border-b-[0.5px]">
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-yerba-mate">
+                                    Yerba Mate
+                                  </Link></p>
+                              </div>
+                              <div className="py-2 border-b-[0.5px]">
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-tea">
+                                    Tea
+                                  </Link>
+                                </p>
+                              </div>
+                              <div className="py-2 border-b-[0.5px]">
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-pulses-seeds">
+                                    Pulses & Oil Seeds
+                                  </Link>
+                                </p>
+                              </div>
+                              <div className="py-2 border-b-[0.5px]">
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-oils">
+                                    Oils
+                                  </Link>
+                                </p>
+                              </div>
+                              <div className="py-2">
+                                <p className="pl-8">
+                                  <Link href="/products/bulk-category/bulk-charcoal">
+                                    Charcoal
+                                  </Link>
+                                </p>
+                              </div>
+                            </div>
+                          </Box>
+                        </AccordionDetails>
+                      </Accordion>
+                    </div>
+
+
+                    <Link href="/about">
+                      <div className={active == "/about" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
+                        <p className="pl-3">About Us</p>
+                      </div>
+                    </Link>
+                    <Link href="/why-us">
+                      <div className={active == "/why-us" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
+                        <p className="pl-3">Why Us</p>
+                      </div>
+                    </Link>
+                    <Link href="/contact">
+                      <div className={active == "/contact" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
+                        <p className="pl-3">Contact</p>
+                      </div>
+                    </Link>
+                  </div>
+                </Box>
+              </AccordionDetails>
+            </Accordion>
+          </div>
+
+
+          <ul className="md:flex items-center gap-12 text-black font-serif text-[17px] hidden">
             <li
               className="relative flex flex-col items-center cursor-pointer"
               onMouseEnter={() => {
@@ -44,7 +165,7 @@ function NavBar() {
               }}
             >
               <Link href='/products'>
-                <button className="flex items-center py-3 active:text-red hover:text-red">
+                <button className={active == "/products" ? "flex items-center py-3 text-red" : "flex items-center py-3 hover:text-red"}>
                   Products
                   <RiArrowDropDownLine className="font-extrabold text-3xl" />
                 </button>
@@ -67,14 +188,14 @@ function NavBar() {
               )}
             </li>
             <Link href='/about'>
-              <li className="cursor-pointer">About Us</li>
+              <li className={active == "/about" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>About Us</li>
             </Link>
             <Link href="/why-us">
-              <li className="cursor-pointer">Why Us</li>
+              <li className={active == "/why-us" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Why Us</li>
             </Link>
             {/* <li className="cursor-pointer">Blog</li> */}
             <Link href="/contact">
-              <li className="cursor-pointer active:text-red">Contact</li>
+              <li className={active == "/contact" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Contact</li>
             </Link>
             {/* <select value={lang} onChange={handleLanguageChange}>
       <option value="es">Español</option>
@@ -82,68 +203,10 @@ function NavBar() {
     </select> */}
           </ul>
         </div>
-
-        {/* navBar mobile */}
-        <div className="flex justify-between ">
-          <Image src={MainLogo} alt="logo" className="block lg:hidden w-32 pt-5 ml-4 mb-4" />
-              <HiMenuAlt3 
-              className="cursor-pointer text-3xl mt-5 lg:hidden"
-              onClick={() => setOpen(!open)}/>
-        </div>
-        {
-          open && 
-          <motion.div 
-          initial={{x:300}} animate={{x:0}} 
-          className="fixed right-0 top-0 bg-lightBlue h-screen text-white bg-white w-80 z-40">
-            <div className="flex flex-col gap-8 mt-[40%] ml-[30%] ">
-            <ul className="gap-12 text-black font-serif text-[17px]">
-            <li
-              className="relative flex flex-col items-center cursor-pointer"
-              onClick={handleItemClick}
-            >
-              <Link href='/products'>
-                <button className="flex items-center py-3 active:text-red hover:text-red">
-                  Products
-                  <RiArrowDropDownLine className="font-extrabold text-3xl" />
-                </button>
-              </Link>
-              {isOpen && (
-                <div
-                  className={`absolute top-12 flex flex-col items-start text-black h-fit w-60 bg-white z-50 `}
-                >
-                  {productos.map((producto, i) => (
-                    <div
-                      className="flex w-full justify-between border-[0.5px] font-normal border-black py-2 px-4 hover:bg-[#fef0e3] hover:text-red hover:border-l-lightRed hover:border-l-4"
-                      key={i}
-                    >
-                      <Link href={producto.link}>
-                        <p>{producto.category}</p>
-                      </Link>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </li>
-            <Link href='/about'>
-              <li className="cursor-pointer py-5">About Us</li>
-            </Link>
-            <Link href="/why-us">
-              <li className="cursor-pointer py-5">Why Us</li>
-            </Link>
-            {/* <li className="cursor-pointer">Blog</li> */}
-            <Link href="/contact">
-              <li className="cursor-pointer py-5">Contact</li>
-            </Link>
-          </ul>
-            </div>
-            <HiX
-            className="absolute right-4 text-3xl top-8 cursor-pointer text-black"
-            onClick={() => setOpen(!open)}/>
-          </motion.div>
-        }
       </div>
     </div>
   );
 }
 
 export default NavBar;
+

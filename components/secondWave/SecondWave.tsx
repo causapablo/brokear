@@ -1,3 +1,4 @@
+import Link from "next/link";
 import WavePeach from "../../public/icons/WavePeach";
 
 const SecondWave = () => {
@@ -25,7 +26,7 @@ const SecondWave = () => {
             <p className="font-base text-lg py-2 px-2 lg:px-0">
               We were in your shoes, looking for reliable suppliers and consistently showing up.
               As a result, we have evolved into a supplier that is aligned with the goals of our clients, and have become the supplier we seek but never find.
-              &nbsp; <span className="underline underline-offset-1 text-red cursor-pointer">Read our story</span>
+              &nbsp; <span className="underline underline-offset-1 text-red cursor-pointer"><Link href={'/about'}>Read our story</Link></span>
             </p>
           </div>
         </div>

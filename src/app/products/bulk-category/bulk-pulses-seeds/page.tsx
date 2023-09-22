@@ -4,9 +4,9 @@ import Burbuja from "../../../../../components/burbuja/Burbuja";
 const BulkPulsesSeeds = () => {
   return (
     <main className="bg-gradient-to-b from-lightPink to-white">
-      <section className="container mx-auto max-w-[1300px] pt-14 ">
-        <h4 className="bg-red text-white w-fit px-1 text-lg">Bulk Pulses and Seeds</h4>
-        <p className="w-7/12 pt-6">
+      <section className="container md:mx-auto max-w-[1300px] pt-14 px-3 lg:px-0">
+        <h4 className="bg-red text-white w-fit px-1 text-lg">Pulses and Seeds</h4>
+        <p className="md:w-7/12 md:pt-6 pt-4">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
           suscipit eveniet nemo sed numquam unde officia vero. Voluptatum amet
           quas quam similique, qui facilis. Illo sit similique omnis numquam

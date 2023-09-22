@@ -1,53 +1,19 @@
 import Link from "next/link";
+import Burbuja from "../../../../../components/burbuja/Burbuja";
 const BulkOils = () => {
   return (
     <main className="bg-gradient-to-b from-lightPink to-white">
-      <section className="container mx-auto max-w-[1300px] pt-14 ">
-        <h4 className="bg-red text-white w-fit px-1 text-lg">Bulk Oils</h4>
-        <p className="w-7/12 pt-6">
+      <section className="container md:mx-auto max-w-[1300px] pt-14 px-3 lg:px-0">
+        <h4 className="bg-red text-white w-fit px-1 text-lg">Oils</h4>
+        <p className="md:w-7/12 md:pt-6 pt-4">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae
           suscipit eveniet nemo sed numquam unde officia vero. Voluptatum amet
           quas quam similique, qui facilis. Illo sit similique omnis numquam
           rem.
         </p>
         <div className="flex pt-8 pb-20 justify-center flex-wrap gap-8">
-          <Link href="/products/bulk-category/bulk-oils/soy-oil">
-            <div
-              className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
-              flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
-              style={{
-                backgroundImage: `url(/images/SoyOilGeneral.jpg)`,
-                aspectRatio: "1",
-                backgroundRepeat: "no-repeat",
-                backgroundPositionX: "20%",
-                backgroundPositionY: "35%",
-                backgroundSize : "cover"
-              }}
-            >
-              <p className="uppercase text-[#bebfc1] font-bold mx-auto brightness-200">
-                learn more
-              </p>
-            </div>
-          </Link>
-          <Link href="/products/bulk-category/bulk-oils/sunflower-oil">
-            <div
-              className=" bg-origin-border rounded-full border-4 border-black w-72 h-72 
-              flex flex-wrap items-center mx-auto cursor-pointer hover:brightness-75"
-              style={{
-                backgroundImage: `url(/images/SunflowerOilGeneral.jpg)`,
-                aspectRatio: "1",
-                backgroundRepeat: "no-repeat",
-                backgroundPositionX: "20%",
-                backgroundPositionY: "35%",
-                backgroundSize : "cover"
-              }}
-            >
-              <p className="uppercase text-[#bebfc1] font-bold mx-auto brightness-200">
-                learn more
-              </p>
-            </div>
-          </Link>
-
+          <Burbuja imagen={"/images/SoyOilGeneral.jpg"} etiqueta={"Soy Oil"} link={"/products/bulk-category/bulk-oils/soy-oil"} />
+          <Burbuja imagen={"/images/SunflowerOilGeneral.jpg"} etiqueta={"Alubia Beans"} link={"/products/bulk-category/bulk-oils/sunflower-oil"} />
         </div>
       </section>
     </main>

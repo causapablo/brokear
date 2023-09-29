@@ -62,29 +62,29 @@ const Porque = () => {
               </div>
               <div className="grid grid-cols-4 gap-10">
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Global Sourcing Network</p>
-                  <p className="text-[17px] font-Figtree leading-relaxed">
+                  <p className="font-bold text-2xl text-white">Global Sourcing Network</p>
+                  <p className="text-[17px] font-Figtree leading-relaxed text-white">
                     We source from the most reliable and affordable vendors on the
                     globe.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Inventory Management</p>
-                  <p className="text-[17px] font-Figtree leading-relaxed">
+                  <p className="font-bold text-2xl text-white">Inventory Management</p>
+                  <p className="text-[17px] font-Figtree leading-relaxed text-white">
                     We help you manage your stock to optimize your inventory
                     costs.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Regulatory Support</p>
-                  <p className="text-[17px] font-Figtree leading-relaxed">
+                  <p className="font-bold text-2xl text-white">Regulatory Support</p>
+                  <p className="text-[17px] font-Figtree leading-relaxed text-white">
                     We take care of all the documentation and compliance
                     validation.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Logistics Solutions</p>
-                  <p className="text-[17px] font-Figtree leading-relaxed">
+                  <p className="font-bold text-2xl text-white">Logistics Solutions</p>
+                  <p className="text-[17px] font-Figtree leading-relaxed text-white">
                     We search for solutions that solve the actual challenges
                     you’re facing.
                   </p>
@@ -101,8 +101,8 @@ const Porque = () => {
             </div>
             <div className="grid grid-cols-2 gap-10">
               <div className="space-y-4 text-[18px]">
-                <p className="font-bold text-2xl">Out with the old, in with the new</p>
-                <p className="">
+                <p className="font-bold text-2xl text-white">Out with the old, in with the new</p>
+                <p className="text-white">
                   Finding the right ingredients isn’t a cut-and-dry exercise where
                   you can sit back and relax while everything falls into place.
                   It’s a journey that requires commitment, where challenges are
@@ -110,8 +110,8 @@ const Porque = () => {
                 </p>
               </div>
               <div className="space-y-4 text-[18px]">
-                <p className="font-bold text-2xl">What’s the difference in our approach?</p>
-                <p className="">
+                <p className="font-bold text-2xl text-white">What’s the difference in our approach?</p>
+                <p className="text-white">
                   When you have a strategic supply partner that understands the
                   kinks and challenges of the procurement cycle, you better get a
                   book and a cup of tea ready for all the time we’re about to open

@@ -11,7 +11,7 @@ function Productos() {
         </h1>
         <div className="lg:grid lg:grid-cols-2 gap-4 pt-5 px-3 lg:px-0">
           <div>
-            <p className="font-Fitgree text-[17px] font-[500]">
+            <p className="font-Fitgree text-[17px] font-[500] text-white">
               Here you’ll find a wide selection of specialty raw ingredients
               ranging from coconut products and plant-based proteins to
               sweeteners and additives. You can also browse by organic, halal,

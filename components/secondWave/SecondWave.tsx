@@ -13,16 +13,16 @@ const SecondWave = () => {
               Start right now...
             </h4>
             <ul className="list-disc font-base text-lg pl-5 flex flex-col py-3 space-y-2 px-2 lg:px-0">
-              <li className="marker:text-red">Saving valuable time on other activities and allow us to search for your trusted ingredient suppliers.</li>
-              <li className="marker:text-red">Working with certainty, with clear and orderly processes with our own supply chain.</li>
-              <li className="marker:text-red">Having the best costs with a guaranteed quality.</li>
+              <li className="marker:text-red text-white">Saving valuable time on other activities and allow us to search for your trusted ingredient suppliers.</li>
+              <li className="marker:text-red text-white">Working with certainty, with clear and orderly processes with our own supply chain.</li>
+              <li className="marker:text-red text-white">Having the best costs with a guaranteed quality.</li>
             </ul>
           </div>
           <div className="basis-2/5 lg:pl-10">
-            <h4 className="font-semibold text-2xl px-2 lg:px-0">
+            <h4 className="font-semibold text-2xl px-2 lg:px-0 text-white">
               Once upon a time
             </h4>
-            <p className="font-base text-lg py-2">
+            <p className="font-base text-lg py-2 text-white">
               We were in your shoes, looking for reliable suppliers and consistently showing up.
               As a result, we have evolved into a supplier that is aligned with the goals of our clients, and have become the supplier we seek but never find.
               &nbsp; <span className="underline underline-offset-1 text-red cursor-pointer">Read our story</span>

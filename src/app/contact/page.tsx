@@ -65,7 +65,7 @@ const Contacto = () => {
                     {...register("email", { required: true })}
                     className="border border-lightRed opacity-40 px-8 py-2 mt-2" />
                   {errors.email && (
-                    <span className="text-red">This is a required field.</span>
+                    <span className="text-red2">This is a required field.</span>
                   )}
                 </div>
 
@@ -84,7 +84,7 @@ const Contacto = () => {
                   {...register("message", { required: true })}
                   className="border border-lightRed opacity-40 resize-none h-[200px] mt-4"></textarea>
                 {errors.message && (
-                  <span className="text-red ">This is a required field.</span>
+                  <span className="text-red2 ">This is a required field.</span>
                 )}
                 <button type="submit" className="bg-red text-white w-20 py-2 mt-4 rounded-sm hover:bg-lightRed">Submit</button>
               </div>

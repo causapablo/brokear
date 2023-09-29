@@ -56,11 +56,11 @@ const Nosotros = () => {
           </h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-24 pt-4">
             <div>
-              <h4 className="text-justify font-bold md:text-[24px] text-[28px]">
-                The beignning of something genuinely exceptional.
+              <h4 className="text-justify font-bold md:text-[30px] text-[28px] text-white">
+                The start of something truly exceptional.
               </h4>
-              <p className="font-base text-lg">
-                As COO of several companies, Joaquin watched as vendors changed up pricing,
+              <p className="font-base text-lg text-white">
+                As COO of Nuts.com, Eran watched as vendors changed up pricing,
                 quality, and lead times on a whim. With so much at stake, he
                 knew there had to be a better way. He partnered with fellow
                 Eugenia to start Brokear, a company that is data-informed but relationship-driven.
@@ -68,11 +68,11 @@ const Nosotros = () => {
             </div>
             <div>
               <div className="flex flex-col justify-between h-full">
-                <h4 className="text-xl">
+                <h4 className="text-xl text-white">
                   Now they’re on a mission to create the supplier they always
                   dreamed of finding.
                 </h4>
-                <p className="text-xl">
+                <p className="text-xl text-white">
                   We work closely with our clients to design a supply chain that
                   makes sense for their business. We bring years of experience to
                   find the best deal for your company. More about us and what
@@ -124,7 +124,7 @@ const Nosotros = () => {
               <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing py-1 px-2">
                 better together
               </h4>
-              <p className="text-2xl w-fit mx-auto font-bold py-4 text-center">
+              <p className="text-2xl w-fit mx-auto font-bold py-4 text-center text-white">
                 Fully distributed, always connected.
               </p>
             </div>

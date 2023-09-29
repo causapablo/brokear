@@ -3,9 +3,9 @@ import React from 'react'
 function Privacy() {
     return (
         <div>
-            <h1 className='font-Fitgree text-[32px] md:text-[38px] font-semibold'>Privacy Policy</h1>
-            <div className='text-[16px] md:text-[18px] space-y-5'>
-                <p>Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.</p>
+            <h1 className='font-Fitgree text-[38px] font-semibold text-white'>Privacy Policy</h1>
+            <div className='text-[18px] space-y-5'>
+                <p className='text-white'>Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.</p>
                 <ul className='list-disc pl-7'>
                     <li className="marker:text-red">Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.</li>
                     <li className="marker:text-red">We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.</li>

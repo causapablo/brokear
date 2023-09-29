@@ -22,7 +22,7 @@ const BulkTea = () => {
             a ritual of harmony and respect. In India, black tea is mixed with spices
             and milk, giving rise to masala chai, a comforting and aromatic drink.
             In England, black tea is accompanied with milk and sugar, and is served
-            at the famous five o'clock.
+            at the famous five o&apos;clock.
           </p>
           <p>
             Black tea and green tea have health benefits, although in different ways.

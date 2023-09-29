@@ -7,19 +7,19 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const Faq = () => {
   return (
-    <section className="container mx-auto max-w-[1300px] bg-peach w-10/12">
-      <div className="p-10">
-        <div id="header" className="pb-4">
+    <section className="container mx-auto max-w-[1300px] px-3">
+      <div className="lg:p-4 bg-peach mt-14 lg:w-10/12 mx-auto rounded-sm">
+        <div id="header" className="p-4 lg:p-0">
           <h4 className="uppercase bg-red text-white font-semibold text-lg w-fit px-1 font-Dancing">FAQS</h4>
         </div>
         <div id="content">
-          <Accordion sx={{ backgroundColor: "#FEF0E3" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
-              <Typography sx={{ fontWeight: "700" }}>
+              <Typography sx={{ fontWeight: "600" }}>
                 Can I request samples of ingridients before making a wholesale
                 purchase?
               </Typography>
@@ -38,13 +38,13 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#FEF0E3" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography sx={{ fontWeight: "700" }}>
+              <Typography sx={{ fontWeight: "600" }}>
                 Do you offer any guarantees or warranties on the quality of the
                 ingridients?
               </Typography>
@@ -59,13 +59,13 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#FEF0E3" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography sx={{ fontWeight: "700" }}>
+              <Typography sx={{ fontWeight: "600" }}>
                 Are there any restrictions or limitations on shipping wholesale
                 ingridient orders?
               </Typography>
@@ -87,13 +87,13 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#FEF0E3" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography sx={{ fontWeight: "700" }}>
+              <Typography sx={{ fontWeight: "600" }}>
                 Can I customize or personalize my wholesale ingridient order?
               </Typography>
             </AccordionSummary>
@@ -106,13 +106,13 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#FEF0E3" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography sx={{ fontWeight: "700" }}>
+              <Typography sx={{ fontWeight: "600" }}>
                 What is the process for returning or exchanging wholesale ingridient
                 purchases?
               </Typography>
@@ -125,13 +125,13 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#FEF0E3" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography sx={{ fontWeight: "700" }}>
+              <Typography sx={{ fontWeight: "600" }}>
                 Do you provide documentation or certifications for the ingridients,
                 such as organic or non-GMO?
               </Typography>
@@ -151,13 +151,13 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#FEF0E3" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography sx={{ fontWeight: "700" }}>
+              <Typography sx={{ fontWeight: "600" }}>
                 Can I place recurring orders for wholesale ingridients?
               </Typography>
             </AccordionSummary>
@@ -169,13 +169,13 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#FEF0E3" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
               id="panel2a-header"
             >
-              <Typography sx={{ fontWeight: "700" }}>
+              <Typography sx={{ fontWeight: "600" }}>
                 How can I contact costumer support or seek assistence with my
                 wholesale ingridient order?
               </Typography>

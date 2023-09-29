@@ -7,7 +7,7 @@ function Productos() {
     <div className="bg-gradient-to-b from-lightPink to-white pt-12 pb-10">
       <section className="container mx-auto max-w-[1300px]">
         <h1 className="bg-red text-white inline-block px-[10px] py-1 text-[20px] font-normal ml-4 lg:ml-0 font-Dancing">
-          Bulk Products
+          Products
         </h1>
         <div className="lg:grid lg:grid-cols-2 gap-4 pt-5 px-3 lg:px-0">
           <div>
@@ -15,7 +15,7 @@ function Productos() {
               Here you’ll find a wide selection of specialty raw ingredients
               ranging from coconut products and plant-based proteins to
               sweeteners and additives. You can also browse by organic, halal,
-              kosher, and vegan subcategories. <Link href='/contact' className="text-red hover:underline underline-offset-1"><span>Looking for something not listed?</span></Link>
+              kosher, and vegan subcategories.<span> <Link href='/contact' className="text-red hover:underline underline-offset-1">Looking for something not listed?</Link></span>
             </p>
           </div>
           <div></div>

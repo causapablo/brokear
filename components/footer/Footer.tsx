@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <section className="bg-black py-10">
       <div className="container mx-auto  max-w-[1300px]">
-        <div className="flex flex-col md:flex-row gap-20 px-3 lg:px-0">
+        <div className="flex flex-col md:flex-row gap-10 lg:gap-20 px-3 lg:px-0">
           <div className="flex flex-col md:flex-grow-0 md:w-1/3 h-fit">
             <div className="">
               <h4 className="bg-red text-white text-center text-lg font-normal w-fit mx-auto px-4 font-Dancing">
@@ -13,83 +13,73 @@ const Footer = () => {
             </div>
 
             <div className="py-4">
-              <div className="flex">
-                <Link href='/about' className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
-                  <p >
+              <div className="flex-col">
+                <p >
+                  <Link href='/about' className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
                     About Us
-                  </p>
-                </Link>
-                <Link href='/why-us' className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
-                  <p>
+                  </Link>
+                </p>
+                <p>
+                  <Link href='/why-us' className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
                     Why us?
-                  </p>
-                </Link>
-                <p className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
+                  </Link>
+                </p>
+                {/* <p className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
                   Careers
                 </p>
                 <p className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
                   Blog
                 </p>
-              </div>
-              <div className="flex">
                 <p className="text-white flex items-center justify-center text-[12px] py-1 basis-1/4">
                   LinkedIn
-                </p>
-                <Link href='/contact' className="text-white flex items-center justify-end text-[12px] py-1 basis-1/4">
-                  <p>
+                </p> */}
+                <p>
+                  <Link href='/contact' className="text-white flex items-center justify-center text-[12px] py-1 basis-1/4">
                     Contact Us
-                  </p>
-                </Link>
-                <Link href='/schedulecall' className="text-white flex items-center justify-center text-[12px] py-1 basis-1/2">
-                  <p>
+                  </Link>
+                </p>
+                <p>
+                  <Link href='https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09' className="text-white flex items-center justify-center text-[12px] py-1 basis-1/2">
                     Schedule A Call
-                  </p>
-                </Link>
-
+                  </Link>
+                </p>
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:flex-grow-0 md:w-1/2 h-fit">
+          <div className="flex flex-col md:flex-grow-0 md:w-1/3 h-fit">
             <div className="col-span-5">
               <h4 className="bg-red text-white text-center text-lg font-light w-fit mx-auto px-4 font-Dancing">
                 Products
               </h4>
             </div>
-            <div className="py-4 text-[14px] font-Fitgree">
-              <div className="grid grid-cols-2 md:flex">
-                <p className="text-white flex items-center justify-center basis-1/6 py-1">
-                  Yerba Mate
-                </p>
+            <div className="py-4 text-[12px] font-Fitgree">
+              <div className="flex-col">
 
-                <p className="text-white flex items-center justify-center basis-1/6 py-1">
-                  Tea
-                </p>
-
-                <p className="text-white flex items-center justify-center basis-1/2 py-1">
-                  Pulses & Oil Seeds
-                </p>
-
-                
-
-                <p className="text-white flex items-center justify-center basis-1/6 py-1">
-                  Charcoal
-                </p>
-              </div>
-              <div className="grid grid-cols-2 md:flex">
-                <p className="text-white flex items-center justify-center  basis-1/4 py-1">
-                  Trees
-                </p>
-                <p className="text-white flex items-center justify-center  basis-1/4 py-1">
-                  Plants
-                </p>
                 <p className="text-white flex items-center justify-center basis-1/3 py-1">
-                  Specimens for Export
+                  <Link href="/products/bulk-category/bulk-charcoal">
+                    Charcoal
+                  </Link>
                 </p>
-                <p className="text-white flex items-center justify-center basis-1/4 py-1">
-                  Oils
+                <p className="text-white flex items-center justify-center basis-1/3  py-1">
+                  <Link href="/products/bulk-category/bulk-tea">
+                    Tea
+                  </Link>
                 </p>
-                {/* <p className="text-white flex items-center justify-center text-[12px]  basis-1/5 py-1">Organic</p>
-                <p className="text-white flex items-center justify-start text-[12px]  basis-1/5 py-1">Vegan</p> */}
+                <p className="text-white flex items-center justify-center basis-1/3  py-1">
+                  <Link href="/products/bulk-category/bulk-oils">
+                    Oils
+                  </Link>
+                </p>
+                <p className="text-white flex items-center justify-center basis-2/5 py-1">
+                  <Link href="/products/bulk-category/bulk-yerba-mate">
+                    Yerba Mate
+                  </Link>
+                </p>
+                <p className="text-white flex items-center justify-center  basis-2/5 py-1">
+                  <Link href="/products/bulk-category/bulk-pulses-seeds">
+                    Pulses & Oil Seeds
+                  </Link>
+                </p>
               </div>
             </div>
           </div>
@@ -100,12 +90,13 @@ const Footer = () => {
               </h4>
             </div>
             <div className="flex flex-col pt-4 gap-2">
-              <Link href="/contacto">
-                <button className="bg-white text-lightRed rounded-sm py-2 px-5 font-semibold w-full">
+              <Link href="/contact">
+                <button className="bg-white text-red rounded-sm py-2 px-5 font-semibold w-full hover:brightness-75">
                   Contact Us
                 </button>
               </Link>
-              <button className='bg-red text-white rounded-sm py-2 px-5 font-semibold'>Schedule A Call</button>
+              <button className='bg-red text-white w-full rounded-sm  font-semibold hover:brightness-75'><Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target="_blank" className="w-full"><p className="py-2 px-5">Schedule A Call</p></Link></button>
+
               <Link href="/policies/privacy"><p className="text-white text-center text-[12px] hover:underline underline-offset-2">Privacy Policy</p></Link>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import dotenv from 'dotenv';
+import Link from "next/link";
 
 const Contacto = () => {
   const {
@@ -28,20 +28,20 @@ const Contacto = () => {
 
   return (
     <section className="bg-gradient-to-b from-lightPink to-white pb-10">
-      <div className="container mx-auto max-w-[770px] font-Fitgree px-5">
-        <div className="pt-40">
+      <div className="container mx-auto max-w-[770px] font-Fitgree px-3">
+        <div className=" pt-10 lg:pt-40">
           <p className="bg-red text-white font-bold text-xl w-fit px-1 text-center uppercase">contact us</p>
-          <h4 className="font-bold pt-5 text-3xl">We’d love to hear from you</h4>
-          <p className="pt-5 text-xl text-justify">
+          <h4 className="font-bold pt-5 text-[28px] md:text-3xl">We’d love to hear from you</h4>
+          <p className="pt-3 md:pt-5 text-[17px] md:text-xl text-justify">
           Whether you need more info, a quote, or would like to request a sample of our high-quality ingredients, we’re here to help. Please fill out the form below and let us know how we can assist.
           </p>
-          <p className="pt-5 text-xl text-justify">
-          You can also connect with us on LinkedIn to stay up to date with our latest news and offerings, or schedule a call with one of our experts to discuss your specific needs.          
+          <p className="pt-5 text-[17px] md:text-xl text-justify">
+          You can also connect with us by mail to stay up to date with our latest news and offerings, or <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target="_blank" className="text-red">schedule a call</Link> with one of our experts to discuss your specific needs.          
           </p>
 
           <form onSubmit={handleSubmit(onSubmit)} className="">
             <div className="">
-              <div className="grid grid-cols-2 gap-3 pt-20">
+              <div className="grid lg:grid-cols-2 gap-3 pt-20">
                 <div className="flex flex-col">
                   <label className="font-bold">First name</label>
                   <input

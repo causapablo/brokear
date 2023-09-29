@@ -852,6 +852,42 @@
                 },
                 "link": "/products/bulk-category/bulk-oils/sunflower-oil",
                 "imagen": "/images/SunflowerOilDetail.jpg"
+            },
+            "oliveOil": {
+                "title": {
+                    "eng": "Olive oil",
+                    "esp": ""
+                },
+                "abstract": {
+                    "eng": "Olive oil is a delicious and nutritious oil that comes from the fruit of the olive tree. It is high in healthy monounsaturated fats and antioxidants that may protect your cells from damage and inflammation. Olive oil may also lower your risk of heart disease, stroke, and chronic diseases. Whether you use it for cooking, dressing, or dipping, olive oil adds a Mediterranean touch to your dishes. Try olive oil today and enjoy its benefits and taste!",
+                    "esp": ""
+                },
+                "name": {
+                    "eng": "Olea europaea",
+                    "esp": ""
+                },
+                "countries": {
+                    "eng": "Argentina",
+                    "esp": ""
+                },
+                "size": {
+                    "eng": "250ml, 500ml, 1000ml and 5000ml",
+                    "esp": ""
+                },
+                "shelfLife": {
+                    "eng": "24 months",
+                    "esp": ""
+                },
+                "use": {
+                    "eng": "Meals, cooking",
+                    "esp": ""
+                },
+                "shippingStorage": {
+                    "eng": "Dry / Ambient",
+                    "esp": ""
+                },
+                "link": "/products/bulk-category/bulk-oils/olive-oil",
+                "imagen": "/images/OliveOilDetail.jpg"
             }
         }
     },

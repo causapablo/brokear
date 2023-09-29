@@ -14,7 +14,7 @@ const Porque = () => {
     <main className="">
       <section className="">
         <div id="background">
-          <div className="container mx-auto max-w-[1300px] grid grid-cols-2">
+          <div className="container mx-auto max-w-[1300px] grid grid-cols-1 lg:grid-cols-2 px-3">
             <div id="img">
               <svg
                 className="w-full h-full"
@@ -56,11 +56,11 @@ const Porque = () => {
         <div>
           <Wave />
           <div id="background" className="bg-lightPink">
-            <div id="container" className="container mx-auto max-w-[1300px] pb-20">
+            <div id="container" className="container mx-auto max-w-[1300px] pb-20 px-3">
               <div className="pb-3">
-              <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">OUR EXPERTISE</h4>
+                <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">OUR EXPERTISE</h4>
               </div>
-              <div className="grid grid-cols-4 gap-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
                 <div className="space-y-4">
                   <p className="font-bold text-2xl text-white">Global Sourcing Network</p>
                   <p className="text-[17px] font-Figtree leading-relaxed text-white">
@@ -95,11 +95,11 @@ const Porque = () => {
         </div>
         <ScheduleCall />
         <div id="background" className="bg-peach pt-[70px]">
-          <div id="container" className="container mx-auto max-w-[1300px] pb-8">
+          <div id="container" className="container mx-auto max-w-[1300px] pb-8 px-3">
             <div className="pb-3">
-            <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">INDUSTRY CHALLENGES</h4>
+              <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">INDUSTRY CHALLENGES</h4>
             </div>
-            <div className="grid grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
               <div className="space-y-4 text-[18px]">
                 <p className="font-bold text-2xl text-white">Out with the old, in with the new</p>
                 <p className="text-white">
@@ -123,8 +123,8 @@ const Porque = () => {
           <WaveWhite />
         </div>
         <div id="background">
-          <div id="container" className="container mx-auto max-w-[1300px]">
-            <div className="grid grid-cols-2 gap-16">
+          <div id="container" className="container mx-auto max-w-[1300px] px-3 lg:px-0">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
               <div id="acordionLeft">
                 <div className="pb-6">
                   <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">YOUR STRUGGLES</h4>
@@ -369,8 +369,8 @@ const Porque = () => {
         </div>
         <section id="background" className="bg-gradient-to-b from-white to-lightPink">
           <div id="container" className="container mx-auto max-w-[1300px] py-28">
-            <div className="grid grid-cols-2 gap-16">
-              <div id="col1">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 px-3">
+              <div id="col1" className="col-span-1">
                 <div className="pb-3">
                   <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">WE ARE NOT DIFFERENT</h4>
                 </div>
@@ -393,20 +393,23 @@ const Porque = () => {
                   </p>
                 </div>
               </div>
-              <div id="col2" className=" flex flex-wrap items-end ">
+              <div id="col2" className=" flex flex-wrap items-end col-span-1 ">
                 <div
                   className="border relative flex items-end w-full lg:w-fit bg-white h-[70%]"
                 >
-                  <Image
-                    className="absolute -top-[120px] left-[55px] lg:left-[200px] hover:animate-wiggle"
-                    src={SideBarLogo}
-                    alt="SidebarblogLogo"
-                  />
-                  <div className="space-y-4 flex flex-col pb-5">
-                    <h1 className="text-white bg-red w-fit px-2 py-1 mx-auto font-Dancing">
+                  
+                    <Image
+                      className="absolute -top-[110px] lg:-top-[120px] transform -translate-x-1/2 lg:-translate-x-0 left-1/2 lg:left-[200px] hover:animate-wiggle"
+                      src={SideBarLogo}
+                      alt="SidebarblogLogo"
+                    />
+                  
+
+                  <div className="space-y-4 flex flex-col pb-5 pt-52 lg:pt-0">
+                    <h1 className="text-white bg-red w-fit px-2 py-1 mx-auto font-Dancing ">
                       Your #1 source of specialty ingredients
                     </h1>
-                    <p className="w-fit mx-4 text-center text-[19px]">
+                    <p className="w-fit mx-4 text-center text-[19px] ">
                       We source and import high-quality specialty raw ingredients
                       through our large global network. Experience the difference.
                     </p>

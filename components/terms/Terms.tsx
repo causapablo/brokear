@@ -91,7 +91,7 @@ function Terms() {
             to its conflict of law provisions.
           </p>
         </div>
-        <p className='text-[18px] leading-relaxed'>General Terms and Conditions applicable to Use of a Web Site.</p>
+        <p className='text-[16px] md:text-[18px] leading-relaxed'>General Terms and Conditions applicable to Use of a Web Site.</p>
       </div>
       
     </div>

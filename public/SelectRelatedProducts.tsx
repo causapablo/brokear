@@ -5,6 +5,8 @@ const SelecRandomProducts = (objeto: Record<string, any>)=>{
         related.push(objeto[n[0]], objeto[n[1]])
     }else if(n.length===4){
         related.push(objeto[n[0]], objeto[n[1]], objeto[n[2]])
+    }else if(n.length===3){
+        related.push(objeto[n[0]], objeto[n[1]], objeto[n[2]])
     }else{
         related.push(objeto[n[3]], objeto[n[5]], objeto[n[7]])
     }

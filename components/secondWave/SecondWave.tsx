@@ -5,7 +5,7 @@ const SecondWave = () => {
   return (
     <section className="">
     <WavePeach />
-    <div className="bg-peach">
+    <div className="bg-[#193330]">
       <div className="container mx-auto max-w-[1300px]">
 
         <div className='flex flex-col lg:flex-row pb-10 px-3 md:px-0 '>

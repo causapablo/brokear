@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import dotenv from 'dotenv';
 import Link from "next/link";
 
 const Contacto = () => {
@@ -16,7 +15,7 @@ const Contacto = () => {
 
   const onSubmit = (data: any, e: any) => {
     e.preventDefault()
-    emailjs.send('service_v0i504i', 'template_3qe54lp', data, 'dTwc7sMrSbni_ZCkC')
+    emailjs.send('', '', data, '')
       .then(function (response) {
         toast.success("Mensaje enviado con éxito");
         window.location.reload()

@@ -4,7 +4,6 @@ import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import dotenv from 'dotenv';
 import Link from "next/link";
 
 const Contacto = () => {

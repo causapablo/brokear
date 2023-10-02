@@ -30,13 +30,12 @@ function NavBar() {
   }
 
   return (
-    
-    <div className="sticky top-0 w-full bg-white z-40">
+    <div className="sticky top-0 w-full bg-[#193330] z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
-        <div className="container mx-auto md:flex md:justify-between h-16 bg-white max-w-[1300px]">
+        <div className="container mx-auto md:flex md:justify-between h-16 bg-[#193330] max-w-[1300px]">
           <div className=" hidden md:flex items-center cursor-pointer">
             <Link href="/">
-              <Image src={MainLogo} alt="MainLogo" width="200" height="48" />
+              <Image src={MainLogo} alt="MainLogo" width="200" height="48" className="bg-[#193330]" />
             </Link>
           </div>
           <div className="md:hidden">
@@ -154,7 +153,7 @@ function NavBar() {
           </div>
 
 
-          <ul className="md:flex items-center gap-12 text-black font-serif text-[17px] hidden">
+          <ul className="md:flex items-center gap-12 text-white font-serif text-[17px] hidden">
             <li
               className="relative flex flex-col items-center cursor-pointer"
               onMouseEnter={() => {
@@ -172,11 +171,11 @@ function NavBar() {
               </Link>
               {isOpen && (
                 <div
-                  className={`absolute top-12 flex flex-col items-start text-black h-fit w-60 bg-white z-50`}
+                  className={`absolute top-12 flex flex-col items-start text-white h-fit w-60 bg-[#193330] z-50`}
                 >
                   {productos.map((producto, i) => (
                     <div
-                      className="flex w-full justify-between border-[0.5px] font-normal border-black py-2 px-4 hover:bg-[#fef0e3] hover:text-red hover:border-l-lightRed hover:border-l-4"
+                      className="flex w-full justify-between border-[0.5px] font-normal border-black py-2 px-4 hover:bg-white hover:text-red hover:border-l-[#299131] hover:border-l-4"
                       key={i}
                     >
                       <Link href={producto.link} className="w-full">

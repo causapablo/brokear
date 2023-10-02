@@ -196,6 +196,10 @@ function NavBar() {
             <Link href="/contact">
               <li className={active == "/contact" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Contact</li>
             </Link>
+            {/* <select value={lang} onChange={handleLanguageChange}>
+      <option value="es">Español</option>
+      <option value="en">English</option>
+    </select> */}
           </ul>
         </div>
       </div>

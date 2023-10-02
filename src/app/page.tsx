@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import styles from './page.module.css'
 import Products from '../../components/products/Products'
@@ -8,11 +9,10 @@ import SecondWave from '../../components/secondWave/SecondWave'
 import Articles from '../../components/articles/articles'
 
 
-
 export default function Home() {
   return (
+
     <main className=''>
-      
       <Welcome/>
       <Company/>
       <ScheduleCall/>
@@ -22,5 +22,6 @@ export default function Home() {
       <Articles/> */}
       
     </main>
+   
   )
 }

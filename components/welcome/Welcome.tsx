@@ -1,9 +1,5 @@
-'use client'
-import Image from "next/image";
-import logo from "../../public/images/logo.png";
 import Link from "next/link";
-// import { useTranslation } from "../../context/TranslationContext";
-
+import ExportedImage from "next-image-export-optimizer";
 
 const Welcome = () => {
 
@@ -36,7 +32,7 @@ const Welcome = () => {
           </div>
         </div>
         <div className="">
-          <Image src={logo} alt="img" className="w-11/12 mx-auto" />
+          <ExportedImage src={"/images/logo.png"} alt="img" className="w-11/12 mx-auto" width={200} height={200}/>
         </div>
       </div>
     </section>

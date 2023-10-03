@@ -1,25 +1,20 @@
-import Image from "next/image";
-import hoja from "../../../public/images/logo.png";
-import profile from "../../../public/images/profile.jpg";
-import profile2 from "../../../public/images/profilePic.jpg";
-import meet from "../../../public/images/meet.jpg";
-import view from "../../../public/images/landscape.jpg";
 import Wave from "../../../public/icons/Wave";
 import WavePeach from "../../../public/icons/WavePeach";
 import ScheduleCall from "../../../components/schedulecall/ScheduleCall";
 import Profile from "../../../components/profile/Profile";
 import Team from "../../../components/team/Team";
-import EugePicture from '../../../public/images/EugePerfil.jpg'
-import JoacoPicture from '../../../public/images/JoacoPerfil.jpg'
+import ExportedImage from "next-image-export-optimizer";
 
 const Nosotros = () => {
+  const meet = "/images/meet.jpg"
+  const view = "/images/landscape.jpg"
   return (
     <section>
       <div className="bg-gradient-to-b from-lightPink to-white" id="main">
         <div className="container mx-auto max-w-[1300px] pt-32 pb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 px-3">
             <div className="mx-auto">
-              <Image src={hoja} alt="img" className="" />
+              <ExportedImage src={"/images/logo.png"} alt="img" className="w-full" width={800} height={800}/>
             </div>
             <div className="flex items-center justify-center">
               <div>
@@ -85,8 +80,8 @@ const Nosotros = () => {
       </div>
       <div id="background" className="py-16 bg-gradient-to-b from-lightPink via-white to-peach">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto max-w-[1300px] px-3 lg:px-0">
-          <Profile img={JoacoPicture} nombre="Joaquin Sipowicz" cargo="CEO" />
-          <Profile img={EugePicture} nombre="Eugenia Doblack" cargo="CEO" />
+          <Profile img={"/images/JoacoPerfil.jpg"} nombre="Joaquin Sipowicz" cargo="CEO" />
+          <Profile img={"/images/EugePerfil.jpg"} nombre="Eugenia Doblack" cargo="CEO" />
         </div>
       </div>
       <ScheduleCall />
@@ -129,14 +124,14 @@ const Nosotros = () => {
               </p>
             </div>
             <div id="container" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-center px-3">
-              <Image src={meet} alt="img" />
-              <Image src={meet} alt="img" />
-              <Image src={meet} alt="img" />
-              <Image src={view} alt="img" />
-              <Image src={view} alt="img" />
-              <Image src={view} alt="img" />
-              <Image src={meet} alt="img" />
-              <Image src={meet} alt="img" />
+              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
+              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
+              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
+              <ExportedImage src={view} alt="img" width={1000} height={1000} />
+              <ExportedImage src={view} alt="img" width={1000} height={1000} />
+              <ExportedImage src={view} alt="img" width={1000} height={1000} />
+              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
+              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
             </div>
           </div>
         </div>

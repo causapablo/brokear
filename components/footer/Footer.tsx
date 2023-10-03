@@ -107,7 +107,7 @@ const Footer = () => {
           & &nbsp;
           <a href="https://www.linkedin.com/in/solana-romero" target="_blank" className="underline">S</a>
           &nbsp; · &nbsp;
-          <a href="" target="_blank" className="underline">Brokear</a>
+          <Link href="/" className="underline">Brokear</Link>
           &nbsp; · &nbsp;
           <Link href="/policies/terms"><p className="underline hover:underline underline-offset-2">Terms</p></Link>
           &nbsp; · &nbsp;

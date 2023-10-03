@@ -7,8 +7,9 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import SideBarLogo from "../../../public/images/SidebarblogLogo.png";
 import Link from "next/link";
+import ExportedImage from "next-image-export-optimizer";
+
 const Porque = () => {
   return (
     <main className="">
@@ -384,7 +385,7 @@ const Porque = () => {
                   </p>
                   <p className="text-[18px] px-2 lg:px-0">
                     But that’s nothing more than a bump in the road when you’re
-                    working with Ingredient Brothers.
+                    working with Brokear.
                   </p>
                   <p className="text-[18px] px-2 lg:px-0">
                     We don’t leave you in the dark. We’re committed to transparent
@@ -398,10 +399,12 @@ const Porque = () => {
                   className="border relative flex items-end w-full lg:w-fit bg-white h-[70%]"
                 >
                   
-                    <Image
+                    <ExportedImage
                       className="absolute -top-[110px] lg:-top-[120px] transform -translate-x-1/2 lg:-translate-x-0 left-1/2 lg:left-[200px] hover:animate-wiggle"
-                      src={SideBarLogo}
+                      src={"/images/SidebarblogLogo.png"}
                       alt="SidebarblogLogo"
+                      width={201}
+                      height={182}
                     />
                   
 

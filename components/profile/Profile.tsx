@@ -1,19 +1,18 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { BiLogoLinkedinSquare } from 'react-icons/bi'
-import profilePic from '../../public/images/JoacoPerfil.jpg'
+import ExportedImage from "next-image-export-optimizer";
 
 function Profile({img, nombre, cargo, linkedin}:any) {
     return (
         <div className='flex flex-col'>
             <div id='header' className='flex mb-4'>
                 <div id='profilePicture'>
-                    <Image
+                    <ExportedImage
                         src={img}
                         alt="img"
                         className="rounded-full w-36 h-36 border-4 border-orange object-cover"
-                        
+                        width={200} height={200}
                     />
                 </div>
                 <div id='info' className='flex flex-col justify-center gap-3 ml-5'>

@@ -10,7 +10,7 @@ function Blog() {
 
                     <div>
                         <p className='font-Fitgree text-[17px] text-justify font-[500]'>
-                        Here you ll find all of the latest Ingredient Brothers company and industry updates as well as learning articles to help make you a more informed in your ingredient sourcing.
+                        Here you ll find all of the latest Brokear company and industry updates as well as learning articles to help make you a more informed in your ingredient sourcing.
                         </p>
                     </div>
                     <div></div>

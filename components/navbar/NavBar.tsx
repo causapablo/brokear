@@ -3,18 +3,16 @@ import Link from "next/link";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from "react";
 import productos from "../../public/categorias.json";
-import Image from "next/image";
-import MainLogo from '../../public/images/LogoHorizontal.png';
 import { usePathname } from 'next/navigation'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
-import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import { GrClose } from 'react-icons/gr'
 import Box from '@mui/material/Box';
+import ExportedImage from "next-image-export-optimizer";
 
 
 function NavBar() {
@@ -35,7 +33,7 @@ function NavBar() {
         <div className="container mx-auto md:flex md:justify-between h-16 bg-[#193330] max-w-[1300px]">
           <div className=" hidden md:flex items-center cursor-pointer">
             <Link href="/">
-              <Image src={MainLogo} alt="MainLogo" width="200" height="48" className="bg-[#193330]" />
+              <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="200" height="48" className="bg-[#193330]" />
             </Link>
           </div>
           <div className="md:hidden">
@@ -49,7 +47,7 @@ function NavBar() {
                   <div className="flex justify-between w-full">
                     <div className="flex items-center cursor-pointer">
                       <Link href="/">
-                        <Image src={MainLogo} alt="MainLogo" width="120" height="48" />
+                        <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="120" height="48" />
                       </Link>
                     </div>
                     <div className="flex items-center font-extrabold text-4xl" onClick={handleOnClick}>

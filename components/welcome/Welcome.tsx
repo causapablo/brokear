@@ -1,6 +1,5 @@
-import Image from "next/image";
-import logo from "../../public/images/logo.png";
 import Link from "next/link";
+import ExportedImage from "next-image-export-optimizer";
 
 const Welcome = () => {
   return (
@@ -30,7 +29,7 @@ const Welcome = () => {
           </div>
         </div>
         <div className="">
-          <Image src={logo} alt="img" className="w-11/12 mx-auto" />
+          <ExportedImage src={"/images/logo.png"} alt="img" className="w-11/12 mx-auto" width={200} height={200}/>
         </div>
       </div>
     </section>

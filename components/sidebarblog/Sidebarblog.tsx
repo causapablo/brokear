@@ -1,14 +1,15 @@
 import React from 'react'
 import Image from 'next/image'
-import SideBarLogo from '../../public/images/SidebarblogLogo.png';
-import IconSubscribe from '../../public/images/emailicon.png';
 import Link from 'next/link';
+import ExportedImage from "next-image-export-optimizer";
+
+
 function Sidebarblog() {
   return (
     <section>
       <div className='pt-[102px]' id='entero'>
         <div className='border relative mb-[52px] bg-white' id='nodoSuperior'>
-          <Image className='absolute -top-[103px] left-[75px] hover:animate-wiggle' src={SideBarLogo} alt='SidebarblogLogo' />
+          <ExportedImage className='absolute -top-[103px] left-[75px] hover:animate-wiggle' src={"/images/SidebarblogLogo.png"} alt='SidebarblogLogo' width={201} height={182}/>
           <div className='space-y-4 pt-24 pb-8'>
             <h1 className='text-white bg-red w-fit px-1 mx-auto'>Your #1 source of specialty ingredients</h1>
             <p className='w-fit mx-4 text-center text-[15px]'>We source and import high-quality specialty raw ingredients through our large global network. Experience the difference.</p>
@@ -23,10 +24,10 @@ function Sidebarblog() {
           </div>
         </div>
         <div className='border bg-[#B0D9B1] relative pb-5' id='nodoInferior'>
-          <Image className='absolute left-1/2 -top-6' src={IconSubscribe} alt='icon' width="48" height="48" />
+          <ExportedImage className='absolute transform -translate-x-1/2 left-1/2 -top-6 bg-white border border-black rounded-full' src={"/images/emailicon.png"} alt='icon' width={48} height={48} />
           <div className='space-y-4 pt-12'>
             <h1 className='text-center text-xl font-[700]'>Let s Keep in Touch</h1>
-            <p className='text-center px-6 leading-relaxed'>Subscribe for the latest Ingredient Brothers updates and happenings.</p>
+            <p className='text-center px-6 leading-relaxed'>Subscribe for the latest Brokear updates and happenings.</p>
             <div className='w-full text-center px-5'>
               <input type="text" className='border border-[#618264] w-full h-[44px] rounded-sm p-2 focus:border-dashed focus:border-black' placeholder='Your email address...' style={{"textAlign": 'center', "outline": "none"}}/>
             </div>

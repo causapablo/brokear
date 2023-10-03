@@ -6,7 +6,7 @@ function Accesibility() {
     <div>
       <h1 className='font-Fitgree text-[32px] md:text-[38px] font-semibold'>Accessibility Statement</h1>
       <div className='text-[16px] md:text-[18px] space-y-5'>
-        <p>Ingredient Brothers is committed to providing a website that is accessible to all users,
+        <p>Brokear is committed to providing a website that is accessible to all users,
           including those with disabilities. We strive to follow the Web Content Accessibility Guidelines
           (WCAG) 2.1 level AA standard, which provides recommendations for making web content more
           accessible to people with disabilities.</p>

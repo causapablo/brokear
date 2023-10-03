@@ -18,17 +18,17 @@ const BulkCharcoal = () => {
             environmental impact. Vegetal charcoal for HORECA has many advantages
             over other types of charcoal, such as:
           </p>
-          <ul>
-            <li>
+          <ul className="list-disc pl-4">
+            <li className="marker:text-red">
               It burns longer and hotter, producing less ash and smoke.
             </li>
-            <li>
+            <li className="marker:text-red">
               It gives a natural and aromatic flavor to the food, enhancing its taste and quality.
             </li>
-            <li>
+            <li className="marker:text-red">
               It is easy to light, handle, and store, saving time and money.
             </li>
-            <li>
+            <li className="marker:text-red">
               It is safe and healthy, as it does not contain any chemicals or additives.
             </li>
           </ul>

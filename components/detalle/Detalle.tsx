@@ -9,7 +9,7 @@ import SelecRandomProducts from "../../public/SelectRelatedProducts";
 import React from "react";
 import { TbMathGreater } from 'react-icons/tb';
 import Burbuja from "../burbuja/Burbuja";
-
+import ExportedImage from "next-image-export-optimizer";
 const Detalle = ({ title, description, name, countries, size, shelfLife, use, shippingStorage, imagen, link }: any) => {
 
 
@@ -52,7 +52,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
           <div id="product">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-3">
               <div id="img" className="flex justify-center items-center">
-                <Image
+                <ExportedImage
                   src={imagen}
                   alt="img"
                   width={500}
@@ -97,7 +97,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
 
         {/* <section className="hidden flex-col lg:flex lg:flex-row mx-auto items-center w-3/4 py-20 just ">
           <div className="basis-full w-fit">
-            <Image src={icon} alt="img" className="w-3/4 h-3/4" />
+            < src={icon} alt="img" className="w-3/4 h-3/4" />
           </div>
           <div className="flex flex-col space-y-4">
             <h4 className="font-bold text-2xl px-3 lg:px-0">
@@ -141,7 +141,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
                 <div className="flex-col lg:flex lg:flex-row space-y-3">
                   {
                     related.map((p, i) => (
-                      <Burbuja etiqueta={p.title.eng} imagen={p.imagen} link={p.link} key={i} />
+                      <Burbuja etiqueta={p.title.eng.replace("- Conventional and Organic!","")} imagen={p.imagen} link={p.link} key={i} />
                     ))
                   }
                 </div>

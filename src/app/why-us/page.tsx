@@ -15,7 +15,7 @@ const Porque = () => {
     <main className="">
       <section className="">
         <div id="background">
-          <div className="container mx-auto max-w-[1300px] grid grid-cols-1 lg:grid-cols-2 px-3">
+          <div className="container mx-auto max-w-[1300px] grid grid-cols-1 lg:grid-cols-2">
             <div id="img">
               <svg
                 className="w-full h-full"
@@ -43,8 +43,8 @@ const Porque = () => {
             <div id="container" className="flex items-center">
               <div className="space-y-4">
                 <h4 className="bg-red text-white w-fit text-xl px-1 font-Dancing">WHY CHOOSE US?</h4>
-                <p className="text-4xl font-bold">We are experts at managing end-to-end procurement cycles</p>
-                <p className="text-xl ">
+                <p className="text-4xl font-bold px-2 lg:px-0">We are experts at managing end-to-end procurement cycles</p>
+                <p className="text-xl px-2 lg:px-0 pb-5 lg:pb-0">
                   Our team has expertise in managing all of your sourcing and
                   replenishment needs. Years of experience as customers and
                   suppliers have taught us how to tackle any challenge.
@@ -100,10 +100,10 @@ const Porque = () => {
             <div className="pb-3">
               <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">INDUSTRY CHALLENGES</h4>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               <div className="space-y-4 text-[18px]">
-                <p className="font-bold text-2xl">Out with the old, in with the new</p>
-                <p className="">
+                <p className="font-bold text-2xl px-2 lg:px-0">Out with the old, in with the new</p>
+                <p className="px-2 lg:px-0">
                   Finding the right ingredients isn’t a cut-and-dry exercise where
                   you can sit back and relax while everything falls into place.
                   It’s a journey that requires commitment, where challenges are
@@ -111,8 +111,8 @@ const Porque = () => {
                 </p>
               </div>
               <div className="space-y-4 text-[18px]">
-                <p className="font-bold text-2xl">What’s the difference in our approach?</p>
-                <p className="">
+                <p className="font-bold text-2xl px-2 lg:px-0">What’s the difference in our approach?</p>
+                <p className="px-2 lg:px-0">
                   When you have a strategic supply partner that understands the
                   kinks and challenges of the procurement cycle, you better get a
                   book and a cup of tea ready for all the time we’re about to open
@@ -370,24 +370,24 @@ const Porque = () => {
         </div>
         <section id="background" className="bg-gradient-to-b from-white to-lightPink">
           <div id="container" className="container mx-auto max-w-[1300px] py-28">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 px-3">
-              <div id="col1" className="col-span-1">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+              <div id="col1">
                 <div className="pb-3">
                   <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">WE ARE NOT DIFFERENT</h4>
                 </div>
                 <div className="space-y-6">
-                  <p className="font-bold text-2xl">Not everyone gets the memo</p>
-                  <p className="text-[18px]">
+                  <p className="font-bold text-2xl px-2 lg:px-0">Not everyone gets the memo</p>
+                  <p className="text-[18px] px-2 lg:px-0">
                     Weather events, logistical holdups, and worldwide pandemics that
                     result in everyone stocking up on toilet paper and
                     post-apocalyptic fiction as guidebooks – things don’t always go
                     according to plan.
                   </p>
-                  <p className="text-[18px]">
+                  <p className="text-[18px] px-2 lg:px-0">
                     But that’s nothing more than a bump in the road when you’re
                     working with Brokear.
                   </p>
-                  <p className="text-[18px]">
+                  <p className="text-[18px] px-2 lg:px-0">
                     We don’t leave you in the dark. We’re committed to transparent
                     service, so you know immediately when plans change, and you’re
                     part of the course-corrected journey from the start.

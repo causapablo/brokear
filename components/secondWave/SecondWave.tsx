@@ -14,9 +14,9 @@ const SecondWave = () => {
               Start right now...
             </h4>
             <ul className="list-disc font-base text-lg pl-5 flex flex-col py-3 space-y-2 px-2 lg:px-0 text-lightPink">
-              <li className="marker:text-red">Saving valuable time on other activities and allow us to search for your trusted ingredient suppliers.</li>
-              <li className="marker:text-red">Working with certainty, with clear and orderly processes with our own supply chain.</li>
-              <li className="marker:text-red">Having the best costs with a guaranteed quality.</li>
+              <li className="marker:text-lightPink">Saving valuable time on other activities and allow us to search for your trusted inglightext-lightPinkient suppliers.</li>
+              <li className="marker:text-lightPink">Working with certainty, with clear and orderly processes with our own supply chain.</li>
+              <li className="marker:text-lightPink">Having the best costs with a guaranteed quality.</li>
             </ul>
           </div>
           <div className="basis-2/5 lg:pl-10 text-lightPink">

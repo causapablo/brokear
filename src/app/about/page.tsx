@@ -9,12 +9,12 @@ const Nosotros = () => {
   return (
     <section>
       <div className="bg-gradient-to-b from-lightPink to-white" id="main">
-        <div className="container mx-auto max-w-[1300px] pt-32 pb-12">
+        <div className="container mx-auto max-w-[1300px] pt-20 pb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 px-3">
             <div className="mx-auto">
               <ExportedImage src={"/images/logo.png"} alt="img" className="" width={529} height={471}/>
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center pt-5">
               <div>
                 <h2 className="bg-red text-white text-base w-fit px-1 text-center py-1 font-Dancing">
                   ABOUT US

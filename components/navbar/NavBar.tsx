@@ -26,6 +26,15 @@ function NavBar() {
   const handleOnClickProducts = () => {
     setProducts((prev) => !prev);
   }
+  const handleOnMainLogo = () =>{
+    if(open==true){
+      setOpen(false);
+    }
+  }
+  const handleBoth = ()=>{
+    setProducts((prev) => !prev);
+    setOpen((prev) => !prev);
+  }
 
   return (
     <div className="sticky top-0 w-full bg-white z-40">
@@ -46,7 +55,7 @@ function NavBar() {
                 <Box sx={{ width: '100%', padding: 0 }}>
                   <div className="flex justify-between w-full">
                     <div className="flex items-center cursor-pointer">
-                      <Link href="/">
+                      <Link href="/" onClick={handleOnMainLogo}>
                         <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="120" height="48" />
                       </Link>
                     </div>
@@ -71,14 +80,14 @@ function NavBar() {
                         >
                           <Box sx={{ fontWeight: "600", width: "100%" }}>
                             <div className="flex justify-between">
-                              <div >
+                              <div  onClick={handleOnClick}>
                                 <Link href="/products" className={active == "/products" ? "pr-8 text-red" : "pr-8"}>
                                   Products
                                 </Link>
                               </div>
                               <div onClick={handleOnClickProducts}>
                                 {
-                                  productos ? <ExpandMoreIcon /> : <ExpandLessIcon />
+                                  !products ? <ExpandMoreIcon /> : <ExpandLessIcon />
                                 }
                               </div>
                             </div>
@@ -88,34 +97,34 @@ function NavBar() {
                         <AccordionDetails sx={{ padding: 0 }}>
                           <Box>
                             <div className="border-t-[0.5px]">
-                              <div className="py-2 border-b-[0.5px]">
+                              <div className="py-2 border-b-[0.5px]"  onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-yerba-mate">
                                     Yerba Mate
                                   </Link></p>
                               </div>
-                              <div className="py-2 border-b-[0.5px]">
+                              <div className="py-2 border-b-[0.5px]"  onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-tea">
                                     Tea
                                   </Link>
                                 </p>
                               </div>
-                              <div className="py-2 border-b-[0.5px]">
+                              <div className="py-2 border-b-[0.5px]" onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-pulses-seeds">
                                     Pulses & Oil Seeds
                                   </Link>
                                 </p>
                               </div>
-                              <div className="py-2 border-b-[0.5px]">
+                              <div className="py-2 border-b-[0.5px]" onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-oils">
                                     Oils
                                   </Link>
                                 </p>
                               </div>
-                              <div className="py-2">
+                              <div className="py-2" onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-charcoal">
                                     Charcoal
@@ -129,17 +138,17 @@ function NavBar() {
                     </div>
 
 
-                    <Link href="/about">
+                    <Link href="/about" onClick={handleOnClick}>
                       <div className={active == "/about" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
                         <p className="pl-3">About Us</p>
                       </div>
                     </Link>
-                    <Link href="/why-us">
+                    <Link href="/why-us" onClick={handleOnClick}>
                       <div className={active == "/why-us" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
                         <p className="pl-3">Why Us</p>
                       </div>
                     </Link>
-                    <Link href="/contact">
+                    <Link href="/contact" onClick={handleOnClick}>
                       <div className={active == "/contact" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
                         <p className="pl-3">Contact</p>
                       </div>

@@ -5,7 +5,7 @@ const BulkOils = () => {
     <main className="bg-gradient-to-b from-lightPink to-white">
       <section className="container md:mx-auto max-w-[1300px] pt-14 px-3 lg:px-0">
         <h4 className="bg-red text-white w-fit px-1 text-lg">Oils</h4>
-        <div className="md:w-9/12 md:pt-6 pt-4">
+        <div className="md:w-9/12 md:pt-6 pt-4 font-Fitgree text-[17px] font-[500]">
           <p>
             Vegetable oils are oils that come from plants, such as seeds, nuts, fruits,
             and grains. They are used for human consumption, because they have many

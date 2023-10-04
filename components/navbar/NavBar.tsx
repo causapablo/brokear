@@ -28,12 +28,12 @@ function NavBar() {
   }
 
   return (
-    <div className="sticky top-0 w-full bg-[#193330] z-40">
+    <div className="sticky top-0 w-full bg-white z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
-        <div className="container mx-auto md:flex md:justify-between h-16 bg-[#193330] max-w-[1300px]">
+        <div className="container mx-auto md:flex md:justify-between h-16 bg-white max-w-[1300px]">
           <div className=" hidden md:flex items-center cursor-pointer">
             <Link href="/">
-              <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="200" height="48" className="bg-[#193330]" />
+              <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="200" height="48" className="" />
             </Link>
           </div>
           <div className="md:hidden">
@@ -151,7 +151,7 @@ function NavBar() {
           </div>
 
 
-          <ul className="md:flex items-center gap-12 text-white font-serif text-[17px] hidden">
+          <ul className="md:flex items-center gap-12 text-black font-serif text-[17px] hidden">
             <li
               className="relative flex flex-col items-center cursor-pointer"
               onMouseEnter={() => {
@@ -162,14 +162,14 @@ function NavBar() {
               }}
             >
               <Link href='/products'>
-                <button className={active == "/products" ? "flex items-center py-3 text-red" : "flex items-center py-3 hover:text-red"}>
+                <button className={active == "/products" ? "flex items-center py-3 text-lightRed" : "flex items-center py-3 hover:text-lightRed"}>
                   Products
                   <RiArrowDropDownLine className="font-extrabold text-3xl" />
                 </button>
               </Link>
               {isOpen && (
                 <div
-                  className={`absolute top-12 flex flex-col items-start text-white h-fit w-60 bg-[#193330] z-50`}
+                  className={`absolute top-12 flex flex-col items-start text-black h-fit w-60 bg-white z-50`}
                 >
                   {productos.map((producto, i) => (
                     <div
@@ -185,14 +185,14 @@ function NavBar() {
               )}
             </li>
             <Link href='/about'>
-              <li className={active == "/about" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>About Us</li>
+              <li className={active == "/about" ? "cursor-pointer text-lightRed" : "cursor-pointer hover:text-lightRed"}>About Us</li>
             </Link>
             <Link href="/why-us">
-              <li className={active == "/why-us" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Why Us</li>
+              <li className={active == "/why-us" ? "cursor-pointer text-lightRed" : "cursor-pointer hover:text-lightRed"}>Why Us</li>
             </Link>
             {/* <li className="cursor-pointer">Blog</li> */}
             <Link href="/contact">
-              <li className={active == "/contact" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Contact</li>
+              <li className={active == "/contact" ? "cursor-pointer text-lightRed" : "cursor-pointer hover:text-lightRed"}>Contact</li>
             </Link>
           </ul>
         </div>

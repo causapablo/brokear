@@ -56,35 +56,35 @@ const Porque = () => {
 
         <div>
           <Wave />
-          <div id="background" className="bg-lightPink">
+          <div id="background" className="bg-red">
             <div id="container" className="container mx-auto max-w-[1300px] pb-20 px-3">
               <div className="pb-3">
-                <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">OUR EXPERTISE</h4>
+                <h4 className="bg-white text-black w-fit px-2 py-1 text-lg font-Grotesk font-medium">OUR EXPERTISE</h4>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-lightPink">
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Global Sourcing Network</p>
+                  <p className="font-bold text-[23px]">Global Sourcing Network</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
                     We source from the most reliable and affordable vendors on the
                     globe.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Inventory Management</p>
+                  <p className="font-bold text-[23px]">Inventory Management</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
                     We help you manage your stock to optimize your inventory
                     costs.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Regulatory Support</p>
+                  <p className="font-bold text-[23px]">Regulatory Support</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
                     We take care of all the documentation and compliance
                     validation.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Logistics Solutions</p>
+                  <p className="font-bold text-[23px]">Logistics Solutions</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
                     We search for solutions that solve the actual challenges
                     you’re facing.
@@ -95,7 +95,7 @@ const Porque = () => {
           </div>
         </div>
         <ScheduleCall />
-        <div id="background" className="bg-peach pt-[70px]">
+        <div id="background" className="bg-gradient-to-b from-lightPink to-white pt-[70px]">
           <div id="container" className="container mx-auto max-w-[1300px] pb-8 px-3">
             <div className="pb-3">
               <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">INDUSTRY CHALLENGES</h4>
@@ -418,12 +418,12 @@ const Porque = () => {
                     </p>
                     <div className="flex flex-row gap-3 justify-center">
                       <Link href="/contacto">
-                        <button className="bg-[#fff5f5] text-lightRed border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
+                        <button className="bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
                           Contact Us
                         </button>
                       </Link>
-                      <Link href="https://calendly.com/causapablo/30min">
-                        <button className="bg-[#fff5f5] text-lightRed border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
+                      <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09">
+                        <button className="bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
                           Schedule A Call
                         </button>
                       </Link>

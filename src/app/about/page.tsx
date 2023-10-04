@@ -1,20 +1,18 @@
 import Wave from "../../../public/icons/Wave";
-import WavePeach from "../../../public/icons/WavePeach";
 import ScheduleCall from "../../../components/schedulecall/ScheduleCall";
 import Profile from "../../../components/profile/Profile";
 import Team from "../../../components/team/Team";
 import ExportedImage from "next-image-export-optimizer";
 
 const Nosotros = () => {
-  const meet = "/images/meet.jpg"
-  const view = "/images/landscape.jpg"
+  
   return (
     <section>
       <div className="bg-gradient-to-b from-lightPink to-white" id="main">
         <div className="container mx-auto max-w-[1300px] pt-32 pb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 px-3">
             <div className="mx-auto">
-              <ExportedImage src={"/images/logo.png"} alt="img" className="w-full" width={800} height={800}/>
+              <ExportedImage src={"/images/logo.png"} alt="img" className="" width={529} height={471}/>
             </div>
             <div className="flex items-center justify-center">
               <div>
@@ -44,12 +42,12 @@ const Nosotros = () => {
         </div>
       </div>
       <Wave />
-      <div className="bg-lightPink" id="">
+      <div className="bg-red" id="">
         <div className="container mx-auto max-w-[1300px] px-3 lg:px-0">
-          <h4 className="bg-red px-2 py-1 text-white text-base uppercase w-fit text-center font-normal font-Dancing">
+          <h4 className="bg-white px-2 py-1 text-black text-base uppercase w-fit text-center font-medium font-Dancing">
             Our Leadership
           </h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 pt-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 pt-4 text-lightPink">
             <div>
               <h4 className="text-justify font-bold md:text-[24px] text-[28px]">
                 The beignning of something genuinely exceptional.
@@ -78,14 +76,14 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
-      <div id="background" className="py-16 bg-gradient-to-b from-lightPink via-white to-peach">
+      <div id="background" className="py-36 bg-gradient-to-b from-red to-white">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto max-w-[1300px] px-3 lg:px-0">
-          <Profile img={"/images/JoacoPerfil.jpg"} nombre="Joaquin Sipowicz" cargo="CEO" />
-          <Profile img={"/images/EugePerfil.jpg"} nombre="Eugenia Doblack" cargo="CEO" />
+          <Profile img={"/images/JoacoPerfil.jpg"} nombre="Joaquin Sipowicz" cargo="CEO" bio ="" />
+          <Profile img={"/images/EugePerfil.jpg"} nombre="Eugenia Doblack" cargo="CEO" bio ="" />
         </div>
       </div>
       <ScheduleCall />
-      <div className="bg-gradient-to-b from-peach to-white pb-20">
+      <div className="bg-gradient-to-b from-lightPink to-white pb-20">
         <div className="container mx-auto max-w-[1300px]">
           <div id="header" className="py-20 text-center space-y-4">
             <h4 className="bg-red text-white uppercase text-lg w-fit mx-auto py-1 px-2 font-Dancing">
@@ -101,19 +99,16 @@ const Nosotros = () => {
           </div>
           <div id="container">
             <div className="grid md:grid-cols-2 gap-16 px-3">
-              <Team />
-              <Team />
-              <Team />
-              <Team />
-              <Team />
-              <Team />
+              <Team img={"/images/FlorenciaPerfil.jpg"} nombre="Florencia Silva" cargo="Account Manager" bio =""/>
+              <Team img={"/images/DoblakPerfil.jpg"} nombre="Juan Cruz Doblack" cargo="DEO" bio =""/>
+              <Team img={"/images/SolanaPerfil.jpg"} nombre="Solana Romero" cargo="Software Developer" bio =""/>
+              <Team img={"/images/PabloPerfil.jpg"} nombre="Pablo Causa" cargo="Software Developer" bio =""/>
             </div>
           </div>
         </div>
       </div>
       <div id="pictureSection" className="">
-        <WavePeach />
-        <div className="bg-gradient-to-b from-peach via-white to-[#fff5f5] pb-14">
+        <div className="bg-gradient-to-b from-red to-white pb-14 pt-28">
           <div className="container mx-auto max-w-[1300px]">
             <div id="header" className="pb-14">
               <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing py-1 px-2">
@@ -124,14 +119,13 @@ const Nosotros = () => {
               </p>
             </div>
             <div id="container" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-center px-3">
-              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
-              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
-              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
-              <ExportedImage src={view} alt="img" width={1000} height={1000} />
-              <ExportedImage src={view} alt="img" width={1000} height={1000} />
-              <ExportedImage src={view} alt="img" width={1000} height={1000} />
-              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
-              <ExportedImage src={meet} alt="img" width={1000} height={1000} />
+              <ExportedImage src={"/images/Company1.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company2.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company3.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company4.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company5.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company6.jpg"} alt="img" width={558} height={561} />
+              
             </div>
           </div>
         </div>

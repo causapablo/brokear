@@ -3,11 +3,11 @@ import React from 'react'
 function Terms() {
   return (
     <div className=''>
-      <h1 className='font-Fitgree text-[32px] md:text-[38px] font-semibold'>Terms & Conditions</h1>
+      <h1 className='font-Fitgree text-[38px] font-semibold px-2 lg:px-0'>Terms & Conditions</h1>
       <div className='space-y-8'>
         <div>
-          <h2 className='font-Fitgree text-[24px] md:text-[26px] font-semibold'>1. Terms</h2>
-          <p className='text-[16px] md:text-[18px] leading-relaxed'>
+          <h2 className='font-Fitgree text-[26px] font-semibold px-2 lg:px-0'>1. Terms</h2>
+          <p className='text-[18px] leading-relaxed px-2 lg:px-0'>
             By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use,
             all applicable laws and regulations, and agree that you are responsible for compliance with any
             applicable local laws. If you do not agree with any of these terms, you are prohibited from using or
@@ -16,9 +16,9 @@ function Terms() {
           </p>
         </div>
         <div>
-          <h2 className='font-Fitgree text-[24px] md:text-[26px] font-semibold'>2. Use License</h2>
+          <h2 className='font-Fitgree text-[26px] font-semibold px-2 lg:px-0'>2. Use License</h2>
           <div className='space-y-6'>
-            <p className='text-[16px] md:text-[18px] leading-relaxed'>
+            <p className='text-[18px] leading-relaxed px-2 lg:px-0'>
               Permission is granted to temporarily download one copy of the materials (information or software) on
               Brokear’ web site for personal, non-commercial transitory viewing only. This is the grant
               of a license, not a transfer of title, and under this license you may not:
@@ -30,7 +30,7 @@ function Terms() {
               <li className="marker:text-red">remove any copyright or other proprietary notations from the materials.</li>
               <li className="marker:text-red">transfer the materials to another person or “mirror” the materials on any other server.</li>
             </ul>
-            <p className='text-[16px] md:text-[18px] leading-relaxed'>
+            <p className='text-[18px] leading-relaxed px-2 lg:px-0'>
               This license shall automatically terminate if you violate any of these restrictions and may be terminated
               by Brokear at any time. Upon terminating your viewing of these materials or upon the termination
               of this license, you must destroy any downloaded materials in your possession whether in electronic or
@@ -91,7 +91,7 @@ function Terms() {
             to its conflict of law provisions.
           </p>
         </div>
-        <p className='text-[16px] md:text-[18px] leading-relaxed'>General Terms and Conditions applicable to Use of a Web Site.</p>
+        <p className='text-[18px] leading-relaxed px-2 lg:px-0'>General Terms and Conditions applicable to Use of a Web Site.</p>
       </div>
       
     </div>

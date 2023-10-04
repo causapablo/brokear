@@ -23,7 +23,7 @@ const SecondWave = () => {
             <h4 className="font-semibold text-2xl px-2 lg:px-0">
               Once upon a time
             </h4>
-            <p className="font-base text-lg py-2">
+            <p className="font-base text-lg py-2 px-2 lg:px-0">
               We were in your shoes, looking for reliable suppliers and consistently showing up.
               As a result, we have evolved into a supplier that is aligned with the goals of our clients, and have become the supplier we seek but never find.
               &nbsp; <span className="underline underline-offset-1 text-red cursor-pointer"><Link href={'/about'}>Read our story</Link></span>

@@ -2,6 +2,9 @@ import Link from "next/link";
 import ExportedImage from "next-image-export-optimizer";
 
 const Welcome = () => {
+
+  // const { lang, setLang, translate } = useTranslation();
+
   return (
     <section className="bg-gradient-to-b from-lightPink to-white">
       <div className="grid grid-cols-1 lg:grid-cols-2 pt-16 container mx-auto max-w-[1300px]">

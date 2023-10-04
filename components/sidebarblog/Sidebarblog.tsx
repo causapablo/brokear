@@ -17,7 +17,7 @@ function Sidebarblog() {
               <Link href='/contacto'>
                 <button className='bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]'>Contact Us</button>
               </Link>
-              <Link href="https://calendly.com/causapablo/30min">
+              <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09">
                 <button className='bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]'>Schedule A Call</button>
               </Link>
             </div>

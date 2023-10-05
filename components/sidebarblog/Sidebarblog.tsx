@@ -35,11 +35,7 @@ function Sidebarblog() {
                 Sign Me Up!
             </div>
             <Link href="/privacy"><p className="text-[#557A46] text-center text-[14px] underline underline-offset-2 mt-3">Privacy Policy</p></Link>
-
-
-
           </div>
-
         </div>
       </div>
     </section>

@@ -86,17 +86,16 @@ const Footer = () => {
           <div className="flex flex-col md:flex-grow-0 md:w-1/3">
             <div className="col-span-5">
               <h4 className="bg-red text-white text-center text-lg font-normal w-fit mx-auto px-4 font-Dancing">
-                Get in touch!
+                Subscribe
               </h4>
             </div>
             <div className="flex flex-col pt-4 gap-2">
-              <Link href="/contact">
-                <button className="bg-white text-red rounded-sm py-2 px-5 font-semibold w-full hover:brightness-75">
-                  Contact Us
-                </button>
-              </Link>
-              <button className='bg-red text-white w-full rounded-sm  font-semibold hover:brightness-75'><Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target="_blank" className="w-full"><p className="py-2 px-5">Schedule A Call</p></Link></button>
-
+              <div className='w-full text-center px-5'>
+                <input type="text" className='border border-[#618264] w-full h-[44px] rounded-sm p-2 focus:border-dashed focus:border-black' placeholder='Your email address...' style={{ "textAlign": 'center', "outline": "none" }} />
+              </div>
+              <div className='mx-5 h-[44px] bg-red rounded-[3px] text-center flex justify-center items-center text-white font-semibold cursor-pointer hover:opacity-90' >
+                Sign Me Up!
+              </div>
               <Link href="/policies/privacy"><p className="text-white text-center text-[12px] hover:underline underline-offset-2">Privacy Policy</p></Link>
             </div>
           </div>

@@ -31,8 +31,8 @@ const Welcome = () => {
             </Link>
           </div>
         </div>
-        <div className="py-6 lg:py-0">
-          <ExportedImage src={"/images/LogoLanding.jpg"} alt="img" className="w-full px-3 md:mx-auto rounded-full" width={50} height={50}/>
+        <div className="lg:py-0">
+          <ExportedImage src={"/images/LogoLanding.jpg"} alt="img" className="w-11/12 mx-auto rounded-full" width={50} height={50}/>
         </div>
       </div>
     </section>

@@ -16,7 +16,7 @@ function Profile({ img, nombre, cargo, bio }: any) {
                     />
                 </div>
                 <div id='info' className='flex flex-col justify-center gap-3 ml-5'>
-                    <h5 className="bg-white text-black w-fit px-2 py-1 text-center font-Grotesk uppercase font-medium">
+                    <h5 className="bg-red text-white w-fit px-2 py-1 text-center font-Grotesk uppercase font-medium">
                         {nombre}
                     </h5>
                     <p className='font-semibold'>{cargo}</p>

@@ -8,11 +8,11 @@ const Nosotros = () => {
   
   return (
     <section>
-      <div className="bg-gradient-to-b from-lightPink to-white" id="main">
+      <div className="bg-gradient-to-b from-peach to-white" id="main">
         <div className="container mx-auto max-w-[1300px] pt-20 pb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 px-3">
             <div className="mx-auto">
-              <ExportedImage src={"/images/logo.png"} alt="img" className="" width={529} height={471}/>
+              <ExportedImage src={"/images/LogoPrincipalJoacoEuge.png"} alt="img" className="" width={642} height={573}/>
             </div>
             <div className="flex items-center justify-center pt-5">
               <div>
@@ -41,13 +41,13 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
-      <Wave />
-      <div className="bg-red" id="">
+      <Wave/>
+      <div className="bg-lightPink" id="">
         <div className="container mx-auto max-w-[1300px] px-3 lg:px-0">
-          <h4 className="bg-white px-2 py-1 text-black text-base uppercase w-fit text-center font-medium font-Dancing">
+          <h4 className="bg-red px-2 py-1 text-white text-base uppercase w-fit text-center font-medium font-Dancing">
             Our Leadership
           </h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 pt-4 text-lightPink">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 pt-4 text-black">
             <div>
               <h4 className="text-justify font-bold md:text-[30px] text-[28px] pt-2 px-2 lg:px-0">
                 The start of something truly exceptional.
@@ -76,7 +76,7 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
-      <div id="background" className="py-36 bg-gradient-to-b from-red to-white">
+      <div id="background" className="py-36 bg-gradient-to-b from-lightPink to-white">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto max-w-[1300px] px-3 lg:px-0">
           <Profile img={"/images/JoacoPerfil.jpg"} nombre="Joaquin Sipowicz" cargo="CEO" bio ="" />
           <Profile img={"/images/EugePerfil.jpg"} nombre="Eugenia Doblack" cargo="CEO" bio ="" />
@@ -93,8 +93,7 @@ const Nosotros = () => {
               Solving today’s supply chain requires a truly global team
             </h4>
             <p className="text-lg w-fit mx-auto">
-              We have team members in the USA, Colombia, Argentina, South Africa,
-              and the Philippines.
+              We have team members in Argentina, South Africa, Philippines and more countries.
             </p>
           </div>
           <div id="container">
@@ -107,8 +106,9 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
+      <Wave/>
       <div id="pictureSection" className="">
-        <div className="bg-gradient-to-b from-red to-white pb-14 pt-28">
+        <div className="bg-gradient-to-b from-lightPink to-white pb-14 pt-28">
           <div className="container mx-auto max-w-[1300px]">
             <div id="header" className="pb-14">
               <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing py-1 px-2">

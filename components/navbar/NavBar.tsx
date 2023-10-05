@@ -171,7 +171,7 @@ function NavBar() {
               }}
             >
               <Link href='/products'>
-                <button className={active == "/products" ? "flex items-center py-3 text-lightRed" : "flex items-center py-3 hover:text-lightRed"}>
+                <button className={active == "/products" ? "flex items-center py-3 text-red" : "flex items-center py-3 hover:text-red"}>
                   Products
                   <RiArrowDropDownLine className="font-extrabold text-3xl" />
                 </button>
@@ -182,7 +182,7 @@ function NavBar() {
                 >
                   {productos.map((producto, i) => (
                     <div
-                      className="flex w-full justify-between border-[0.5px] font-normal border-black py-2 px-4 hover:bg-white hover:text-red hover:border-l-[#299131] hover:border-l-4"
+                      className="flex w-full justify-between border-[0.5px] font-normal border-black py-2 px-4  hover:text-red hover:border-l-[#299131] hover:border-l-4"
                       key={i}
                     >
                       <Link href={producto.link} className="w-full">
@@ -194,14 +194,14 @@ function NavBar() {
               )}
             </li>
             <Link href='/about'>
-              <li className={active == "/about" ? "cursor-pointer text-lightRed" : "cursor-pointer hover:text-lightRed"}>About Us</li>
+              <li className={active == "/about" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>About Us</li>
             </Link>
             <Link href="/why-us">
-              <li className={active == "/why-us" ? "cursor-pointer text-lightRed" : "cursor-pointer hover:text-lightRed"}>Why Us</li>
+              <li className={active == "/why-us" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Why Us</li>
             </Link>
             {/* <li className="cursor-pointer">Blog</li> */}
             <Link href="/contact">
-              <li className={active == "/contact" ? "cursor-pointer text-lightRed" : "cursor-pointer hover:text-lightRed"}>Contact</li>
+              <li className={active == "/contact" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Contact</li>
             </Link>
             {/* <select value={lang} onChange={handleLanguageChange}>
       <option value="es">Español</option>

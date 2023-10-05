@@ -15,7 +15,7 @@ const Contacto = () => {
 
   const onSubmit = (data: any, e: any) => {
     e.preventDefault()
-    emailjs.send('', '', data, '')
+    emailjs.send('service_qifnwpj', 'template_ip4cjkq', data, 'PJrudd64y-i-PSywv')
       .then(function (response) {
         toast.success("Mensaje enviado con éxito");
         window.location.reload()
@@ -36,7 +36,7 @@ const Contacto = () => {
           Whether you need more info, a quote, or would like to request a sample of our high-quality ingredients, we’re here to help. Please fill out the form below and let us know how we can assist.
           </p>
           <p className="pt-5 text-[17px] md:text-xl text-justify">
-          You can also connect with us by mail to stay up to date with our latest news and offerings, or <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target="_blank" className="text-lightRed hover:underline hover:underline-offset-2">schedule a call</Link> with one of our experts to discuss your specific needs.          
+          You can also connect with us by mail to stay up to date with our latest news and offerings, or <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09" target="_blank" className="text-red hover:underline hover:underline-offset-2">schedule a call</Link> with one of our experts to discuss your specific needs.          
           </p>
 
           <form onSubmit={handleSubmit(onSubmit)} className="">

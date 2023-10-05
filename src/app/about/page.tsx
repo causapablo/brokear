@@ -4,6 +4,7 @@ import Profile from "../../../components/profile/Profile";
 import Team from "../../../components/team/Team";
 import ExportedImage from "next-image-export-optimizer";
 
+
 const Nosotros = () => {
   
   return (
@@ -108,7 +109,7 @@ const Nosotros = () => {
       </div>
       <Wave/>
       <div id="pictureSection" className="">
-        <div className="bg-gradient-to-b from-lightPink to-white pb-14 pt-28">
+        <div className="bg-gradient-to-b from-lightPink to-white  border-t-lightPink pb-14 pt-28">
           <div className="container mx-auto max-w-[1300px]">
             <div id="header" className="pb-14">
               <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing py-1 px-2">

@@ -53,7 +53,7 @@ const Nosotros = () => {
                 The start of something truly exceptional.
               </h4>
               <p className="font-base text-lg pt-2 px-2 lg:px-0">
-                As COO of Nuts.com, Eran watched as vendors changed up pricing,
+                As COO, Joaquin watched as vendors changed up pricing,
                 quality, and lead times on a whim. With so much at stake, he
                 knew there had to be a better way. He partnered with fellow
                 Eugenia to start Brokear, a company that is data-informed but relationship-driven.

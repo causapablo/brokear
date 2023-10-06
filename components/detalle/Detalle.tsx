@@ -125,7 +125,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
             </Link>
           </div>
         </section>
-        <div className="divide-y-2 divide-[#e9c5c5] flex flex-col w-10/12 mx-auto">
+        <div className="divide-y-2 divide-[#e9c5c5] flex flex-col w-8/12 mx-auto py-8">
           <span className="text-white"></span>
           <span className="text-white"></span>
         </div>

@@ -9,7 +9,7 @@ function Blog() {
                 <div className="grid grid-cols-2 gap-4 pt-2">
 
                     <div>
-                        <p className='font-Fitgree text-[17px] text-justify font-[500]'>
+                        <p className='font-Grotesk text-[17px] text-justify font-[500]'>
                         Here you ll find all of the latest Brokear company and industry updates as well as learning articles to help make you a more informed in your ingredient sourcing.
                         </p>
                     </div>

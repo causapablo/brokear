@@ -1,15 +1,35 @@
+'use client'
 import React from 'react'
-import Image from 'next/image'
 import Link from 'next/link';
 import ExportedImage from "next-image-export-optimizer";
-
+import { useForm } from "react-hook-form";
+import emailjs from '@emailjs/browser';
+import { useRouter } from 'next/navigation';
 
 function Sidebarblog() {
+  const router = useRouter()
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (data: any, e: any) => {
+    e.preventDefault()
+    emailjs.send('service_qifnwpj', 'template_9s6kye9', data, 'PJrudd64y-i-PSywv')
+      .then(function (response) {
+        router.push('/confirmed')
+        // toast.success("Mensaje enviado con éxito");
+        
+      }, function (error) {
+        // toast.error("Fallo la entrega, probá de vuelta");
+      })
+  }
   return (
     <section>
       <div className='pt-[102px]' id='entero'>
         <div className='border relative mb-[52px] bg-white' id='nodoSuperior'>
-          <ExportedImage className='absolute -top-[103px] left-[75px] hover:animate-wiggle' src={"/images/SidebarblogLogo.png"} alt='SidebarblogLogo' width={201} height={182}/>
+          <ExportedImage className='absolute -top-[120px] left-[75px] hover:animate-wiggle rounded-full' src={"/images/LogoLanding.jpg"} alt='SidebarblogLogo' width={201} height={201} />
           <div className='space-y-4 pt-24 pb-8'>
             <h1 className='text-white bg-red w-fit px-1 mx-auto'>Your #1 source of specialty ingredients</h1>
             <p className='w-fit mx-4 text-center text-[15px]'>We source and import high-quality specialty raw ingredients through our large global network. Experience the difference.</p>
@@ -28,12 +48,19 @@ function Sidebarblog() {
           <div className='space-y-4 pt-12'>
             <h1 className='text-center text-xl font-[700]'>Let s Keep in Touch</h1>
             <p className='text-center px-6 leading-relaxed'>Subscribe for the latest Brokear updates and happenings.</p>
-            <div className='w-full text-center px-5'>
-              <input type="text" className='border border-[#618264] w-full h-[44px] rounded-sm p-2 focus:border-dashed focus:border-black' placeholder='Your email address...' style={{"textAlign": 'center', "outline": "none"}}/>
-            </div>
-            <div className='mx-5 h-[44px] bg-[#618264] rounded-[3px] text-center flex justify-center items-center text-white font-semibold cursor-pointer hover:opacity-90' >
-                Sign Me Up!
-            </div>
+            <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col pt-4 gap-4">
+                <div className='w-full text-center px-5'>
+                  <input
+                    {...register("suscriptionEmail")}
+                    type="email"
+                    className='border border-[#618264] w-full h-[44px] rounded-sm p-2 focus:border-dashed focus:border-black' placeholder='Your email address...' style={{ "textAlign": 'center', "outline": "none" }} />
+                </div>
+                <div className="w-full px-5">
+                  <button type="submit" className='h-[44px] bg-red w-full rounded-[3px] text-center flex flex-wrap justify-center items-center text-white font-semibold cursor-pointer hover:opacity-90' >
+                    Sign Me Up!
+                  </button>
+                </div>
+              </form>
             <Link href="/privacy"><p className="text-[#557A46] text-center text-[14px] underline underline-offset-2 mt-3">Privacy Policy</p></Link>
           </div>
         </div>

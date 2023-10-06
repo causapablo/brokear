@@ -5,7 +5,7 @@ const Company = () => {
   return (
     <section className="">
       <Wave/>
-      <div className="bg-lightPink">
+      <div className="bg-lightPink -mt-1">
         <div className="px-2 xl:px-0 container mx-auto max-w-[1300px] pb-14">
           <h4 className="bg-red text-white uppercase w-fit text-center px-1 py-1 mb-2 font-Grotesk">
             The Best Deal

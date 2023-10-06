@@ -3,10 +3,10 @@ import React from 'react'
 function Terms() {
   return (
     <div className=''>
-      <h1 className='font-Fitgree text-[38px] font-semibold px-2 lg:px-0'>Terms & Conditions</h1>
+      <h1 className='font-Grotesk text-[32px] md:text-[38px] font-semibold px-2 lg:px-0'>Terms & Conditions</h1>
       <div className='space-y-8'>
         <div>
-          <h2 className='font-Fitgree text-[26px] font-semibold px-2 lg:px-0'>1. Terms</h2>
+          <h2 className='font-Grotesk text-[24px] md:text-[26px] font-semibold px-2 lg:px-0'>1. Terms</h2>
           <p className='text-[18px] leading-relaxed px-2 lg:px-0'>
             By accessing this web site, you are agreeing to be bound by these web site Terms and Conditions of Use,
             all applicable laws and regulations, and agree that you are responsible for compliance with any
@@ -16,7 +16,7 @@ function Terms() {
           </p>
         </div>
         <div>
-          <h2 className='font-Fitgree text-[26px] font-semibold px-2 lg:px-0'>2. Use License</h2>
+          <h2 className='font-Grotesk text-[24px] md:text-[26px] font-semibold px-2 lg:px-0'>2. Use License</h2>
           <div className='space-y-6'>
             <p className='text-[18px] leading-relaxed px-2 lg:px-0'>
               Permission is granted to temporarily download one copy of the materials (information or software) on
@@ -39,7 +39,7 @@ function Terms() {
           </div>
         </div>
         <div>
-          <h2 className='font-Fitgree text-[24px] md:text-[26px] font-semibold'>3. Disclaimer</h2>
+          <h2 className='font-Grotesk text-[24px] md:text-[26px] font-semibold'>3. Disclaimer</h2>
           <p className='text-[16px] md:text-[18px] leading-relaxed'>
             The materials on Brokear’ web site are provided “as is”. Brokear makes no warranties,
             expressed or implied, and hereby disclaims and negates all other warranties, including without limitation,
@@ -50,7 +50,7 @@ function Terms() {
           </p>
         </div>
         <div>
-          <h2 className='font-Fitgree text-[24px] md:text-[26px] font-semibold'>4. Limitations</h2>
+          <h2 className='font-Grotesk text-[24px] md:text-[26px] font-semibold'>4. Limitations</h2>
           <p className='text-[16px] md:text-[18px] leading-relaxed'>
             In no event shall Brokear or its suppliers be liable for any damages (including, without limitation,
             damages for loss of data or profit, or due to business interruption,) arising out of the use or inability to use
@@ -61,7 +61,7 @@ function Terms() {
           </p>
         </div>
         <div>
-          <h2 className='font-Fitgree text-[24px] md:text-[26px] font-semibold'>5. Revisions and Errata</h2>
+          <h2 className='font-Grotesk text-[24px] md:text-[26px] font-semibold'>5. Revisions and Errata</h2>
           <p className='text-[16px] md:text-[18px] leading-relaxed'>
             The materials appearing on Brokear’ web site could include technical, typographical, or photographic errors.
             Brokear does not warrant that any of the materials on its web site are accurate, complete, or current.
@@ -70,7 +70,7 @@ function Terms() {
           </p>
         </div>
         <div>
-          <h2 className='font-Fitgree text-[24px] md:text-[26px] font-semibold'>6. Links</h2>
+          <h2 className='font-Grotesk text-[24px] md:text-[26px] font-semibold'>6. Links</h2>
           <p className='text-[16px] md:text-[18px] leading-relaxed'>
             Brokear has not reviewed all of the sites linked to its Internet web site and is not responsible for the contents
             of any such linked site. The inclusion of any link does not imply endorsement by Brokear of the site. Use of
@@ -78,20 +78,20 @@ function Terms() {
           </p>
         </div>
         <div>
-          <h2 className='font-Fitgree text-[24px] md:text-[26px] font-semibold'>7. Site Terms of Use Modifications</h2>
+          <h2 className='font-Grotesk text-[24px] md:text-[26px] font-semibold'>7. Site Terms of Use Modifications</h2>
           <p className='text-[16px] md:text-[18px] leading-relaxed'>
             Brokear may revise these terms of use for its web site at any time without notice. By using this web site you
             are agreeing to be bound by the then current version of these Terms and Conditions of Use.
           </p>
         </div>
         <div>
-          <h2 className='font-Fitgree text-[24px] md:text-[26px] font-semibold'>8. Governing Law</h2>
+          <h2 className='font-Grotesk text-[24px] md:text-[26px] font-semibold'>8. Governing Law</h2>
           <p className='text-[16px] md:text-[18px] leading-relaxed'>
             Any claim relating to Brokear’ web site shall be governed by the laws of the State of New York without regard
             to its conflict of law provisions.
           </p>
         </div>
-        <p className='text-[18px] leading-relaxed px-2 lg:px-0'>General Terms and Conditions applicable to Use of a Web Site.</p>
+        <p className='text-[18px] leading-relaxed lg:px-0'>General Terms and Conditions applicable to Use of a Web Site.</p>
       </div>
       
     </div>

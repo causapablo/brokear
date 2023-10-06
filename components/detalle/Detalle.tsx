@@ -18,7 +18,13 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
   let BulkProduct = bulkProduct?.charAt(0).toUpperCase() + bulkProduct?.slice(1);
   BulkProduct = BulkProduct.replaceAll("-", " ");
   let related: any[] = [];
-
+  const abstract = description;
+  let bean = false;
+  let resumeBean = [];
+  if (abstract.includes(";")) {
+    resumeBean = abstract.split(";")
+    bean = true;
+  }
   switch (bulkProduct) {
     case "bulk-yerba-mate":
 
@@ -42,7 +48,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
     <main className="pb-20 bg-gradient-to-b from-lightPink to-white">
       <div className="container mx-auto max-w-[1300px]">
         <section id="container" className="pb-20 pt-3">
-          <div id="navigate" className="flex py-8">
+          <div id="navigate" className="flex py-8 px-3">
             <Link href="/products" className="text-red text-sm font-semibold hover:underline underline-offset-1">{Products}</Link>
             <div className="flex items-center justify-center text-[10px] px-1">
               <TbMathGreater />
@@ -57,7 +63,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
                   alt="img"
                   width={500}
                   height={500}
-                  className="border-4 border-black rounded-full h-[380px] w-[380px] lg:h-[500px] lg:w-[500px]"
+                  className="border-4 border-black rounded-full h-[360px] w-[360px] lg:h-[500px] lg:w-[500px]"
                 />
               </div>
               <div id="text" className="flex flex-col justify-between">
@@ -65,15 +71,21 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
                   <h4 className="font-bold text-2xl lg:text-4xl uppercase">
                     {title}
                   </h4>
-                  <p className="text-base lg:text-lg">
+                  <div className="text-base lg:text-lg">
                     {
-                      description
+                      bean ? resumeBean.map((text:string, i: any) => (
+                        <p key={i} className="text-left py-2">
+                          {
+                            text
+                          }
+                        </p>
+                      )) : description
                     }
-                  </p>
+                  </div>
                 </div>
                 <div className="space-y-6 py-4 lg:py-0">
                   <Link href="/contact">
-                    <button className="bg-red text-white px-3 py-2 rounded-md font- w-fit font-Dancing hover:bg-lightRed">
+                    <button className="bg-red text-white px-3 py-2 rounded-md font- w-fit font-Dancing hover:brightness-75">
                       Contact for Quote
                     </button>
                   </Link>
@@ -111,7 +123,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
           </div>
         </section> */}
 
-        <Faq/>
+        <Faq />
 
         <section className="pt-14 items-center">
           <div className="flex-col md:flex md:flex-row md:justify-center ">
@@ -138,10 +150,10 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
                     RELATED PRODUCTS
                   </h4>
                 </div>
-                <div className="flex-col lg:flex lg:flex-row space-y-3">
+                <div className="flex flex-wrap lg:flex lg:flex-row gap-2">
                   {
                     related.map((p, i) => (
-                      <Burbuja etiqueta={p.title.eng.replace("- Conventional and Organic!","")} imagen={p.imagen} link={p.link} key={i} />
+                      <Burbuja etiqueta={p.title.eng.replace("- Conventional and Organic!", "")} imagen={p.imagen} link={p.link} key={i} />
                     ))
                   }
                 </div>

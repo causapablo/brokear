@@ -56,12 +56,12 @@ const Porque = () => {
 
         <div>
           <Wave />
-          <div id="background" className="bg-red">
+          <div id="background" className="bg-lightPink -mt-1">
             <div id="container" className="container mx-auto max-w-[1300px] pb-20 px-3">
               <div className="pb-3">
-                <h4 className="bg-white text-black w-fit px-2 py-1 text-lg font-Grotesk font-medium">OUR EXPERTISE</h4>
+                <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Grotesk font-medium">OUR EXPERTISE</h4>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-lightPink">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-black">
                 <div className="space-y-4">
                   <p className="font-bold text-[23px]">Global Sourcing Network</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
@@ -394,14 +394,14 @@ const Porque = () => {
                   </p>
                 </div>
               </div>
-              <div id="col2" className=" flex flex-wrap items-end col-span-1 ">
+              <div id="col2" className=" flex flex-wrap items-end col-span-1 px-3">
                 <div
-                  className="border relative flex items-end w-full lg:w-fit bg-white h-[70%]"
+                  className="border relative flex items-end w-full lg:w-fit bg-white h-[75%]"
                 >
                   
                     <ExportedImage
-                      className="absolute -top-[110px] lg:-top-[120px] transform -translate-x-1/2 lg:-translate-x-0 left-1/2 lg:left-[200px] hover:animate-wiggle"
-                      src={"/images/SidebarblogLogo.png"}
+                      className="absolute -top-[120px] rounded-full lg:-top-[120px] lg:-translate-x-0 left-[85px] lg:left-[200px] hover:animate-wiggle"
+                      src={"/images/LogoLanding.jpg"}
                       alt="SidebarblogLogo"
                       width={201}
                       height={182}
@@ -417,7 +417,7 @@ const Porque = () => {
                       through our large global network. Experience the difference.
                     </p>
                     <div className="flex flex-row gap-3 justify-center">
-                      <Link href="/contacto">
+                      <Link href="/contact">
                         <button className="bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
                           Contact Us
                         </button>

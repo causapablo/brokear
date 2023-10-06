@@ -23,7 +23,7 @@ const Products = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-center pt-11 pb-20 space-y-3">
+        <div className="flex flex-wrap justify-center pt-11 pb-20 gap-3">
           {
             prod.map((p, i) => (
               <Burbuja etiqueta={p.product} imagen={p.img} link={p.link} key={i} />

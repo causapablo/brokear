@@ -42,7 +42,7 @@ const Nosotros = () => {
         </div>
       </div>
       <Wave/>
-      <div className="bg-lightPink" id="">
+      <div className="bg-lightPink -mt-1" id="">
         <div className="container mx-auto max-w-[1300px] px-3 lg:px-0">
           <h4 className="bg-red px-2 py-1 text-white text-base uppercase w-fit text-center font-medium font-Dancing">
             Our Leadership
@@ -76,7 +76,7 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
-      <div id="background" className="py-36 bg-gradient-to-b from-lightPink to-white">
+      <div id="background" className="py-36 bg-gradient-to-b from-lightPink to-white -mt-1">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto max-w-[1300px] px-3 lg:px-0">
           <Profile img={"/images/JoacoPerfil.jpg"} nombre="Joaquin Sipowicz" cargo="CEO" bio ="" />
           <Profile img={"/images/EugePerfil.jpg"} nombre="Eugenia Doblack" cargo="CEO" bio ="" />
@@ -107,7 +107,7 @@ const Nosotros = () => {
         </div>
       </div>
       <Wave/>
-      <div id="pictureSection" className="">
+      <div id="pictureSection" className="-mt-1">
         <div className="bg-gradient-to-b from-lightPink to-white pb-14 pt-28">
           <div className="container mx-auto max-w-[1300px]">
             <div id="header" className="pb-14">

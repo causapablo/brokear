@@ -13,7 +13,7 @@ const Welcome = () => {
             <h2 className="bg-red text-white text-[13px] md:text-lg w-fit text-center py-1 font-Dancing uppercase md:px-2">
               Getting your product has never been so easy
             </h2>
-            <p className=" lg:px-0 text-[32px] md:text-[38px] font-[600] font-Fitgree leading-tight">
+            <p className=" lg:px-0 text-[32px] md:text-[38px] font-[600] font-Grotesk leading-tight">
               We specialize in sourcing and shipping top-notch specialty raw materials from all over the world
             </p>
             <p className="pt-5 lg:px-0 text-xl text-justify">
@@ -31,8 +31,8 @@ const Welcome = () => {
             </Link>
           </div>
         </div>
-        <div className="py-6 lg:py-0">
-          <ExportedImage src={"/images/LogoLanding.jpg"} alt="img" className="w-full px-3 md:mx-auto rounded-full" width={50} height={50}/>
+        <div className="lg:py-0">
+          <ExportedImage src={"/images/LogoLanding.jpg"} alt="img" className="w-11/12 mx-auto rounded-full" width={50} height={50}/>
         </div>
       </div>
     </section>

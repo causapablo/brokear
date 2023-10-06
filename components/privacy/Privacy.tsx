@@ -3,7 +3,7 @@ import React from 'react'
 function Privacy() {
     return (
         <div>
-            <h1 className='font-Fitgree text-[38px] font-semibold px-2 lg:px-0'>Privacy Policy</h1>
+            <h1 className='font-Grotesk text-[38px] font-semibold px-2 lg:px-0'>Privacy Policy</h1>
             <div className='text-[18px] space-y-5 px-2 lg:px-0'>
                 <p>Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.</p>
                 <ul className='list-disc pl-7 px-2 lg:px-0'>

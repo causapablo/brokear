@@ -6,8 +6,8 @@ const BulkPulsesSeeds = () => {
     <main className="bg-gradient-to-b from-lightPink to-white">
       <section className="container md:mx-auto max-w-[1300px] pt-14 px-3 lg:px-0">
         <h4 className="bg-red text-white w-fit px-1 text-lg">Pulses and Seeds</h4>
-        <div className="md:w-9/12 md:pt-6 pt-4 font-Fitgree text-[17px] font-[500]">
-          <p>
+        <div className="md:w-9/12 md:pt-6 pt-4 font-Grotesk text-[17px] font-[500] space-y-2">
+          <p className="indent-4 text-justify">
 
             Pulses and oil seeds are two groups of crops that are characterized by their
             high content of proteins and vegetable oils. Pulses are dried legumes,
@@ -16,27 +16,17 @@ const BulkPulsesSeeds = () => {
             and safflower.
 
           </p>
-          <p>
-            Pulses and oil seeds have varied uses and customs depending on the region
-            and culture where they are produced and consumed. Pulses are used as human
+          <p className="indent-4 text-justify">
+            Pulses are used as human
             and animal food, as green fertilizer and as a source of biofuels. Oil seeds
             are used to extract edible and industrial oils, to make flours and protein
             concentrates, to make soaps, cosmetics and paints, and to generate renewable
             energy.
           </p>
-          <p>
-            Pulses and oil seeds have benefits for human and environmental health, as
-            they provide essential nutrients, such as proteins, fiber, iron, calcium,
-            zinc, magnesium, omega-3 and omega-6 fatty acids, vitamins and antioxidants.
-            These nutrients help prevent and treat diseases such as anemia, osteoporosis,
-            diabetes, high cholesterol, obesity and cancer. In addition, pulses and oil
-            seeds contribute to improving soil fertility, fixing atmospheric nitrogen,
-            reducing greenhouse gas emissions and diversifying agricultural systems.
-          </p>
         </div>
 
-        <div className="flex pt-8 pb-20 justify-center flex-wrap space-y-3">
-          <Burbuja imagen={"/images/AdzukiGeneral.jpg"} etiqueta={"Adzuki Beans"} link={"/products/bulk-category/bulk-pulses-seeds/adzuki-beans"} />
+        <div className="flex pt-8 pb-20 justify-center flex-wrap gap-5">
+          <Burbuja imagen={"/images/AdzukiGeneral.jpg"} etiqueta={"Adzuki Beans"} link={"/products/bulk-category/bulk-pulses-seeds/adzuki-beans"}/>
           <Burbuja imagen={"/images/AlubiaGeneral.jpg"} etiqueta={"Alubia Beans"} link={"/products/bulk-category/bulk-pulses-seeds/alubia-beans"} />
           <Burbuja imagen={"/images/BlackGeneral.jpg"} etiqueta={"Black Beans"} link={"/products/bulk-category/bulk-pulses-seeds/black-beans"} />
           <Burbuja imagen={"/images/BlackEyeGeneral.jpg"} etiqueta={"Black Eyed Beans"} link={"/products/bulk-category/bulk-pulses-seeds/black-eye-beans"} />

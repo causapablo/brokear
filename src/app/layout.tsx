@@ -9,8 +9,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'SU BROKER ARGENTINO',
-  description: 'Brokear es seguridad y confianza',
+  title: 'Your Broker in Argentina',
+  description: 'Brokear is security and trust',
 }
 
 export default function RootLayout({

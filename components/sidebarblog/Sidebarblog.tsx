@@ -34,7 +34,7 @@ function Sidebarblog() {
             <h1 className='text-white bg-red w-fit px-1 mx-auto'>Your #1 source of specialty ingredients</h1>
             <p className='w-fit mx-4 text-center text-[15px]'>We source and import high-quality specialty raw ingredients through our large global network. Experience the difference.</p>
             <div className='flex flex-row gap-3 justify-center'>
-              <Link href='/contacto'>
+              <Link href='/contact'>
                 <button className='bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]'>Contact Us</button>
               </Link>
               <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09">

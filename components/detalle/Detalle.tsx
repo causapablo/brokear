@@ -24,6 +24,8 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
   if (abstract.includes(";")) {
     resumeBean = abstract.split(";")
     bean = true;
+  }else{
+    resumeBean = abstract.split(".")
   }
   switch (bulkProduct) {
     case "bulk-yerba-mate":
@@ -74,12 +76,18 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
                   <div className="text-base lg:text-lg">
                     {
                       bean ? resumeBean.map((text:string, i: any) => (
-                        <p key={i} className="text-left py-2">
+                        <p key={i} className="text-justify py-2">
                           {
                             text
                           }
                         </p>
-                      )) : description
+                      )) : resumeBean.map((text:string, i: any) => (
+                        <p key={i} className="text-justify indent-2">
+                          {
+                            text
+                          }
+                        </p>
+                      )) 
                     }
                   </div>
                 </div>
@@ -130,7 +138,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
             <p className="text-center font-bold text-xl md:px-9 pb-5 md:pb-0 md:flex md:items-center ">
               Have more questions or interested in a quote?
             </p>
-            <Link href="/contacto" className="flex justify-center">
+            <Link href="/contact" className="flex justify-center">
               <button className="bg-red text-white w-fit px-3 py-2 rounded-sm font-semibold">
                 Contact Us
               </button>

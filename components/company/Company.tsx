@@ -10,7 +10,7 @@ const Company = () => {
           <h4 className="bg-red text-white uppercase w-fit text-center px-1 py-1 mb-2 font-Grotesk">
             The Best Deal
           </h4>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 text-black'>
+          <div className='grid grid-cols-1 lg:grid-cols-2 gap-16 text-black leading-8 md:leading-tight'>
             <div>
               <h4 className="font-bold text-2xl mb-4 lg:px-0">
                 Searching for high quality ingredients and trusted suppliers is a process that shouldnt be taken lightly

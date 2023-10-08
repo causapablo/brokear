@@ -9,15 +9,15 @@ const Products = () => {
       <div className="container mx-auto max-w-[1300px] py-16">
         <div className="flex">
           <div className="basis-1/2">
-            <h4 className="bg-red text-white uppercase text-sm lg:text-lg w-fit mx-auto px-1 font-Dancing">
+            <h4 className="bg-red text-white uppercase text-[12px] lg:text-lg w-fit mx-auto px-1 font-Dancing">
               Featured Products
             </h4>
           </div>
           <div className="basis-1/2 items-center">
             <Link href="/products">
               <div className="flex justify-center group">
-                <p className="text-red font-semibold hover:underline-offset-4 cursor-pointer group-hover:text-[#01533e]">View All Products</p>
-                <p className="pt-1 pl-3 text-red cursor-pointer group-hover:text-[#01533e]"><BsArrowRight className="font-bold" /></p>
+                <p className="text-red text-[14px] md:text-lg font-semibold hover:underline-offset-4 cursor-pointer group-hover:text-[#01533e]">View All Products</p>
+                <p className="pt-1 pl-3 text-[14px] md:text-lg text-red cursor-pointer group-hover:text-[#01533e]"><BsArrowRight className="font-bold" /></p>
               </div>
             </Link>
           </div>
@@ -32,15 +32,15 @@ const Products = () => {
         </div>
         <div className="flex">
           <div className="basis-1/2">
-            <h4 className="bg-red text-white uppercase text-sm lg:text-lg w-fit mx-auto px-1 font-Dancing">
+            <h4 className="bg-red text-white uppercase text-[12px] lg:text-lg w-fit mx-auto px-1 font-Dancing">
               Featured Categories
             </h4>
           </div>
           <div className="basis-1/2 items-center">
             <Link href="/products">
               <div className="flex justify-center group">
-                <p className="text-red font-semibold hover:underline-offset-4 cursor-pointer group-hover:text-[#01533e]">View All Products</p>
-                <p className="pt-1 pl-3 text-red cursor-pointer"><BsArrowRight className="font-bold group-hover:text-[#01533e]" /></p>
+                <p className="text-red text-[14px] md:text-lg font-semibold hover:underline-offset-4 cursor-pointer group-hover:text-[#01533e]">View All Products</p>
+                <p className="pt-1 pl-3 text-[14px] md:text-lg text-red cursor-pointer"><BsArrowRight className="font-bold group-hover:text-[#01533e]" /></p>
               </div>
             </Link>
           </div>

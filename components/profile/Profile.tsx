@@ -31,7 +31,7 @@ function Profile({ img, nombre, cargo, bio, funFact }: any) {
 
                 {
                     biopic.map((par: string, i: any) => (
-                        <p className='indent-2 text-justify'>
+                        <p className='indent-2 text-justify' key={i}>
                             {
                                 par
                             }

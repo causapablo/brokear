@@ -1,27 +1,20 @@
-import Image from "next/image";
-import hoja from "../../../public/images/logo.png";
-import profile from "../../../public/images/profile.jpg";
-import profile2 from "../../../public/images/profilePic.jpg";
-import meet from "../../../public/images/meet.jpg";
-import view from "../../../public/images/landscape.jpg";
 import Wave from "../../../public/icons/Wave";
-import WavePeach from "../../../public/icons/WavePeach";
 import ScheduleCall from "../../../components/schedulecall/ScheduleCall";
 import Profile from "../../../components/profile/Profile";
 import Team from "../../../components/team/Team";
-import EugePicture from '../../../public/images/EugePerfil.jpg'
-import JoacoPicture from '../../../public/images/JoacoPerfil.jpg'
+import ExportedImage from "next-image-export-optimizer";
 
 const Nosotros = () => {
+
   return (
     <section>
-      <div className="bg-gradient-to-b from-lightPink to-white" id="main">
-        <div className="container mx-auto max-w-[1300px] pt-32 pb-12">
+      <div className="bg-gradient-to-b from-peach to-white" id="main">
+        <div className="container mx-auto max-w-[1300px] pt-20 pb-12">
           <div className="grid grid-cols-1 md:grid-cols-2 px-3">
             <div className="mx-auto">
-              <Image src={hoja} alt="img" className="" />
+              <ExportedImage src={"/images/LogoTractor.jpg"} alt="img" className=" hidden md:flex rounded-full" width={573} height={573} />
             </div>
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center pt-0 md:pt-5">
               <div>
                 <h2 className="bg-red text-white text-base w-fit px-1 text-center py-1 font-Dancing">
                   ABOUT US
@@ -49,18 +42,18 @@ const Nosotros = () => {
         </div>
       </div>
       <Wave />
-      <div className="bg-lightPink" id="">
+      <div className="bg-lightPink -mt-1" id="">
         <div className="container mx-auto max-w-[1300px] px-3 lg:px-0">
-          <h4 className="bg-red px-2 py-1 text-white text-base uppercase w-fit text-center font-normal font-Dancing">
+          <h4 className="bg-red px-2 py-1 text-white text-base uppercase w-fit text-center font-medium font-Dancing">
             Our Leadership
           </h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 pt-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-24 pt-4 text-black">
             <div>
               <h4 className="text-justify font-bold md:text-[30px] text-[28px] pt-2 px-2 lg:px-0">
                 The start of something truly exceptional.
               </h4>
               <p className="font-base text-lg pt-2 px-2 lg:px-0">
-                As COO of Nuts.com, Eran watched as vendors changed up pricing,
+                As COO, Joaquin watched as vendors changed up pricing,
                 quality, and lead times on a whim. With so much at stake, he
                 knew there had to be a better way. He partnered with fellow
                 Eugenia to start Brokear, a company that is data-informed but relationship-driven.
@@ -83,14 +76,24 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
-      <div id="background" className="py-16 bg-gradient-to-b from-lightPink via-white to-peach">
+      <div id="background" className="py-36 bg-gradient-to-b from-lightPink to-white -mt-1">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 container mx-auto max-w-[1300px] px-3 lg:px-0">
-          <Profile img={JoacoPicture} nombre="Joaquin Sipowicz" cargo="CEO" />
-          <Profile img={EugePicture} nombre="Eugenia Doblack" cargo="CEO" />
+          <Profile
+            img={"/images/JoacoPerfil.jpg"}
+            nombre="Joaquin Sipowicz"
+            cargo="CEO"
+            bio="Joaquin was born and raised in Córdoba. He studied at the Universidad de Villa Maria, where he obtained a degree in Foreign Trade in 2018.; After gaining experience working in various companies, Joaquin joined forces with Eugenia to co-found Brokear, a dynamic and innovative company.; Brokear's mission is to provide accessible and transparent solutions to individuals and businesses. "
+            funFact="Joaquin is a paddle enthusiast, globe-trotter, and nature lover. Whether on the court, exploring new horizons, or unwinding in the countryside, he embraces life's diverse experiences with passion and enthusiasm." />
+          <Profile
+            img={"/images/EugePerfil.jpg"}
+            nombre="Eugenia Doblack"
+            cargo="CEO"
+            bio="Eugenia, a Cordoban native, co-founded Brokear alongside Joaquin as they were partners of studies at Universidad de Villa María.; Her unwavering commitment to transparency and accessibility in finance reflects the values she holds dear.; With roots in Córdoba, Eugenia's mission in life is mirrored in Brokear's mission to provide top-notch solutions and make a positive impact on her clients and the industry."
+            funFact="She has a passion for traveling, nature, and landscapes, and she's a true master chef in the kitchen. Her meals are not just delicious; they are culinary works of art." />
         </div>
       </div>
       <ScheduleCall />
-      <div className="bg-gradient-to-b from-peach to-white pb-20">
+      <div className="bg-gradient-to-b from-lightPink to-white pb-20">
         <div className="container mx-auto max-w-[1300px]">
           <div id="header" className="py-20 text-center space-y-4">
             <h4 className="bg-red text-white uppercase text-lg w-fit mx-auto py-1 px-2 font-Dancing">
@@ -100,25 +103,20 @@ const Nosotros = () => {
               Solving today’s supply chain requires a truly global team
             </h4>
             <p className="text-lg w-fit mx-auto">
-              We have team members in the USA, Colombia, Argentina, South Africa,
-              and the Philippines.
+              We have team members in Argentina, South Africa, Philippines and more countries.
             </p>
           </div>
           <div id="container">
             <div className="grid md:grid-cols-2 gap-16 px-3">
-              <Team />
-              <Team />
-              <Team />
-              <Team />
-              <Team />
-              <Team />
+              <Team img={"/images/FlorenciaPerfil.jpg"} nombre="Florencia Silva" cargo="Account Manager" bio="" />
+              <Team img={"/images/DoblakPerfil.jpg"} nombre="Juan Cruz Doblack" cargo="Marketing & Research" bio="" />
             </div>
           </div>
         </div>
       </div>
-      <div id="pictureSection" className="">
-        <WavePeach />
-        <div className="bg-gradient-to-b from-peach via-white to-[#fff5f5] pb-14">
+      <Wave />
+      <div id="pictureSection" className="-mt-1">
+        <div className="bg-gradient-to-b from-lightPink to-white pb-14 pt-28">
           <div className="container mx-auto max-w-[1300px]">
             <div id="header" className="pb-14">
               <h4 className="bg-red text-white uppercase w-fit mx-auto font-Dancing py-1 px-2">
@@ -129,14 +127,12 @@ const Nosotros = () => {
               </p>
             </div>
             <div id="container" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 justify-center px-3">
-              <Image src={meet} alt="img" />
-              <Image src={meet} alt="img" />
-              <Image src={meet} alt="img" />
-              <Image src={view} alt="img" />
-              <Image src={view} alt="img" />
-              <Image src={view} alt="img" />
-              <Image src={meet} alt="img" />
-              <Image src={meet} alt="img" />
+              <ExportedImage src={"/images/Company1.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company2.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company3.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company4.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company5.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company6.jpg"} alt="img" width={558} height={561} />
             </div>
           </div>
         </div>

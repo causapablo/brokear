@@ -7,28 +7,33 @@ const BulkCharcoal = () => {
     <main className="bg-gradient-to-b from-lightPink to-white">
       <section className="container md:mx-auto max-w-[1300px] pt-14 px-3 lg:px-0">
         <h4 className="bg-red text-white w-fit px-1 text-lg">Charcoal</h4>
-        <div className="md:w-7/12 md:pt-6 pt-4">
-          <p>
+        <div className="md:w-7/12 md:pt-6 pt-4 font-Grotesk text-[17px] font-[500] space-y-2">
+          <p className="indent-4 text-justify">
             VegetableVegetal charcoal for HORECA is a high-quality product that
             can be used for grilling, smoking, and cooking food in hotels,
-            restaurants, and catering services. It is made from different
+            restaurants, and catering services.
+          </p>
+          <p className="indent-4 text-justify">It is made from different
             species of hard or semi-hard woods such as Quebracho Blanco, Itin,
             Garabato, Guayacán, Mistol, Quebracho Colorado, etc. These woods
             are sourced from sustainable forests and processed with minimal
-            environmental impact. Vegetal charcoal for HORECA has many advantages
+            environmental impact.
+          </p>
+          <p className="indent-4 text-justify">
+            Vegetal charcoal for HORECA has many advantages
             over other types of charcoal, such as:
           </p>
-          <ul>
-            <li>
+          <ul className="list-disc pl-4">
+            <li className="marker:text-red">
               It burns longer and hotter, producing less ash and smoke.
             </li>
-            <li>
+            <li className="marker:text-red">
               It gives a natural and aromatic flavor to the food, enhancing its taste and quality.
             </li>
-            <li>
+            <li className="marker:text-red">
               It is easy to light, handle, and store, saving time and money.
             </li>
-            <li>
+            <li className="marker:text-red">
               It is safe and healthy, as it does not contain any chemicals or additives.
             </li>
           </ul>

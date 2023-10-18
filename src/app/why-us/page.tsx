@@ -7,8 +7,9 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import SideBarLogo from "../../../public/images/SidebarblogLogo.png";
 import Link from "next/link";
+import ExportedImage from "next-image-export-optimizer";
+
 const Porque = () => {
   return (
     <main className="">
@@ -39,11 +40,11 @@ const Porque = () => {
                 />
               </svg>
             </div>
-            <div id="container" className="flex items-center">
+            <div id="container" className="flex items-center px-3">
               <div className="space-y-4">
                 <h4 className="bg-red text-white w-fit text-xl px-1 font-Dancing">WHY CHOOSE US?</h4>
-                <p className="text-4xl font-bold px-2 lg:px-0">We are experts at managing end-to-end procurement cycles</p>
-                <p className="text-xl px-2 lg:px-0 pb-5 lg:pb-0">
+                <p className=" text-2xl md:text-4xl font-bold lg:px-0">We are experts at managing end-to-end procurement cycles</p>
+                <p className="text-xl lg:px-0 pb-5 lg:pb-0">
                   Our team has expertise in managing all of your sourcing and
                   replenishment needs. Years of experience as customers and
                   suppliers have taught us how to tackle any challenge.
@@ -55,35 +56,35 @@ const Porque = () => {
 
         <div>
           <Wave />
-          <div id="background" className="bg-lightPink">
+          <div id="background" className="bg-lightPink -mt-1">
             <div id="container" className="container mx-auto max-w-[1300px] pb-20 px-3">
               <div className="pb-3">
-                <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">OUR EXPERTISE</h4>
+                <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Grotesk font-medium">OUR EXPERTISE</h4>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-black">
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Global Sourcing Network</p>
+                  <p className="font-bold text-[23px]">Global Sourcing Network</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
                     We source from the most reliable and affordable vendors on the
                     globe.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Inventory Management</p>
+                  <p className="font-bold text-[23px]">Inventory Management</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
                     We help you manage your stock to optimize your inventory
                     costs.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Regulatory Support</p>
+                  <p className="font-bold text-[23px]">Regulatory Support</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
                     We take care of all the documentation and compliance
                     validation.
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-2xl">Logistics Solutions</p>
+                  <p className="font-bold text-[23px]">Logistics Solutions</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
                     We search for solutions that solve the actual challenges
                     you’re facing.
@@ -94,15 +95,15 @@ const Porque = () => {
           </div>
         </div>
         <ScheduleCall />
-        <div id="background" className="bg-peach pt-[70px]">
+        <div id="background" className="bg-gradient-to-b from-lightPink to-white pt-[70px]">
           <div id="container" className="container mx-auto max-w-[1300px] pb-8 px-3">
             <div className="pb-3">
               <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">INDUSTRY CHALLENGES</h4>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               <div className="space-y-4 text-[18px]">
-                <p className="font-bold text-2xl px-2 lg:px-0">Out with the old, in with the new</p>
-                <p className="px-2 lg:px-0">
+                <p className="font-bold text-2xl lg:px-0">Out with the old, in with the new</p>
+                <p className="lg:px-0">
                   Finding the right ingredients isn’t a cut-and-dry exercise where
                   you can sit back and relax while everything falls into place.
                   It’s a journey that requires commitment, where challenges are
@@ -110,8 +111,8 @@ const Porque = () => {
                 </p>
               </div>
               <div className="space-y-4 text-[18px]">
-                <p className="font-bold text-2xl px-2 lg:px-0">What’s the difference in our approach?</p>
-                <p className="px-2 lg:px-0">
+                <p className="font-bold text-2xl lg:px-0">What’s the difference in our approach?</p>
+                <p className="lg:px-0">
                   When you have a strategic supply partner that understands the
                   kinks and challenges of the procurement cycle, you better get a
                   book and a cup of tea ready for all the time we’re about to open
@@ -371,7 +372,7 @@ const Porque = () => {
           <div id="container" className="container mx-auto max-w-[1300px] py-28">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
               <div id="col1">
-                <div className="pb-3">
+                <div className="pb-3 px-3 md:px-0">
                   <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">WE ARE NOT DIFFERENT</h4>
                 </div>
                 <div className="space-y-6">
@@ -384,7 +385,7 @@ const Porque = () => {
                   </p>
                   <p className="text-[18px] px-2 lg:px-0">
                     But that’s nothing more than a bump in the road when you’re
-                    working with Ingredient Brothers.
+                    working with Brokear.
                   </p>
                   <p className="text-[18px] px-2 lg:px-0">
                     We don’t leave you in the dark. We’re committed to transparent
@@ -393,15 +394,17 @@ const Porque = () => {
                   </p>
                 </div>
               </div>
-              <div id="col2" className=" flex flex-wrap items-end col-span-1 ">
+              <div id="col2" className=" flex flex-wrap items-end col-span-1 px-3">
                 <div
-                  className="border relative flex items-end w-full lg:w-fit bg-white h-[70%]"
+                  className="border relative flex items-end w-full lg:w-fit bg-white h-[75%]"
                 >
                   
-                    <Image
-                      className="absolute -top-[110px] lg:-top-[120px] transform -translate-x-1/2 lg:-translate-x-0 left-1/2 lg:left-[200px] hover:animate-wiggle"
-                      src={SideBarLogo}
+                    <ExportedImage
+                      className="absolute -top-[120px] rounded-full lg:-top-[120px] lg:-translate-x-0 left-[85px] lg:left-[200px] hover:animate-wiggle"
+                      src={"/images/LogoLanding.jpg"}
                       alt="SidebarblogLogo"
+                      width={201}
+                      height={182}
                     />
                   
 
@@ -414,13 +417,13 @@ const Porque = () => {
                       through our large global network. Experience the difference.
                     </p>
                     <div className="flex flex-row gap-3 justify-center">
-                      <Link href="/contacto">
-                        <button className="bg-[#fff5f5] text-lightRed border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
+                      <Link href="/contact">
+                        <button className="bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
                           Contact Us
                         </button>
                       </Link>
-                      <Link href="https://calendly.com/causapablo/30min">
-                        <button className="bg-[#fff5f5] text-lightRed border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
+                      <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09">
+                        <button className="bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
                           Schedule A Call
                         </button>
                       </Link>

@@ -2,9 +2,11 @@ import Link from 'next/link'
 import React from 'react'
 
 function Burbuja({ imagen, etiqueta, link }: any) {
+    let long  = false;
+    if(etiqueta.length>15) long =true;
     return (
         <div className='bg-origin-border 
-        rounded-full border-[3px] border-black w-[315px] h-[315px] 
+        rounded-full border-[3px] border-black w-[174px] h-[174px] md:w-[315px] md:h-[315px] 
         flex flex-wrap items-center mx-auto cursor-pointer relative justify-center group'>
             <Link href={link}>
                 <div
@@ -22,7 +24,7 @@ function Burbuja({ imagen, etiqueta, link }: any) {
 
                 </div>
                 <div>
-                    <p className="uppercase text-[#D8D9DA] font-bold brightness-200 group-hover:brightness-200">
+                    <p className={ long == true ? "uppercase text-xs md:text-[16px] text-[#D8D9DA] font-bold brightness-200 group-hover:brightness-200": "uppercase text-sm md:text-[16px] text-[#D8D9DA] font-bold brightness-200 group-hover:brightness-200"}>
                         {etiqueta}
                     </p>
                 </div>

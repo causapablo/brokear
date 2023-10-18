@@ -4,15 +4,15 @@ import NavBar from '../../components/navbar/NavBar'
 import Footer from '../../components/footer/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import { TranslationProvider } from '../../context/TranslationContext'
 import { Provider } from 'react-redux';
 import store from "../../redux/index"
+// import { TranslationProvider } from '../../context/TranslationContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'SU BROKER ARGENTINO',
-  description: 'Brokear es seguridad y confianza',
+  title: 'Your Broker in Argentina',
+  description: 'Brokear is security and trust',
 }
 
 export default function RootLayout({

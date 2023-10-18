@@ -19,13 +19,12 @@ module.exports = {
     },
     colors: {
       white: "#fff",
-      lightPink: "#fffff",
-      peach: "#fffff",
-      red: "#193330",
+      lightPink: "#9aceb8",
+      peach: "#93cba6",
+      red: "#2a923a",
       lightRed: "#90ee90",
       black: "#000",
       orange: "#F8973A"
-
     },
     fontFamily: {
       Figtree: ['Figtree', 'sans-serif'],

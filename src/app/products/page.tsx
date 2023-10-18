@@ -6,12 +6,12 @@ function Productos() {
   return (
     <div className="bg-gradient-to-b from-lightPink to-white pt-12 pb-10">
       <section className="container mx-auto max-w-[1300px]">
-        <h1 className="bg-red text-white inline-block px-[10px] py-1 text-[20px] font-normal ml-4 lg:ml-0 font-Dancing">
+        <h1 className="bg-red text-white inline-block px-[10px] py-1 text-[20px] font-normal ml-4 lg:ml-0 font-Grotesk">
           Products
         </h1>
         <div className="lg:grid lg:grid-cols-2 gap-4 pt-5 px-3 lg:px-0">
           <div>
-            <p className="font-Fitgree text-[17px] font-[500]">
+            <p className="font-Grotesk text-[17px] font-[500] indent-4 text-justify">
               Here you’ll find a wide selection of specialty raw ingredients
               ranging from coconut products and plant-based proteins to
               sweeteners and additives. You can also browse by organic, halal,
@@ -20,8 +20,8 @@ function Productos() {
           </div>
           <div></div>
         </div>
-        <div className="pt-10">
-          <div className="flex flex-wrap justify-start gap-10">
+        <div className="pt-10 px-2">
+          <div className="flex flex-wrap justify-start gap-6">
             {categorias.map((cat, i) => (
               <Burbuja etiqueta={cat.category} imagen={cat.img} link={cat.link} key={i} />
             ))}

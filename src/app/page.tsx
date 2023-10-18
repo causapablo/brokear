@@ -1,4 +1,4 @@
-
+'use client'
 import Image from 'next/image'
 import styles from './page.module.css'
 import Products from '../../components/products/Products'
@@ -7,12 +7,18 @@ import Company from '../../components/company/Company'
 import Welcome from '../../components/welcome/Welcome'
 import SecondWave from '../../components/secondWave/SecondWave'
 import Articles from '../../components/articles/articles'
+import { Provider } from 'react-redux';
+import {store} from "../../redux/index"
+import NavBar from '../../components/navbar/NavBar'
+import Footer from '../../components/footer/Footer'
 
 
 export default function Home() {
   return (
 
+      <Provider store={store}>
     <main className=''>
+      <NavBar/>
       <Welcome/>
       <Company/>
       <ScheduleCall/>
@@ -20,8 +26,9 @@ export default function Home() {
       <SecondWave/>
       {/* <ScheduleCall/>
       <Articles/> */}
-      
+      <Footer/>
     </main>
+       </Provider>
    
   )
 }

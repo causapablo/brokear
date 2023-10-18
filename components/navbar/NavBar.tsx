@@ -15,6 +15,8 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import { GrClose } from 'react-icons/gr'
 import Box from '@mui/material/Box';
+import { useSelector, useDispatch } from 'react-redux';
+import { toggleLanguage, selectLanguage } from '../../redux/translateSlice';
 
 
 function NavBar() {
@@ -28,6 +30,13 @@ function NavBar() {
   const handleOnClickProducts = () => {
     setProducts((prev) => !prev);
   }
+
+  const isSpanish = useSelector(selectLanguage);
+  const dispatch = useDispatch();
+
+  const toggleLanguageHandler = () => {
+    dispatch(toggleLanguage());
+  };
 
   return (
     <div className="sticky top-0 w-full bg-[#193330] z-40">
@@ -196,10 +205,10 @@ function NavBar() {
             <Link href="/contact">
               <li className={active == "/contact" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Contact</li>
             </Link>
-            {/* <select value={lang} onChange={handleLanguageChange}>
-      <option value="es">Español</option>
-      <option value="en">English</option>
-    </select> */}
+            <p>{isSpanish ? 'Hola Mundo' : 'Hello World'}</p>
+      <button onClick={toggleLanguageHandler}>
+        Toggle Language
+      </button>
           </ul>
         </div>
       </div>

@@ -1,18 +1,11 @@
-// ** Toolkit imports
-import { configureStore } from '@reduxjs/toolkit'
-
-// ** Reducers
-import translate from "./translateSlice"
+import { configureStore } from '@reduxjs/toolkit';
+import languageReducer from './translateSlice';
 
 export const store = configureStore({
-    reducer: {
-      translate
-    },
-    middleware: getDefaultMiddleware =>
-      getDefaultMiddleware({
-        serializableCheck: false
-      })
-  })
-  
-  export type AppDispatch = typeof store.dispatch
-  export type RootState = ReturnType<typeof store.getState>
+  reducer: {
+    language: languageReducer,
+  },
+});
+
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;

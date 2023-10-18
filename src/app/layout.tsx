@@ -5,6 +5,8 @@ import Footer from '../../components/footer/Footer'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import { TranslationProvider } from '../../context/TranslationContext'
+import { Provider } from 'react-redux';
+import store from "../../redux/index"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,9 +24,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
       {/* <TranslationProvider> */}
-      <NavBar/>
+      {/* <NavBar/> */}
         {children}
-        <Footer/>
+        {/* <Footer/> */}
       {/* </TranslationProvider> */}
       </body>
     </html>

@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import Wave from "../../../public/icons/Wave";
 import ScheduleCall from "../../../components/schedulecall/ScheduleCall";
@@ -9,8 +10,13 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Link from "next/link";
 import ExportedImage from "next-image-export-optimizer";
+import { useSelector } from 'react-redux';
+import { selectLanguage } from '../../../redux/translateSlice';
 
 const Porque = () => {
+
+  const isSpanish = useSelector(selectLanguage);
+
   return (
     <main className="">
       <section className="">
@@ -42,12 +48,10 @@ const Porque = () => {
             </div>
             <div id="container" className="flex items-center px-3">
               <div className="space-y-4">
-                <h4 className="bg-red text-white w-fit text-xl px-1 font-Dancing">WHY CHOOSE US?</h4>
-                <p className=" text-2xl md:text-4xl font-bold lg:px-0">We are experts at managing end-to-end procurement cycles</p>
+                <h4 className="bg-red text-white w-fit text-xl px-1 font-Dancing uppercase">{isSpanish ? 'Por qué elegirnos a nosotros?' : 'WHY CHOOSE US?'}</h4>
+                <p className=" text-2xl md:text-4xl font-bold lg:px-0">{isSpanish ? 'Somos expertos en gestionar ciclos de adquisiciones de principio a fin' : 'We are experts at managing end-to-end procurement cycles'}</p>
                 <p className="text-xl lg:px-0 pb-5 lg:pb-0">
-                  Our team has expertise in managing all of your sourcing and
-                  replenishment needs. Years of experience as customers and
-                  suppliers have taught us how to tackle any challenge.
+                  {isSpanish ? 'Nuestro equipo tiene experiencia en la gestión de todas sus necesidades de abastecimiento y reabastecimiento. Años de experiencia como clientes y proveedores nos han enseñado a afrontar cualquier reto.' : 'Our team has expertise in managing all of your sourcing and replenishment needs. Years of experience as customers and suppliers have taught us how to tackle any challenge.'}
                 </p>
               </div>
             </div>
@@ -59,35 +63,31 @@ const Porque = () => {
           <div id="background" className="bg-lightPink -mt-1">
             <div id="container" className="container mx-auto max-w-[1300px] pb-20 px-3">
               <div className="pb-3">
-                <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Grotesk font-medium">OUR EXPERTISE</h4>
+                <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Grotesk font-medium">{isSpanish ? 'NUESTRA EXPERIENCIA' : 'OUR EXPERTISE'}</h4>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-black">
                 <div className="space-y-4">
-                  <p className="font-bold text-[23px]">Global Sourcing Network</p>
+                  <p className="font-bold text-[23px]">{isSpanish ? 'Red de abastecimiento global' : 'Global Sourcing Network'}</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
-                    We source from the most reliable and affordable vendors on the
-                    globe.
+                    {isSpanish ? 'Nos abastecemos de los proveedores más confiables y asequibles del mundo.' : 'We source from the most reliable and affordable vendors on the globe.'}
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-[23px]">Inventory Management</p>
+                  <p className="font-bold text-[23px]">{isSpanish ? 'La gestión del inventario' : 'Inventory Management'}</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
-                    We help you manage your stock to optimize your inventory
-                    costs.
+                    {isSpanish ? 'Te ayudamos a gestionar tu stock para optimizar tus costos de inventario' : 'We help you manage your stock to optimize your inventory costs.'}
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-[23px]">Regulatory Support</p>
+                  <p className="font-bold text-[23px]">{isSpanish ? 'Soporte regulatorio' : 'Regulatory Support'}</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
-                    We take care of all the documentation and compliance
-                    validation.
+                    {isSpanish ? 'Nos encargamos de toda la documentación y validación de cumplimiento.' : 'We take care of all the documentation and compliance validation.'}
                   </p>
                 </div>
                 <div className="space-y-4">
-                  <p className="font-bold text-[23px]">Logistics Solutions</p>
+                  <p className="font-bold text-[23px]">{isSpanish ? 'Soluciones logísticas' : 'Logistics Solutions'}</p>
                   <p className="text-[17px] font-Figtree leading-relaxed">
-                    We search for solutions that solve the actual challenges
-                    you’re facing.
+                    {isSpanish ? 'Buscamos soluciones que resuelvan los desafíos reales que enfrenta.' : 'We search for solutions that solve the actual challenges you’re facing.'}
                   </p>
                 </div>
               </div>
@@ -98,25 +98,19 @@ const Porque = () => {
         <div id="background" className="bg-gradient-to-b from-lightPink to-white pt-[70px]">
           <div id="container" className="container mx-auto max-w-[1300px] pb-8 px-3">
             <div className="pb-3">
-              <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">INDUSTRY CHALLENGES</h4>
+              <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing uppercase">{isSpanish ? 'Desafíos de la industria' : 'INDUSTRY CHALLENGES'}</h4>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               <div className="space-y-4 text-[18px]">
-                <p className="font-bold text-2xl lg:px-0">Out with the old, in with the new</p>
+                <p className="font-bold text-2xl lg:px-0">{isSpanish ? 'Fuera lo viejo, adentro lo nuevo' : 'Out with the old, in with the new'}</p>
                 <p className="lg:px-0">
-                  Finding the right ingredients isn’t a cut-and-dry exercise where
-                  you can sit back and relax while everything falls into place.
-                  It’s a journey that requires commitment, where challenges are
-                  overcome at every turn.{" "}
+                  {isSpanish ? 'Encontrar los ingredientes adecuados no es un ejercicio sencillo en el que puedas sentarte y relajarte mientras todo encaja. Es un viaje que requiere compromiso, donde los desafíos se superan en cada paso.' : 'Finding the right ingredients isn’t a cut-and-dry exercise where you can sit back and relax while everything falls into place. It’s a journey that requires commitment, where challenges are overcome at every turn.'}{" "}
                 </p>
               </div>
               <div className="space-y-4 text-[18px]">
-                <p className="font-bold text-2xl lg:px-0">What’s the difference in our approach?</p>
+                <p className="font-bold text-2xl lg:px-0">{isSpanish ? '¿Cuál es la diferencia en nuestro enfoque?' : 'What’s the difference in our approach?'}</p>
                 <p className="lg:px-0">
-                  When you have a strategic supply partner that understands the
-                  kinks and challenges of the procurement cycle, you better get a
-                  book and a cup of tea ready for all the time we’re about to open
-                  up for you.
+                  {isSpanish ? 'Cuando tienes un socio de suministro estratégico que comprende los problemas y desafíos del ciclo de adquisiciones, será mejor que tengas listo un libro y una taza de té para todo el tiempo que estamos a punto de brindarte.' :'When you have a strategic supply partner that understands the kinks and challenges of the procurement cycle, you better get a book and a cup of tea ready for all the time we’re about to open up for you.'}
                 </p>
               </div>
             </div>
@@ -128,7 +122,7 @@ const Porque = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
               <div id="acordionLeft">
                 <div className="pb-6">
-                  <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">YOUR STRUGGLES</h4>
+                  <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">{isSpanish ? 'TUS PROBLEMAS' : 'YOUR STRUGGLES'}</h4>
                 </div>
 
                 <div>
@@ -139,14 +133,12 @@ const Porque = () => {
                       id="panel1a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Time consuming searches
+                        {isSpanish ? 'Búsquedas que consumen mucho tiempo' : 'Time consuming searches'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        To find the best supplier of raw ingredients, buyers have
-                        to scour the endless halls of Google, sifting through
-                        every possible contact to find a reliable supplier.
+                        {isSpanish ? 'Para encontrar el mejor proveedor de materias primas, los compradores tienen que recorrer los interminables pasillos de Google, examinando todos los contactos posibles para encontrar un proveedor confiable.' : 'To find the best supplier of raw ingredients, buyers have to scour the endless halls of Google, sifting through every possible contact to find a reliable supplier.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -157,15 +149,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Supply chain uncertainty
+                        {isSpanish ? 'Incertidumbre en la cadena de suministro' : 'Supply chain uncertainty'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        Constantly working in uncertainty, being left in the dark
-                        when your ingredients are stuck in a container that can’t
-                        reach you due to logistics, regulations, or the end of the
-                        world as we know it.
+                        {isSpanish ? 'Trabajando constantemente en la incertidumbre, quedándote en la oscuridad cuando tus ingredientes quedan atrapados en un contenedor que no puede llegar a ti debido a la logística, las regulaciones o el fin del mundo tal como lo conocemos.' : 'Constantly working in uncertainty, being left in the dark when your ingredients are stuck in a container that can’t reach you due to logistics, regulations, or the end of the world as we know it.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -176,14 +165,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Middle person blues
+                        {isSpanish ? 'Depresión de la persona intermediaria' : 'Middle person blues'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        Having to work through a broker that does nothing more
-                        than act as a middle person passing along messages, not
-                        adding any real value to the journey.
+                        {isSpanish ? 'Tener que trabajar a través de un corredor que no hace más que actuar como intermediario que transmite mensajes, sin agregar ningún valor real al viaje.' : 'Having to work through a broker that does nothing more than act as a middle person passing along messages, not adding any real value to the journey.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -194,14 +181,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Reacting firefighting
+                        {isSpanish ? 'Lucha contra incendios reactivos' : 'Reacting firefighting'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        “Firefighting” all the time, being reactive to problems in
-                        the supply chain that requires last-minute scurrying about
-                        for ways to fix the leaks in the supply chain boat.
+                        {isSpanish ? '“Apagar incendios” todo el tiempo, reaccionando a problemas en la cadena de suministro que requieren buscar en el último momento formas de arreglar las fugas en el barco de la cadena de suministro.' : '“Firefighting” all the time, being reactive to problems in the supply chain that requires last-minute scurrying about for ways to fix the leaks in the supply chain boat.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -212,15 +197,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Pricing troubles, from one end to other
+                        {isSpanish ? 'Problemas de precios, de un extremo a otro' : 'Pricing troubles, from one end to other'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        Being pressured to reduce costs instead of being able to
-                        build relationships with suppliers. And then having to
-                        deal with fluctuating prices that are “out of everyone’s
-                        hands”.
+                        {isSpanish ? 'Ser presionado para reducir costos en lugar de poder establecer relaciones con los proveedores. Y luego tener que lidiar con precios fluctuantes que están “fuera del alcance de todos”.' : 'Being pressured to reduce costs instead of being able to build relationships with suppliers. And then having to deal with fluctuating prices that are “out of everyone’s hands”.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -231,14 +213,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        (BARELY) Standard quality assurance
+                        {isSpanish ? '(APENAS) Garantía de calidad estándar' : '(BARELY) Standard quality assurance'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        Having to worry about standard quality assurance checks
-                        not really living up to the standards they proclaim to
-                        test, leading to recalls and health risks.
+                        {isSpanish ? 'Tener que preocuparse porque los controles de control de calidad estándar no cumplen realmente con los estándares que proclaman probar, lo que genera retiros del mercado y riesgos para la salud.' : 'Having to worry about standard quality assurance checks not really living up to the standards they proclaim to test, leading to recalls and health risks.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -246,7 +226,7 @@ const Porque = () => {
               </div>
               <div id="acordionRight">
                 <div className="pb-6">
-                  <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">OUR SERVICES</h4>
+                  <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">{isSpanish ? 'NUESTROS SERVICIOS' : 'OUR SERVICES'}</h4>
                 </div>
 
                 <div>
@@ -257,15 +237,12 @@ const Porque = () => {
                       id="panel1a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Remove the redundancy
+                        {isSpanish ? 'Eliminar la redundancia' : 'Remove the redundancy'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        We cut out the “waste” … in every sense of the word. We
-                        create a more sustainable sourcing solution that does away
-                        with the “middle person concept”, offering you a reliable
-                        sourcing solution.
+                        {isSpanish ? 'Eliminamos el “desperdicio”… en todos los sentidos de la palabra. Creamos una solución de abastecimiento más sostenible que elimina el “concepto de intermediario” y le ofrece una solución de abastecimiento confiable.' : 'We cut out the “waste” … in every sense of the word. We create a more sustainable sourcing solution that does away with the “middle person concept”, offering you a reliable sourcing solution.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -276,15 +253,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Direct line to vendors
+                        {isSpanish ? 'Línea directa con proveedores' : 'Direct line to vendors'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        We offer clients a direct line to ingredients, instead of
-                        extending the supply chain even further. By building
-                        relationships with our vendors, we give you immediate
-                        access to long-standing relationships.
+                        {isSpanish ? 'Ofrecemos a nuestros clientes una línea directa con los ingredientes, en lugar de ampliar aún más la cadena de suministro. Al establecer relaciones con nuestros proveedores, le brindamos acceso inmediato a relaciones duraderas.' : 'We offer clients a direct line to ingredients, instead of extending the supply chain even further. By building relationships with our vendors, we give you immediateaccess to long-standing relationships.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -295,14 +269,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        We ve got your back, for the long run
+                        {isSpanish ? 'Te respaldamos a largo plazo' : 'We ve got your back, for the long run'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        We’re not a transaction-based company, we’re in it for the
-                        long-term relationships that enable us to become strategic
-                        partners.
+                        {isSpanish ? 'No somos una empresa basada en transacciones, estamos en esto por las relaciones a largo plazo que nos permitan convertirnos en socios estratégicos.' : 'We’re not a transaction-based company, we’re in it for the long-term relationships that enable us to become strategic partners.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -313,15 +285,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Proactive inventory planning
+                        {isSpanish ? 'Planificación de inventario proactiva' :'Proactive inventory planning'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        We help you plan your inventory optimally, helping you
-                        reduce costs and minimize redundant stock-on-hand, by
-                        taking real-world factors into consideration, from natural
-                        events to logistic struggles.
+                        {isSpanish ? 'Te ayudamos a planificar tu inventario de manera óptima, ayudándote a reducir costos y minimizar el stock disponible redundante, tomando en consideración factores del mundo real, desde desastres naturales hasta problemas logísticos.' :'We help you plan your inventory optimally, helping you reduce costs and minimize redundant stock-on-hand, by taking real-world factors into consideration, from natural events to logistic struggles.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -332,16 +301,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Competitive pricing, all around
+                        {isSpanish ? 'Precios competitivos en todos los aspectos' : 'Competitive pricing, all around'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        As large-scale importers, we’re able to offer a more
-                        affordable answer to your ingredient woes, helping you to
-                        create more competitive prices in your turn. We make our
-                        prices even more competitive by using historical data and
-                        multiple pricing sources to formulate the final price.
+                        {isSpanish ? 'Como importadores a gran escala, podemos ofrecer una respuesta más asequible a sus problemas con los ingredientes, ayudándote a su vez a crear precios más competitivos. Hacemos que nuestros precios sean aún más competitivos utilizando datos históricos y múltiples fuentes de precios para formular el precio final.' : 'As large-scale importers, we’re able to offer a more affordable answer to your ingredient woes, helping you to create more competitive prices in your turn. We make our prices even more competitive by using historical data and multiple pricing sources to formulate the final price.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -352,14 +317,12 @@ const Porque = () => {
                       id="panel2a-header"
                     >
                       <Typography sx={{ fontWeight: "700" }}>
-                        Quality assurance
+                        {isSpanish ? 'Seguro de calidad' : 'Quality assurance'}
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                       <Typography>
-                        To make sure you get the best product, we have installed
-                        our own quality checks to get you the most reliable
-                        ingredients for your end product.
+                        {isSpanish ? 'Para asegurarnos de que obtengas el mejor producto, hemos instalado nuestros propios controles de calidad para brindarte los ingredientes más confiables para tu producto final.' : 'To make sure you get the best product, we have installed our own quality checks to get you the most reliable ingredients for your end product.'}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -373,24 +336,18 @@ const Porque = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
               <div id="col1">
                 <div className="pb-3 px-3 md:px-0">
-                  <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">WE ARE NOT DIFFERENT</h4>
+                  <h4 className="bg-red text-white w-fit px-2 py-1 text-lg font-Dancing">{isSpanish ? 'NO SOMOS DIFERENTES' :'WE ARE NOT DIFFERENT'}</h4>
                 </div>
                 <div className="space-y-6">
-                  <p className="font-bold text-2xl px-2 lg:px-0">Not everyone gets the memo</p>
+                  <p className="font-bold text-2xl px-2 lg:px-0">{isSpanish ? 'No todos reciben la nota' : 'Not everyone gets the memo'}</p>
                   <p className="text-[18px] px-2 lg:px-0">
-                    Weather events, logistical holdups, and worldwide pandemics that
-                    result in everyone stocking up on toilet paper and
-                    post-apocalyptic fiction as guidebooks – things don’t always go
-                    according to plan.
+                    {isSpanish ? 'Los fenómenos meteorológicos, los retrasos logísticos y las pandemias mundiales que hacen que todo el mundo se abastezca de papel higiénico y ficción postapocalíptica como guías: las cosas no siempre salen según lo planeado.' :'Weather events, logistical holdups, and worldwide pandemics that result in everyone stocking up on toilet paper and post-apocalyptic fiction as guidebooks – things don’t always go according to plan.'}
                   </p>
                   <p className="text-[18px] px-2 lg:px-0">
-                    But that’s nothing more than a bump in the road when you’re
-                    working with Brokear.
+                    {isSpanish ? 'Pero eso no es más que un obstáculo en el camino cuando trabajas con Brokear' : 'But that’s nothing more than a bump in the road when you’re working with Brokear.'}
                   </p>
                   <p className="text-[18px] px-2 lg:px-0">
-                    We don’t leave you in the dark. We’re committed to transparent
-                    service, so you know immediately when plans change, and you’re
-                    part of the course-corrected journey from the start.
+                    {isSpanish ? 'No te dejamos en la oscuridad. Estamos comprometidos con un servicio transparente, para que vos sepas inmediatamente cuando cambian los planes y seas parte del viaje desde el principio.' : 'We don’t leave you in the dark. We’re committed to transparent service, so you know immediately when plans change, and you’re part of the course-corrected journey from the start.'}
                   </p>
                 </div>
               </div>
@@ -410,21 +367,20 @@ const Porque = () => {
 
                   <div className="space-y-4 flex flex-col pb-5 pt-52 lg:pt-0">
                     <h1 className="text-white bg-red w-fit px-2 py-1 mx-auto font-Dancing ">
-                      Your #1 source of specialty ingredients
+                      {isSpanish ? 'Tu fuente número uno de ingredientes especiales' :'Your #1 source of specialty ingredients'}
                     </h1>
                     <p className="w-fit mx-4 text-center text-[19px] ">
-                      We source and import high-quality specialty raw ingredients
-                      through our large global network. Experience the difference.
+                      {isSpanish ? 'Obtenemos e importamos materias primas especiales de alta calidad a través de nuestra gran red global. Experimenta la diferencia.' : 'We source and import high-quality specialty raw ingredients through our large global network. Experience the difference.'}
                     </p>
                     <div className="flex flex-row gap-3 justify-center">
                       <Link href="/contact">
                         <button className="bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
-                          Contact Us
+                          {isSpanish ? 'Contáctanos' : 'Contact Us'}
                         </button>
                       </Link>
                       <Link href="https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09">
                         <button className="bg-[#D0E7D2] text-red hover:brightness-75 border border-red rounded-[3px] py-2 px-5 font-semibold w-fit hover:opacity-[0.85]">
-                          Schedule A Call
+                          {isSpanish ? 'Agenda una llamada' : 'Schedule A Call'}
                         </button>
                       </Link>
                     </div>

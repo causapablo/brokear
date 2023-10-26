@@ -16,9 +16,8 @@ import Footer from '../../components/footer/Footer'
 export default function Home() {
   return (
 
-      <Provider store={store}>
     <main className=''>
-      <NavBar/>
+   
       <Welcome/>
       <Company/>
       <ScheduleCall/>
@@ -26,9 +25,9 @@ export default function Home() {
       <SecondWave/>
       {/* <ScheduleCall/>
       <Articles/> */}
-      <Footer/>
+      
     </main>
-       </Provider>
+
    
   )
 }

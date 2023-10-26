@@ -1,21 +1,25 @@
 [
     {
-        "product": "Yerba mate",
+        "productEN": "Yerba mate",
+        "productES": "Yerba mate",
         "img": "/images/YerbaCategory.jpg",
         "link": "/products/bulk-category/bulk-yerba-mate/bulk"
     },
     {
-        "product": "Tea",
+        "productEN": "Tea",
+        "productES": "Té",
         "img": "/images/TeaCategory.jpg",
         "link": "/products/bulk-category/bulk-tea/green-tea"
     },
     {
-        "product": "Popcorn",
+        "productEN": "Popcorn",
+        "productES": "Palomitas de maíz",
         "img": "/images/PopcornGeneral.jpg",
         "link": "/products/bulk-category/bulk-pulses-seeds/popcorn"
     },
     {
-        "product": "Peanut",
+        "productEN": "Peanut",
+        "productES": "Maní",
         "img": "/images/RunnerGeneral.jpg",
         "link": "/products/bulk-category/bulk-pulses-seeds/runner-peanuts"
     }

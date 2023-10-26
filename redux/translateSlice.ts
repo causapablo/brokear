@@ -11,6 +11,6 @@ export const languageSlice = createSlice({
 
 export const { toggleLanguage } = languageSlice.actions;
 
-export const selectLanguage = (state: { language: boolean }) => state.language;
+export const selectLanguage: any = (state: { language: boolean }) => state.language;
 
 export default languageSlice.reducer;

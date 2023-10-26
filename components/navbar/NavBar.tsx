@@ -15,6 +15,52 @@ import Box from '@mui/material/Box';
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleLanguage, selectLanguage } from '../../redux/translateSlice';
 import ExportedImage from "next-image-export-optimizer";
+import Stack from '@mui/material/Stack';
+import Typography from '@mui/material/Typography';
+import { styled } from '@mui/material/styles';
+import Switch from '@mui/material/Switch';
+
+const AntSwitch = styled(Switch)(({ theme }) => ({
+  width: 28,
+  height: 16,
+  padding: 0,
+  display: 'flex',
+  '&:active': {
+    '& .MuiSwitch-thumb': {
+      width: 15,
+    },
+    '& .MuiSwitch-switchBase.Mui-checked': {
+      transform: 'translateX(9px)',
+    },
+  },
+  '& .MuiSwitch-switchBase': {
+    padding: 2,
+    '&.Mui-checked': {
+      transform: 'translateX(12px)',
+      color: '#fff',
+      '& + .MuiSwitch-track': {
+        opacity: 1,
+        backgroundColor: theme.palette.mode === 'dark' ? '#9aceb8' : '#9aceb8',
+      },
+    },
+  },
+  '& .MuiSwitch-thumb': {
+    boxShadow: '0 2px 4px 0 rgb(0 35 11 / 20%)',
+    width: 12,
+    height: 12,
+    borderRadius: 6,
+    transition: theme.transitions.create(['width'], {
+      duration: 200,
+    }),
+  },
+  '& .MuiSwitch-track': {
+    borderRadius: 16 / 2,
+    opacity: 1,
+    backgroundColor:
+      theme.palette.mode === 'dark' ? '#2a923a' : '#2a923a',
+    boxSizing: 'border-box',
+  },
+}));
 
 
 function NavBar() {
@@ -91,7 +137,7 @@ function NavBar() {
                             <div className="flex justify-between">
                               <div  onClick={handleOnClick}>
                                 <Link href="/products" className={active == "/products" ? "pr-8 text-red" : "pr-8"}>
-                                  Products
+                                  {isSpanish ? 'Productos' : 'Products'}
                                 </Link>
                               </div>
                               <div onClick={handleOnClickProducts}>
@@ -115,28 +161,28 @@ function NavBar() {
                               <div className="py-2 border-b-[0.5px]"  onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-tea">
-                                    Tea
+                                    {isSpanish ? 'Té' : 'Tea'}
                                   </Link>
                                 </p>
                               </div>
                               <div className="py-2 border-b-[0.5px]" onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-pulses-seeds">
-                                    Pulses & Oil Seeds
+                                  {isSpanish ? 'Legumbres y semillas oleaginosas' : 'Pulses & Oil Seeds'}
                                   </Link>
                                 </p>
                               </div>
                               <div className="py-2 border-b-[0.5px]" onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-oils">
-                                    Oils
+                                    {isSpanish ? 'Aceites' : 'Oils'}
                                   </Link>
                                 </p>
                               </div>
                               <div className="py-2" onClick={handleBoth}>
                                 <p className="pl-8">
                                   <Link href="/products/bulk-category/bulk-charcoal">
-                                    Charcoal
+                                    {isSpanish ?'Carbón' : 'Charcoal'}
                                   </Link>
                                 </p>
                               </div>
@@ -149,19 +195,26 @@ function NavBar() {
 
                     <Link href="/about" onClick={handleOnClick}>
                       <div className={active == "/about" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
-                        <p className="pl-3">About Us</p>
+                        <p className="pl-3">{isSpanish ? 'Sobre nosotros' : 'About Us'}</p>
                       </div>
                     </Link>
                     <Link href="/why-us" onClick={handleOnClick}>
                       <div className={active == "/why-us" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
-                        <p className="pl-3">Why Us</p>
+                        <p className="pl-3">{isSpanish ? 'Por qué nosotros' : 'Why Us'}</p>
                       </div>
                     </Link>
                     <Link href="/contact" onClick={handleOnClick}>
                       <div className={active == "/contact" ? "py-3 border-b-[0.5px] border-black text-red" : "py-3 border-b-[0.5px]"}>
-                        <p className="pl-3">Contact</p>
+                        <p className="pl-3">{isSpanish ? 'Contacto' : 'Contact'}</p>
                       </div>
                     </Link>
+                    <Stack direction="row" spacing={1} alignItems="center">
+        {/* <Typography>EN</Typography> */}
+        <ExportedImage src={"/images/inglaterra.png"} alt="MainLogo" width="30" height="30" className="" />
+        <AntSwitch defaultChecked inputProps={{ 'aria-label': 'ant design' }} onClick={toggleLanguageHandler}/>
+        {/* <Typography>ES</Typography> */}
+        <ExportedImage src={"/images/espana.png"} alt="MainLogo" width="30" height="30" className="" />
+      </Stack>
                   </div>
                 </Box>
               </AccordionDetails>
@@ -181,7 +234,7 @@ function NavBar() {
             >
               <Link href='/products'>
                 <button className={active == "/products" ? "flex items-center py-3 text-red" : "flex items-center py-3 hover:text-red"}>
-                  Products
+                {isSpanish ? 'Productos' : 'Products'}
                   <RiArrowDropDownLine className="font-extrabold text-3xl" />
                 </button>
               </Link>
@@ -195,7 +248,7 @@ function NavBar() {
                       key={i}
                     >
                       <Link href={producto.link} className="w-full">
-                        <p className="w-full">{producto.category}</p>
+                        <p className="w-full">{isSpanish ? producto.categoryES : producto.categoryEN}</p>
                       </Link>
                     </div>
                   ))}
@@ -203,19 +256,22 @@ function NavBar() {
               )}
             </li>
             <Link href='/about'>
-              <li className={active == "/about" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>About Us</li>
+              <li className={active == "/about" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>{isSpanish ? 'Sobre nosotros' : 'About Us'}</li>
             </Link>
             <Link href="/why-us">
-              <li className={active == "/why-us" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Why Us</li>
+              <li className={active == "/why-us" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>{isSpanish ? 'Por qué nosotros' : 'Why Us'}</li>
             </Link>
             {/* <li className="cursor-pointer">Blog</li> */}
             <Link href="/contact">
-              <li className={active == "/contact" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>Contact</li>
+              <li className={active == "/contact" ? "cursor-pointer text-red" : "cursor-pointer hover:text-red"}>{isSpanish ? 'Contacto' : 'Contact'}</li>
             </Link>
-            <p>{isSpanish ? 'Hola Mundo' : 'Hello World'}</p>
-      <button onClick={toggleLanguageHandler}>
-        Toggle Language
-      </button>
+            <Stack direction="row" spacing={1} alignItems="center">
+        {/* <Typography>EN</Typography> */}
+        <ExportedImage src={"/images/inglaterra.png"} alt="MainLogo" width="30" height="30" className="" />
+        <AntSwitch defaultChecked inputProps={{ 'aria-label': 'ant design' }} onClick={toggleLanguageHandler}/>
+        {/* <Typography>ES</Typography> */}
+        <ExportedImage src={"/images/espana.png"} alt="MainLogo" width="30" height="30" className="" />
+      </Stack>
           </ul>
         </div>
       </div>

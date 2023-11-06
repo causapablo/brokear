@@ -21,7 +21,7 @@ function Productos() {
           <div></div>
         </div>
         <div className="pt-10 px-2">
-          <div className="flex flex-wrap justify-start gap-6">
+          <div className="flex flex-wrap justify-start gap-2 md:gap-6">
             {categorias.map((cat, i) => (
               <Burbuja etiqueta={cat.category} imagen={cat.img} link={cat.link} key={i} />
             ))}

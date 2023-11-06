@@ -13,7 +13,7 @@ const Faq = () => {
           <h4 className="uppercase bg-red text-white font-semibold text-lg w-fit px-1 font-Dancing">FAQS</h4>
         </div>
         <div id="content">
-          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" , borderRadius:"10px"}}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
@@ -24,8 +24,8 @@ const Faq = () => {
                 purchase?
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
-              <Typography>
+            <AccordionDetails  sx={{backgroundColor:"#FCDDB0", borderBottomLeftRadius : "10px" ,borderBottomRightRadius : "10px"}}>
+              <Typography >
                 Yes. At Brokear P&S Argentina we take great pride in the exceptional
                 quality of our products. As a trusted bulk wholesale supplier, we
                 prioritize quality throughout our processes. As part of our
@@ -38,7 +38,7 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" , borderRadius:"10px" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
@@ -49,7 +49,7 @@ const Faq = () => {
                 ingridients?
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails  sx={{backgroundColor:"#FDE5D4", borderBottomLeftRadius : "10px" ,borderBottomRightRadius : "10px"}}>
               <Typography>
                 As a reliable wholesale supplier, we prioritize the quality of our
                 products. We work closely with our suppliers to ensure that each
@@ -59,7 +59,7 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" , borderRadius:"10px" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
@@ -70,7 +70,7 @@ const Faq = () => {
                 ingridient orders?
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails  sx={{backgroundColor:"#FDE5D4", borderBottomLeftRadius : "10px" ,borderBottomRightRadius : "10px"}}>
               <Typography>
                 We take great pride in our extensive capabilities as a wholesale
                 supplier. With our vast network of reliable sources, we can fulfill
@@ -87,7 +87,7 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" , borderRadius:"10px" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
@@ -97,7 +97,7 @@ const Faq = () => {
                 Can I customize or personalize my wholesale ingridient order?
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails  sx={{backgroundColor:"#FDE5D4", borderBottomLeftRadius : "10px" ,borderBottomRightRadius : "10px"}}>
               <Typography>
                 Yes, you can! At Brokear P&S Argentina we specialize in wholesale
                 sourcing and building long-term relationships with our clients.
@@ -106,7 +106,7 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" , borderRadius:"10px" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
@@ -117,7 +117,7 @@ const Faq = () => {
                 purchases?
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails  sx={{backgroundColor:"#FDE5D4", borderBottomLeftRadius : "10px" ,borderBottomRightRadius : "10px"}}>
               <Typography>
                 We’ve got our post-purchase support team that’s here to give our
                 customers VIP treatment whenever they need it, even after they’ve
@@ -125,7 +125,7 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" , borderRadius:"10px" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
@@ -136,7 +136,7 @@ const Faq = () => {
                 such as organic or non-GMO?
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails  sx={{backgroundColor:"#FDE5D4", borderBottomLeftRadius : "10px" ,borderBottomRightRadius : "10px"}}>
               <Typography>
                 Yes, we pride ourselves on our ability to source a wide range of
                 certifications tailored to your company’s needs. Whether you require
@@ -151,7 +151,7 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" , borderRadius:"10px" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
@@ -161,7 +161,7 @@ const Faq = () => {
                 Can I place recurring orders for wholesale ingridients?
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails  sx={{backgroundColor:"#FDE5D4", borderBottomLeftRadius : "10px" ,borderBottomRightRadius : "10px"}}>
               <Typography>
                 Yes, we build forecasting programs with our clients to help them
                 predict the demand they’ll have, so they can make their purchases in
@@ -169,7 +169,7 @@ const Faq = () => {
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion sx={{ backgroundColor: "#b3d9be" }}>
+          <Accordion sx={{ backgroundColor: "#b3d9be" , borderRadius:"10px" }}>
             <AccordionSummary
               expandIcon={<ExpandMoreIcon />}
               aria-controls="panel2a-content"
@@ -180,7 +180,7 @@ const Faq = () => {
                 wholesale ingridient order?
               </Typography>
             </AccordionSummary>
-            <AccordionDetails>
+            <AccordionDetails  sx={{backgroundColor:"#FDE5D4", borderBottomLeftRadius : "10px" ,borderBottomRightRadius : "10px"}}>
               <Typography>
                 Absolutely! We’re here to assist you with your wholesale ingredient
                 order. If you have any questions, need assistance, or would like to

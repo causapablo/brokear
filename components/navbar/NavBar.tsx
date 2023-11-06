@@ -39,10 +39,10 @@ function NavBar() {
   return (
     <div className="sticky top-0 w-full bg-white z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
-        <div className="container mx-auto md:flex md:justify-between h-16 bg-white max-w-[1300px]">
-          <div className=" hidden md:flex items-center cursor-pointer">
+        <div className="container mx-auto md:flex md:justify-between h-14 md:h-16 bg-white max-w-[1300px]">
+          <div className="hidden md:flex items-center cursor-pointer">
             <Link href="/">
-              <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="200" height="48" className="" />
+              <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="260" height="90" className="" />
             </Link>
           </div>
           <div className="md:hidden">
@@ -56,8 +56,8 @@ function NavBar() {
                   <div className="flex justify-between w-full">
                     <div className="flex items-center cursor-pointer">
                       <Link href="/" onClick={handleOnMainLogo}>
-                        <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="120" height="48" />
-                      </Link>
+                        <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="160" height="48" />
+                      </Link>    
                     </div>
                     <div className="flex items-center font-extrabold text-4xl" onClick={handleOnClick}>
                       {

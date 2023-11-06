@@ -103,7 +103,7 @@ const Nosotros = () => {
               Solving today’s supply chain requires a truly global team
             </h4>
             <p className="text-lg w-fit mx-auto">
-              We have team members in Argentina, South Africa, Philippines and more countries.
+              We have team members in Argentina, Spain, USA and more countries.
             </p>
           </div>
           <div id="container">
@@ -133,6 +133,9 @@ const Nosotros = () => {
               <ExportedImage src={"/images/Company4.jpg"} alt="img" width={558} height={561} />
               <ExportedImage src={"/images/Company5.jpg"} alt="img" width={558} height={561} />
               <ExportedImage src={"/images/Company6.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company7.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company8.jpg"} alt="img" width={558} height={561} />
+              <ExportedImage src={"/images/Company9.jpg"} alt="img" width={558} height={561} />
             </div>
           </div>
         </div>

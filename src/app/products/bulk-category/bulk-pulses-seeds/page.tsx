@@ -4,7 +4,7 @@ import Burbuja from "../../../../../components/burbuja/Burbuja";
 const BulkPulsesSeeds = () => {
   return (
     <main className="bg-gradient-to-b from-lightPink to-white">
-      <section className="container md:mx-auto max-w-[1300px] pt-14 px-3 lg:px-0">
+      <section className="container md:mx-auto max-w-[1300px] pt-14 px-2 lg:px-0">
         <h4 className="bg-red text-white w-fit px-1 text-lg">Pulses and Seeds</h4>
         <div className="md:w-9/12 md:pt-6 pt-4 font-Grotesk text-[17px] font-[500] space-y-2">
           <p className="indent-4 text-justify">
@@ -25,7 +25,7 @@ const BulkPulsesSeeds = () => {
           </p>
         </div>
 
-        <div className="flex pt-8 pb-20 justify-center flex-wrap gap-5">
+        <div className="flex pt-8 pb-20 justify-center flex-wrap gap-2 md:gap-6">
           <Burbuja imagen={"/images/AdzukiGeneral.jpg"} etiqueta={"Adzuki Beans"} link={"/products/bulk-category/bulk-pulses-seeds/adzuki-beans"}/>
           <Burbuja imagen={"/images/AlubiaGeneral.jpg"} etiqueta={"Alubia Beans"} link={"/products/bulk-category/bulk-pulses-seeds/alubia-beans"} />
           <Burbuja imagen={"/images/BlackGeneral.jpg"} etiqueta={"Black Beans"} link={"/products/bulk-category/bulk-pulses-seeds/black-beans"} />
@@ -40,7 +40,7 @@ const BulkPulsesSeeds = () => {
           <Burbuja imagen={"/images/PecanShellGeneral.jpg"} etiqueta={"Pecan in Shell"} link={"/products/bulk-category/bulk-pulses-seeds/pecan-in-shell"} />
           <Burbuja imagen={"/images/PecanWShellGeneral.jpg"} etiqueta={"Pecan Without Shell"} link={"/products/bulk-category/bulk-pulses-seeds/pecan-without-shell"} />
           <Burbuja imagen={"/images/PopcornGeneral.jpg"} etiqueta={"Popcorn"} link={"/products/bulk-category/bulk-pulses-seeds/popcorn"} />
-          <Burbuja imagen={"/images/RunnerGeneral.jpg"} etiqueta={"Ruenner Peanuts"} link={"/products/bulk-category/bulk-pulses-seeds/runner-peanuts"} />
+          <Burbuja imagen={"/images/RunnerGeneral.jpg"} etiqueta={"Runner Peanuts"} link={"/products/bulk-category/bulk-pulses-seeds/runner-peanuts"} />
         </div>
 
       </section>

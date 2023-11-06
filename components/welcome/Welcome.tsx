@@ -8,12 +8,12 @@ const Welcome = () => {
   return (
     <section className="bg-gradient-to-b from-lightPink to-white">
       <div className="grid grid-cols-1 lg:grid-cols-2 pt-16 mb-5 container mx-auto max-w-[1300px]">
-        <div className="flex items-center px-3">f
+        <div className="flex items-center px-3">
           <div>
             <h2 className="bg-red text-white text-[13px] md:text-lg w-fit text-center py-1 font-Dancing uppercase px-1 md:px-2">
-              Getting your product has never been so easy
+              Getting your product is easy now
             </h2>
-            <p className="f lg:px-0 text-[32px] md:text-[38px] font-[600] font-Grotesk leading-8 md:leading-tight ">
+            <p className="lg:px-0 mt-4 text-[32px] md:text-[38px] font-[600] font-Grotesk leading-8 md:leading-tight ">
               We specialize in sourcing and shipping top-notch specialty raw materials from all over the world
             </p>
             <p className="pt-5 lg:px-0 text-xl text-justify">

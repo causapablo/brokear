@@ -98,11 +98,7 @@ const Nosotros = () => {
               {isSpanish? 'Resolver la cadena de suministro actual requiere un equipo verdaderamente global' : 'Solving today’s supply chain requires a truly global team'}
             </h4>
             <p className="text-lg w-fit mx-auto">
-<<<<<<< HEAD
-              We have team members in Argentina, Spain, USA and more countries.
-=======
-              {isSpanish ? 'Contamos con miembros del equipo en Argentina, Sudáfrica, Filipinas y más países.' :'We have team members in Argentina, South Africa, Philippines and more countries.'}
->>>>>>> translate
+              {isSpanish ? 'Contamos con miembros del equipo en Argentina, España, Estados Unidos y más países.' :'We have team members in Argentina, Spain, USA and more countries.'}
             </p>
           </div>
           <div id="container">

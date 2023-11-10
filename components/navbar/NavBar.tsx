@@ -95,11 +95,7 @@ function NavBar() {
     <div className="sticky top-0 w-full bg-white z-40">
       <div className="border-b border-black font-Fitgre font-semibold">
         <div className="container mx-auto md:flex md:justify-between h-14 md:h-16 bg-white max-w-[1300px]">
-<<<<<<< HEAD
-          <div className="hidden md:flex items-center cursor-pointer">
-=======
           <div className=" hidden md:flex items-center cursor-pointer">
->>>>>>> translate
             <Link href="/">
               <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="260" height="90" className="" />
             </Link>
@@ -116,11 +112,7 @@ function NavBar() {
                     <div className="flex items-center cursor-pointer">
                       <Link href="/" onClick={handleOnMainLogo}>
                         <ExportedImage src={"/images/LogoHorizontal.png"} alt="MainLogo" width="160" height="48" />
-<<<<<<< HEAD
-                      </Link>    
-=======
                       </Link>
->>>>>>> translate
                     </div>
                     <div className="flex items-center font-extrabold text-4xl" onClick={handleOnClick}>
                       {

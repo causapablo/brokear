@@ -11,7 +11,7 @@ function Team({ img, nombre, cargo, bio }: any) {
                     <ExportedImage
                         src={img}
                         alt="img"
-                        className="rounded-full w-36 h-36 border-4 border-orange object-cover"
+                        className="rounded-full w-36 h-36 border-4 border-red object-cover"
                         width={200} height={200}
                     />
                 </div>

@@ -1,9 +1,8 @@
 import Link from 'next/link'
-import React from 'react'
 
 function Burbuja({ imagen, etiqueta, link }: any) {
     let long  = false;
-    if(etiqueta.length>15) long =true;
+    if(etiqueta.length > 15) long = true;
     return (
         <div className='bg-origin-border 
         rounded-full border-[3px] border-black w-[174px] h-[174px] md:w-[315px] md:h-[315px] 

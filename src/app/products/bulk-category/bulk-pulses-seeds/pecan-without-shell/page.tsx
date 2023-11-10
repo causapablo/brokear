@@ -1,13 +1,19 @@
-import React from 'react'
+"use client"
 import categories from '../../../../../../public/categorias.json'
 import Detalle from '../../../../../../components/detalle/Detalle';
+import { useSelector } from 'react-redux';
+import { selectLanguage } from '../../../../../../redux/translateSlice';
+
 function Adzuki() {
     const pecanWShell = categories[2].products.pecanWithout;
+    const isSpanish = useSelector(selectLanguage);
     
   return (
     <div>
-      <Detalle title={pecanWShell?.title.eng} description={pecanWShell?.abstract.eng} name={pecanWShell?.name.eng} countries={pecanWShell?.countries.eng} imagen = {pecanWShell?.imagen}
-        size={pecanWShell?.size.eng} shelfLife={pecanWShell?.shelfLife.eng} use={pecanWShell?.use.eng} shippingStorage={pecanWShell?.shippingStorage.eng} link = {pecanWShell?.link} />
+      <Detalle title={isSpanish ? pecanWShell?.title.esp : pecanWShell?.title.eng} description={isSpanish ? pecanWShell?.abstract.esp : pecanWShell?.abstract.eng} 
+        name={isSpanish ? pecanWShell?.name.esp : pecanWShell?.name.eng} countries={isSpanish ? pecanWShell?.countries.esp : pecanWShell?.countries.eng} imagen = {pecanWShell?.imagen}
+        size={isSpanish ? pecanWShell?.size.esp : pecanWShell?.size.eng} shelfLife={isSpanish ? pecanWShell?.shelfLife.esp : pecanWShell?.shelfLife.eng} 
+        use={isSpanish ? pecanWShell?.use.esp : pecanWShell?.use.eng} shippingStorage={isSpanish ? pecanWShell?.shippingStorage.esp : pecanWShell?.shippingStorage.eng} link = {pecanWShell?.link} />
     </div>
   )
 }

@@ -3,9 +3,14 @@ import Link from "next/link";
 import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/navigation';
+import { useSelector } from 'react-redux';
+import { selectLanguage } from '../../redux/translateSlice';
 
 
 const Footer = () => {
+
+  const isSpanish = useSelector(selectLanguage);
+  
   const router = useRouter()
   const {
     register,
@@ -31,7 +36,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-grow-0 md:w-1/3 h-fit">
             <div className="">
               <h4 className="bg-red text-white text-center text-lg font-normal w-fit mx-auto px-4 font-Dancing">
-                Company
+                {isSpanish ? 'Empresa' : 'Company'}
               </h4>
             </div>
 
@@ -39,12 +44,12 @@ const Footer = () => {
               <div className="flex-col">
                 <p >
                   <Link href='/about' className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
-                    About Us
+                    {isSpanish ? 'Sobre nosotros' :'About Us'}
                   </Link>
                 </p>
                 <p>
                   <Link href='/why-us' className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
-                    Why us?
+                    {isSpanish ? '¿Por qué nosotros?' :'Why us?'}
                   </Link>
                 </p>
                 {/* <p className="text-white flex items-center justify-center text-[12px] basis-1/4 py-1">
@@ -58,12 +63,12 @@ const Footer = () => {
                 </p> */}
                 <p>
                   <Link href='/contact' className="text-white flex items-center justify-center text-[12px] py-1 basis-1/4">
-                    Contact Us
+                    {isSpanish ? 'Contactanos' :'Contact Us'}
                   </Link>
                 </p>
                 <p>
                   <Link href='https://calendly.com/joaquin-sipowicz/30min?back=1&month=2023-09' className="text-white flex items-center justify-center text-[12px] py-1 basis-1/2">
-                    Schedule A Call
+                    {isSpanish ? 'Agendá una llamada' : 'Schedule A Call'}
                   </Link>
                 </p>
               </div>
@@ -72,7 +77,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-grow-0 md:w-1/3 h-fit">
             <div className="col-span-5">
               <h4 className="bg-red text-white text-center text-lg font-light w-fit mx-auto px-4 font-Dancing">
-                Products
+                {isSpanish ? 'Productos' : 'Products'}
               </h4>
             </div>
             <div className="py-4 text-[12px] font-Grotesk">
@@ -80,17 +85,17 @@ const Footer = () => {
 
                 <p className="text-white flex items-center justify-center basis-1/3 py-1">
                   <Link href="/products/bulk-category/bulk-charcoal">
-                    Charcoal
+                    {isSpanish ? 'Carbón' :'Charcoal'}
                   </Link>
                 </p>
                 <p className="text-white flex items-center justify-center basis-1/3  py-1">
                   <Link href="/products/bulk-category/bulk-tea">
-                    Tea
+                    {isSpanish ? 'Té' : 'Tea'}
                   </Link>
                 </p>
                 <p className="text-white flex items-center justify-center basis-1/3  py-1">
                   <Link href="/products/bulk-category/bulk-oils">
-                    Oils
+                    {isSpanish ? 'Aceites' : 'Oils'}
                   </Link>
                 </p>
                 <p className="text-white flex items-center justify-center basis-2/5 py-1">
@@ -100,7 +105,7 @@ const Footer = () => {
                 </p>
                 <p className="text-white flex items-center justify-center  basis-2/5 py-1">
                   <Link href="/products/bulk-category/bulk-pulses-seeds">
-                    Pulses & Oil Seeds
+                    {isSpanish ? 'Legumbres y semillas oleaginosas' : 'Pulses & Oil Seeds'}
                   </Link>
                 </p>
               </div>
@@ -109,7 +114,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-grow-0 md:w-1/3">
             <div className="col-span-5">
               <h4 className="bg-red text-white text-center text-lg font-normal w-fit mx-auto px-4 font-Dancing">
-                Subscribe
+                {isSpanish ? 'Suscribite' : 'Subscribe'}
               </h4>
             </div>
             <div className="">
@@ -122,11 +127,11 @@ const Footer = () => {
                 </div>
                 <div className="w-full px-5">
                   <button type="submit" className='h-[44px] bg-red w-full rounded-[3px] text-center flex flex-wrap justify-center items-center text-white font-semibold cursor-pointer hover:opacity-90' >
-                    Sign Me Up!
+                    {isSpanish ? '¡Inscribirme!' : 'Sign Me Up!'}
                   </button>
                 </div>
               </form>
-              <Link href="/policies/privacy"><p className="text-white text-center text-[12px] hover:underline underline-offset-2 mt-2">Privacy Policy</p></Link>
+              <Link href="/policies/privacy"><p className="text-white text-center text-[12px] hover:underline underline-offset-2 mt-2">{isSpanish ? 'Política de privacidad' : 'Privacy Policy'}</p></Link>
             </div>
           </div>
         </div>
@@ -138,11 +143,11 @@ const Footer = () => {
           &nbsp; · &nbsp;
           <Link href="/" className="underline">Brokear</Link>
           &nbsp; · &nbsp;
-          <Link href="/policies/terms"><p className="underline hover:underline underline-offset-2">Terms</p></Link>
+          <Link href="/policies/terms"><p className="underline hover:underline underline-offset-2">{isSpanish ? 'Términos' : 'Terms'}</p></Link>
           &nbsp; · &nbsp;
-          <Link href="/policies/privacy"><p className="underline hover:underline underline-offset-2">Privacy</p></Link>
+          <Link href="/policies/privacy"><p className="underline hover:underline underline-offset-2">{isSpanish ? 'Privacidad' : 'Privacy'}</p></Link>
           &nbsp; · &nbsp;
-          <Link href="/policies/accesibility"><p className="underline hover:underline underline-offset-2">Accesibility.</p></Link>
+          <Link href="/policies/accesibility"><p className="underline hover:underline underline-offset-2">{isSpanish ? 'Accesibilidad' : 'Accesibility.'}</p></Link>
         </div>
 
       </div>

@@ -1,15 +1,21 @@
+'use client'
 import Accordion from "@mui/material/Accordion";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useSelector } from 'react-redux';
+import { selectLanguage } from '../../redux/translateSlice';
 
 const Manufacturing = () => {
+
+  const isSpanish = useSelector(selectLanguage);
+  
   return (
     <main className="container mx-auto max-w-[1300px] mt-20">
       <section className=" bg-lightPink pt-1">
         <h4 className="uppercase bg-red text-white font-semibold text-lg w-fit px-1 ml-4 mt-14 mb-2">
-          uses in manufacturing
+          {isSpanish ? 'usos en la fabricación' : 'uses in manufacturing'}
         </h4>
         <Accordion sx={{ backgroundColor: "#fff5f5" }}>
           <AccordionSummary

@@ -1,11 +1,13 @@
 import React from 'react';
 import Sidebarblog from '../../../components/sidebarblog/Sidebarblog';
 import PrivacyComponent from '../../../components/privacy/Privacy';
+import { Providers } from '../../../redux/provider'
 
 function layout({ children } : any) {
     return (
         <section className='bg-gradient-to-b from-lightPink to-white'>
             <div className='container px-3 lg:mx-auto max-w-[1300px] pt-[45px] mb-12'>
+                <Providers>
                 <div className='flex flex-col lg:flex-row gap-32'>
                     <div id='content' className='basis-3/4 leading-loose'>
                         {children}
@@ -14,6 +16,7 @@ function layout({ children } : any) {
                         <Sidebarblog />
                     </div>
                 </div>
+                </Providers>
             </div>
         </section>
     )

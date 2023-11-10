@@ -10,10 +10,13 @@ import React from "react";
 import { TbMathGreater } from 'react-icons/tb';
 import Burbuja from "../burbuja/Burbuja";
 import ExportedImage from "next-image-export-optimizer";
+import { useSelector } from 'react-redux';
+import { selectLanguage } from '../../redux/translateSlice';
+
 const Detalle = ({ title, description, name, countries, size, shelfLife, use, shippingStorage, imagen, link }: any) => {
 
-
   const [, products, bulkCategory, bulkProduct, product] = link.split('/');
+  const isSpanish = useSelector(selectLanguage);
   let Products = products?.charAt(0).toUpperCase() + products?.slice(1);
   let BulkProduct = bulkProduct?.charAt(0).toUpperCase() + bulkProduct?.slice(1);
   BulkProduct = BulkProduct.replaceAll("-", " ");
@@ -94,11 +97,11 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
                 <div className="space-y-6 py-4 lg:py-0">
                   <Link href="/contact">
                     <button className="bg-red text-white px-3 py-2 rounded-md font- w-fit font-Dancing hover:brightness-75">
-                      Contact for Quote
+                      {isSpanish ? 'Contacto para cotización' :'Contact for Quote'}
                     </button>
                   </Link>
                   <div>
-                    <p><span className="font-semibold">Categories: </span> <span>
+                    <p><span className="font-semibold">{isSpanish ? 'Categorias:' : 'Categories:'} </span> <span>
                       <Link href={`/${products}/${bulkCategory}/${bulkProduct}`} className="text-red hover:underline underline-offset-1">{BulkProduct}</Link>
                     </span></p>
                   </div>
@@ -136,16 +139,16 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
         <section className="pt-14 items-center">
           <div className="flex-col md:flex md:flex-row md:justify-center ">
             <p className="text-center font-bold text-xl md:px-9 pb-5 md:pb-0 md:flex md:items-center ">
-              Have more questions or interested in a quote?
+              {isSpanish ? '¿Tienes más preguntas o estás interesado en una cotización?' : 'Have more questions or interested in a quote?'}
             </p>
             <Link href="/contact" className="flex justify-center">
               <button className="bg-red text-white w-fit px-3 py-2 rounded-sm font-semibold">
-                Contact Us
+                {isSpanish ? 'Contactanos' : 'Contact Us'}
               </button>
             </Link>
           </div>
         </section>
-        <div className="divide-y-2 divide-[#e9c5c5] flex flex-col w-8/12 mx-auto py-8">
+        <div className="divide-y-2 divide-[#2a923a] flex flex-col w-8/12 mx-auto py-8">
           <span className="text-white"></span>
           <span className="text-white"></span>
         </div>
@@ -155,7 +158,7 @@ const Detalle = ({ title, description, name, countries, size, shelfLife, use, sh
               <section className="container mx-auto pt-14 items-center">
                 <div className="flex items-center justify-center pb-10">
                   <h4 className="bg-red text-white font-medium text-lg w-fit px-2 py-1 font-Dancing rounded-sm">
-                    RELATED PRODUCTS
+                    {isSpanish ? 'PRODUCTOS RELACIONADOS' : 'RELATED PRODUCTS'}
                   </h4>
                 </div>
                 <div className="flex flex-wrap lg:flex lg:flex-row gap-2">

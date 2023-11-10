@@ -1,6 +1,7 @@
 [
     {
-        "category": "Yerba Mate",
+        "categoryEN": "Yerba Mate",
+        "categoryES": "Yerba Mate",
         "img": "/images/YerbaCategory.jpg",
         "link": "/products/bulk-category/bulk-yerba-mate",
         "products": {
@@ -151,7 +152,8 @@
         }
     },
     {
-        "category": "Tea",
+        "categoryEN": "Tea",
+        "categoryES": "Té",
         "img": "/images/TeaCategory.jpg",
         "link": "/products/bulk-category/bulk-tea",
         "products": {
@@ -230,7 +232,8 @@
         }
     },
     {
-        "category": "Pulses & Oils Seeds",
+        "categoryEN": "Pulses & Oils Seeds",
+        "categoryES": "Semillas de legumbres y aceites",
         "img": "/images/PulsesOilCategory.jpg",
         "link": "/products/bulk-category/bulk-pulses-seeds",
         "products": {
@@ -777,7 +780,8 @@
         }
     },
     {
-        "category": "Oils",
+        "categoryEN": "Oils",
+        "categoryES": "Aceites",
         "img": "/images/OilCategory.jpg",
         "link": "/products/bulk-category/bulk-oils",
         "products": {
@@ -892,7 +896,8 @@
         }
     },
     {
-        "category": "Charcoal",
+        "categoryEN": "Charcoal",
+        "categoryES": "Carbón",
         "img": "/images/CharcoalCategory.jpg",
         "link": "/products/bulk-category/bulk-charcoal",
         "products": {

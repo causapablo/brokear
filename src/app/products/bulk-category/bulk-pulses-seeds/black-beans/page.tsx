@@ -1,14 +1,18 @@
-import React from 'react'
+"use client"
 import categories from '../../../../../../public/categorias.json'
 import Detalle from '../../../../../../components/detalle/Detalle';
-import { BiBadgeCheck } from 'react-icons/bi';
+import { useSelector } from 'react-redux';
+import { selectLanguage } from '../../../../../../redux/translateSlice';
 function Adzuki() {
     const bb = categories[2].products.blackBeans;
+    const isSpanish = useSelector(selectLanguage);
     
   return (
     <div>
-      <Detalle title={bb?.title.eng} description={bb?.abstract.eng} name={bb?.name.eng} countries={bb?.countries.eng} imagen = {bb?.imagen}
-        size={bb?.size.eng} shelfLife={bb?.shelfLife.eng} use={bb?.use.eng} shippingStorage={bb?.shippingStorage.eng} link = {bb?.link}/>
+      <Detalle title={isSpanish ? bb?.title.esp : bb?.title.eng} description={isSpanish ? bb?.abstract.esp : bb?.abstract.eng} 
+        name={isSpanish ? bb?.name.esp : bb?.name.eng} countries={isSpanish ? bb?.countries.esp : bb?.countries.eng} imagen = {bb?.imagen}
+        size={isSpanish ? bb?.size.esp : bb?.size.eng} shelfLife={isSpanish ? bb?.shelfLife.esp : bb?.shelfLife.eng} 
+        use={isSpanish ? bb?.use.esp : bb?.use.eng} shippingStorage={isSpanish ? bb?.shippingStorage.esp : bb?.shippingStorage.eng} link = {bb?.link}/>
     </div>
   )
 }

@@ -8,7 +8,7 @@ import Welcome from '../../components/welcome/Welcome'
 import SecondWave from '../../components/secondWave/SecondWave'
 import Articles from '../../components/articles/articles'
 import { Provider } from 'react-redux';
-import {store} from "../../redux/index"
+import {store} from "../redux/index"
 import NavBar from '../../components/navbar/NavBar'
 import Footer from '../../components/footer/Footer'
 

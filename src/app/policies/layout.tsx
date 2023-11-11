@@ -1,7 +1,7 @@
 import React from 'react';
 import Sidebarblog from '../../../components/sidebarblog/Sidebarblog';
 import PrivacyComponent from '../../../components/privacy/Privacy';
-import { Providers } from '../../../redux/provider'
+import { Providers } from '../../redux/provider'
 
 function layout({ children } : any) {
     return (

@@ -3,7 +3,7 @@ import prod from "../../public/categoriesLanding.json";
 import { BsArrowRight } from "react-icons/bs";
 import Burbuja from "../burbuja/Burbuja";
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../redux/translateSlice';
+import { selectLanguage } from '../../src/redux/translateSlice';
 
 const Products = () => {
 

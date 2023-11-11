@@ -7,7 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Link from "next/link";
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../../redux/translateSlice';
+import { selectLanguage } from '../../redux/translateSlice';
 
 const Contacto = () => {
 

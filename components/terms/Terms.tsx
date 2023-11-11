@@ -1,6 +1,6 @@
 'use client'
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../redux/translateSlice';
+import { selectLanguage } from '../../src/redux/translateSlice';
 
 function Terms() {
 

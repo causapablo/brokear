@@ -5,7 +5,7 @@ import Profile from "../../../components/profile/Profile";
 import Team from "../../../components/team/Team";
 import ExportedImage from "next-image-export-optimizer";
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../../redux/translateSlice';
+import { selectLanguage } from '../../redux/translateSlice';
 
 
 const Nosotros = () => {

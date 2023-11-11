@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import categories from '../../../../../../public/categorias.json'
 import Detalle from '../../../../../../components/detalle/Detalle';

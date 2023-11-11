@@ -3,7 +3,7 @@ import React from 'react'
 import Burbuja from '../../../components/burbuja/Burbuja'
 import prod from '../../../public/categoriesLanding.json'
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../../redux/translateSlice';
+import { selectLanguage } from '../../redux/translateSlice';
 function Confirmed() {
 
     const isSpanish = useSelector(selectLanguage);

@@ -13,7 +13,7 @@ import ExpandLessIcon from '@mui/icons-material/ExpandLess';
 import { GrClose } from 'react-icons/gr'
 import Box from '@mui/material/Box';
 import { useSelector, useDispatch } from 'react-redux';
-import { toggleLanguage, selectLanguage } from '../../redux/translateSlice';
+import { toggleLanguage, selectLanguage } from '../../src/redux/translateSlice';
 import ExportedImage from "next-image-export-optimizer";
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';

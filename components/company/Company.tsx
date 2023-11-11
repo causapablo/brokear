@@ -1,7 +1,7 @@
 import Wave from '../../public/icons/Wave'
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../redux/translateSlice';
+import { selectLanguage } from '../../src/redux/translateSlice';
 
 const Company = () => {
 

@@ -1,7 +1,7 @@
 'use client'
 import bulk from "../../public/bulkCategories.json";
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../redux/translateSlice';
+import { selectLanguage } from '../../src/redux/translateSlice';
 const TableBulk = ({ name, countries, size, shelfLife, use, shippingStorage }: any) => {
 
   const isSpanish = useSelector(selectLanguage);

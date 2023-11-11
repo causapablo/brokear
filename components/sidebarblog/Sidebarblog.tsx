@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import emailjs from '@emailjs/browser';
 import { useRouter } from 'next/navigation';
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../redux/translateSlice';
+import { selectLanguage } from '../../src/redux/translateSlice';
 
 function Sidebarblog() {
 

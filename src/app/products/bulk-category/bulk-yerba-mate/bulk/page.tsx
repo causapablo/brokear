@@ -2,7 +2,7 @@
 import categories from '../../../../../../public/categorias.json'
 import Detalle from '../../../../../../components/detalle/Detalle';
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../../../../../redux/translateSlice';
+import { selectLanguage } from '../../../../../redux/translateSlice';
 
 
 function Bulk() {

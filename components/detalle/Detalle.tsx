@@ -11,7 +11,7 @@ import { TbMathGreater } from 'react-icons/tb';
 import Burbuja from "../burbuja/Burbuja";
 import ExportedImage from "next-image-export-optimizer";
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../redux/translateSlice';
+import { selectLanguage } from '../../src/redux/translateSlice';
 
 const Detalle = ({ title, description, name, countries, size, shelfLife, use, shippingStorage, imagen, link }: any) => {
 

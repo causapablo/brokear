@@ -11,7 +11,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Link from "next/link";
 import ExportedImage from "next-image-export-optimizer";
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../../redux/translateSlice';
+import { selectLanguage } from '../../redux/translateSlice';
 
 const Porque = () => {
 

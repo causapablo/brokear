@@ -3,7 +3,7 @@ import categorias from "../../../public/categorias.json";
 import Burbuja from "../../../components/burbuja/Burbuja";
 import Link from "next/link";
 import { useSelector } from 'react-redux';
-import { selectLanguage } from '../../../redux/translateSlice';
+import { selectLanguage } from '../../redux/translateSlice';
 function Productos() {
 
   const isSpanish = useSelector(selectLanguage);
